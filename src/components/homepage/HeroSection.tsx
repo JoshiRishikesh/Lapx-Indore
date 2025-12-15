@@ -55,7 +55,7 @@ const brands = [
     imageBase: "/carousals/lenovo/",
     mobileBase: "/carousals/lenovo/mobile/",
     heading: "Reliable Lenovo Laptop Care",
-    subheading: "ThinkPad, Legion &amp; IdeaPad Specialist Repairs."
+    subheading: "ThinkPad, Legion & IdeaPad Specialist Repairs."
   },
   {
     name: "HP",

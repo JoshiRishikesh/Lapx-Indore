@@ -36,37 +36,37 @@ const DellServiceCenterPage: React.FC = () => {
       icon: getThemedIcon(MdPrecisionManufacturing, theme.icon),
       title: "Expert Motherboard Repair",
       description:
-        "Component-level repair for all Dell motherboards, including liquid damage, IC replacement &amp; short-circuit fixes.",
+        "Component-level repair for all Dell motherboards, including liquid damage, IC replacement & short-circuit fixes.",
     },
     {
       icon: getThemedIcon(FaGamepad, theme.icon),
       title: "Dell Gaming Laptop Care (Alienware / Inspiron)",
       description:
-        "Specialized thermal servicing, performance optimization &amp; deep cleaning for Alienware and Inspiron gaming laptops.",
+        "Specialized thermal servicing, performance optimization & deep cleaning for Alienware and Inspiron gaming laptops.",
     },
     {
       icon: getThemedIcon(MdDisplaySettings, theme.icon),
-      title: "Screen &amp; Display Replacement",
+      title: "Screen & Display Replacement",
       description:
-        "Premium display replacement for Inspiron, XPS, and Alienware — including touchscreen &amp; high-refresh panels.",
+        "Premium display replacement for Inspiron, XPS, and Alienware — including touchscreen & high-refresh panels.",
     },
     {
       icon: getThemedIcon(FaBatteryFull, theme.icon),
-      title: "Battery &amp; Keyboard Replacement",
+      title: "Battery & Keyboard Replacement",
       description:
-        "Original Dell batteries, keyboards &amp; trackpads for reliable long-term performance.",
+        "Original Dell batteries, keyboards & trackpads for reliable long-term performance.",
     },
     {
       icon: getThemedIcon(FaTools, theme.icon),
-      title: "Heating Fix &amp; Fan Repair",
+      title: "Heating Fix & Fan Repair",
       description:
         "Overheating, loud fans, performance drops — complete cooling system restoration.",
     },
     {
       icon: getThemedIcon(MdMemory, theme.icon),
-      title: "SSD &amp; RAM Upgrades",
+      title: "SSD & RAM Upgrades",
       description:
-        "Boost your Dell laptop performance with professional SSD &amp; RAM upgrades.",
+        "Boost your Dell laptop performance with professional SSD & RAM upgrades.",
     },
   ];
 

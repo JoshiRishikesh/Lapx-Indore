@@ -25,9 +25,9 @@ const imageFiles = ['1.avif', '2.avif', '3.avif', '4.avif'];
 
 const slideTexts = [
   { heading: "Expert Dell Laptop Repair", subheading: "Fast Diagnosis. Genuine Parts. Certified Technicians." },
-  { heading: "Specialized Alienware &amp; Inspiron Care", subheading: "Gaming &amp; productivity laptops handled with precision and expertise." },
-  { heading: "Motherboard &amp; Component Level Repair", subheading: "Component-level repairs to save you costly replacements." },
-  { heading: "Battery, Keyboard &amp; Display Replacement", subheading: "Original Dell parts for long-lasting performance and reliability." },
+  { heading: "Specialized Alienware & Inspiron Care", subheading: "Gaming & productivity laptops handled with precision and expertise." },
+  { heading: "Motherboard & Component Level Repair", subheading: "Component-level repairs to save you costly replacements." },
+  { heading: "Battery, Keyboard & Display Replacement", subheading: "Original Dell parts for long-lasting performance and reliability." },
 ];
 
 const DellCarousel: React.FC = () => {

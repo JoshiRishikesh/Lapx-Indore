@@ -30,7 +30,7 @@ const TrustMetric = ({
 export default function BrandHeader({ logo, brandName, tagline, rating }: BrandHeaderProps) {
   const theme = useBrandTheme();
 
-  const defaultTagline = `Trusted, Professional &amp; Fast ${brandName} Laptop Service Center in Indore.`;
+  const defaultTagline = `Trusted, Professional & Fast ${brandName} Laptop Service Center in Indore.`;
 
   const ratingText = rating
     ? `Rated ${rating.toFixed(1)}/5.0`

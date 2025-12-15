@@ -35,37 +35,37 @@ const HpServiceCenterPage: React.FC = () => {
       icon: getThemedIcon(MdPrecisionManufacturing, theme.icon),
       title: "Expert Motherboard Repair",
       description:
-        "Component-level repair for all HP motherboards, including liquid damage, IC replacement &amp; short-circuit fixes.",
+        "Component-level repair for all HP motherboards, including liquid damage, IC replacement & short-circuit fixes.",
     },
     {
       icon: getThemedIcon(FaGamepad, theme.icon),
       title: "HP Gaming Laptop Care (Omen / Pavilion)",
       description:
-        "Specialized thermal servicing, performance optimization &amp; deep cleaning for Omen and Pavilion gaming series.",
+        "Specialized thermal servicing, performance optimization & deep cleaning for Omen and Pavilion gaming series.",
     },
     {
       icon: getThemedIcon(MdDisplaySettings, theme.icon),
-      title: "Screen &amp; Display Replacement",
+      title: "Screen & Display Replacement",
       description:
-        "Premium display replacement for Pavilion, Omen, and EliteBook — including touchscreen &amp; high-refresh panels.",
+        "Premium display replacement for Pavilion, Omen, and EliteBook — including touchscreen & high-refresh panels.",
     },
     {
       icon: getThemedIcon(FaBatteryFull, theme.icon),
-      title: "Battery &amp; Keyboard Replacement",
+      title: "Battery & Keyboard Replacement",
       description:
-        "Original HP batteries, keyboards &amp; trackpads ensuring reliable long-term performance.",
+        "Original HP batteries, keyboards & trackpads ensuring reliable long-term performance.",
     },
     {
       icon: getThemedIcon(FaTools, theme.icon),
-      title: "Heating Fix &amp; Fan Repair",
+      title: "Heating Fix & Fan Repair",
       description:
         "Overheating, loud fans, performance drops — complete cooling system restoration.",
     },
     {
       icon: getThemedIcon(MdMemory, theme.icon),
-      title: "SSD &amp; RAM Upgrades",
+      title: "SSD & RAM Upgrades",
       description:
-        "Boost your HP laptop performance with professional SSD &amp; RAM upgrades.",
+        "Boost your HP laptop performance with professional SSD & RAM upgrades.",
     },
   ];
 

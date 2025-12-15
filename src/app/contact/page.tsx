@@ -57,8 +57,8 @@ const ContactPage: React.FC = () => {
                   Address
                 </h3>
                 <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-                  LG-11, Orbit Mall (Arbitto Mall) <br />
-                  Near C21 & Malhar Mall, AB Road Vijay Nagar <br />
+                  LG-31, Orbit Mall (Arbitto Mall) <br />
+                  Near C21 &amp; Malhar Mall, AB Road Vijay Nagar <br />
                   Indore 452010
                 </p>
               </div>
@@ -82,7 +82,7 @@ const ContactPage: React.FC = () => {
             {/* Google Map */}
             <div className="rounded-2xl overflow-hidden shadow-md h-96 sm:h-[450px]">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.894926646853!2d75.84570711434549!3d22.723227285116115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fd2a2b7c8b83%3A0x123456789abcdef!2sOrbit%20Mall%2C%20Vijay%20Nagar%2C%20Indore!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14718.009394360883!2d75.88335035619549!3d22.746731277476243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fd6694767983%3A0x3b3ba4c4dcde4fd1!2sLapX%20-%20Laptop%20Repair%20Service%20Center%20DELL%20%7C%20HP%20%7C%20ASUS%20CENTER!5e0!3m2!1sen!2sin!4v1765802437315!5m2!1sen!2sin" 
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}

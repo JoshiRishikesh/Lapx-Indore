@@ -31,15 +31,15 @@ const slideTexts = [
     subheading: "Fast Diagnosis. Certified Technicians. Genuine Parts."
   },
   {
-    heading: "ROG &amp; TUF Gaming Care",
+    heading: "ROG & TUF Gaming Care",
     subheading: "Precision servicing for gaming laptops."
   },
   {
-    heading: "Motherboard &amp; Component Repairs",
+    heading: "Motherboard & Component Repairs",
     subheading: "Component-level repairs to save costly replacements."
   },
   {
-    heading: "Battery, Keyboard &amp; Screen Replacement",
+    heading: "Battery, Keyboard & Screen Replacement",
     subheading: "Original ASUS parts for long-lasting performance."
   },
 ];
