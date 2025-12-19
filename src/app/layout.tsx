@@ -1,7 +1,7 @@
 // src/app/layout.tsx
 import type { Metadata } from 'next';
 import './globals.css'; // Your global styles/Tailwind import
-import Header from '@/components/Header';
+import Navbar from '@/components/navbar';
 import Footer from '@/components/Footer';
 import ContactCTASection from "@/components/ContactCTASection";
 import "@fontsource/orbitron/700.css"; // Bold weight
@@ -21,7 +21,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <div className="flex flex-col min-h-screen">
-          <Header /> 
+          <Navbar /> 
           
           {/* The children prop holds the content of the current page (e.g., /asus-service-center) */}
           <main className="grow">
