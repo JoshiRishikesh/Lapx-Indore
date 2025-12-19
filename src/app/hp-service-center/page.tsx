@@ -2,46 +2,47 @@ import { Metadata } from "next";
 import { BrandThemeProvider } from "@/context/BrandThemeContext";
 import HpServiceCenterPage from "./HpServiceCenterPage";
 
-
-// ⭐ ADD YOUR META TAGS HERE
 export const metadata: Metadata = {
-  title: "Authorized HP Laptop Service Center Indore | Trusted HP Repair Experts",
+  title: "HP Laptop Service Center Vijay Nagar Indore | Authorized Repair Experts",
   description:
-    "Looking for an HP Service Center near me in Indore? Visit our Authorized & Trusted HP Laptop Service Center for Pavilion, Omen, and EliteBook series. Expert motherboard, battery, keyboard, screen, and component-level repairs with genuine parts and fast diagnosis.",
+    "Looking for a professional HP Service Center in Vijay Nagar, Indore? We provide expert repair for HP Pavilion, Omen, and EliteBook. Genuine parts, fast diagnosis, and certified motherboard/screen repairs.",
   authors: [{ name: "LAPX Service Center" }],
   keywords: [
-    "HP Service Center Indore",
-    "HP Laptop Repair Indore",
-    "Authorized HP Service Center",
-    "Trusted HP Repair",
-    "Pavilion Laptop Repair Indore",
-    "Omen Laptop Service Indore",
-    "EliteBook Laptop Repair Indore",
-    "Laptop Service Center Near Me Indore",
-    "HP Component Level Repair",
+    "HP Service Center Vijay Nagar Indore",
+    "HP Laptop Repair Vijay Nagar",
+    "HP Laptop Service Indore",
+    "Authorized HP Service Center Indore",
+    "HP Pavilion Repair Indore",
+    "HP Omen Service Center Vijay Nagar",
+    "HP EliteBook Repair Indore",
+    "Laptop Repair Near Vijay Nagar Indore",
     "HP Motherboard Repair Indore",
+    "HP Battery Replacement Vijay Nagar",
     "HP Screen Replacement Indore",
-    "HP Battery Replacement Indore",
+    "Laptop Keyboard Repair Vijay Nagar",
   ],
-  metadataBase: new URL("https://lapx.co.in"), // use live domain after deployment
+  metadataBase: new URL("https://lapx.co.in"),
+  alternates: {
+    canonical: "/hp-service-center",
+  },
   openGraph: {
-    title: "HP Laptop Service Center Indore",
+    title: "HP Laptop Service Center Vijay Nagar Indore",
     description:
-      "Authorized & Trusted HP laptop repair experts in Indore. Genuine spare parts, certified technicians, and fast diagnosis for Pavilion, Omen, and EliteBook laptops.",
+      "Trusted HP laptop repair experts in Vijay Nagar, Indore. Certified service for Pavilion, Omen, and EliteBook using genuine HP spare parts.",
     url: "/hp-service-center",
     siteName: "LapX Service Center",
     images: [
       {
-        url: "https://lapx.co.in/brand/hp/homepage.webp", // absolute URL for OG image
+        url: "/brand/hp/homepage.webp", // MetadataBase will prepend the domain
         width: 1200,
         height: 630,
+        alt: "LAPX HP Service Center Vijay Nagar Indore",
       },
     ],
+    locale: "en_IN",
     type: "website",
   },
 };
-
-
 
 export default function Page() {
   return (

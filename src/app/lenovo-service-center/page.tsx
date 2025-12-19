@@ -3,42 +3,45 @@ import { BrandThemeProvider } from "@/context/BrandThemeContext";
 import LenovoServiceCenterPage from "./LenovoServiceCenterPage";
 
 export const metadata: Metadata = {
-  title: "Authorized Lenovo Laptop Service Center Indore | Trusted Lenovo Repair Experts",
+  title: "Lenovo Laptop Service Center Vijay Nagar Indore | ThinkPad & Legion Repair",
   description:
-    "Looking for a Lenovo Service Center near me in Indore? Visit our Authorized & Trusted Lenovo Laptop Service Center for ThinkPad, Legion & IdeaPad. Expert motherboard, battery, keyboard, screen, and component-level repairs with genuine parts and fast diagnosis.",
+    "Expert Lenovo Service Center in Vijay Nagar, Indore. Specializing in ThinkPad, Legion, and IdeaPad repair. We offer genuine parts, motherboard repair, and fast screen replacement.",
   authors: [{ name: "LAPX Service Center" }],
   keywords: [
-    "Lenovo Service Center Indore",
+    "Lenovo Service Center Vijay Nagar Indore",
     "Lenovo Laptop Repair Indore",
-    "Authorized Lenovo Service Center",
-    "Trusted Lenovo Repair",
-    "ThinkPad Repair Indore",
-    "Legion Laptop Service Indore",
-    "IdeaPad Laptop Repair Indore",
-    "Laptop Service Center Near Me Indore",
-    "Lenovo Component Level Repair",
+    "ThinkPad Repair Vijay Nagar",
+    "Lenovo Legion Service Center Indore",
+    "IdeaPad Repair Vijay Nagar",
+    "Lenovo Laptop Service Near Me Indore",
     "Lenovo Motherboard Repair Indore",
+    "Lenovo Battery Replacement Vijay Nagar",
     "Lenovo Screen Replacement Indore",
-    "Lenovo Battery Replacement Indore",
+    "Yoga Laptop Repair Indore",
+    "Lenovo Component Level Repair Vijay Nagar",
   ],
-  metadataBase: new URL("https://lapx.co.in"), // set your live domain
+  metadataBase: new URL("https://lapx.co.in"),
+  alternates: {
+    canonical: "/lenovo-service-center",
+  },
   openGraph: {
-    title: "Lenovo Laptop Service Center Indore",
+    title: "Lenovo Laptop Service Center Vijay Nagar Indore",
     description:
-      "Authorized & Trusted Lenovo laptop repair experts in Indore. Genuine spare parts, certified technicians, and fast diagnosis for ThinkPad, Legion, and IdeaPad laptops.",
+      "Looking for Lenovo repair in Vijay Nagar? We provide expert service for ThinkPad, Legion, and IdeaPad using genuine Lenovo spare parts.",
     url: "/lenovo-service-center",
     siteName: "LapX Service Center",
     images: [
       {
-        url: "https://lapx.co.in/brand/lenovo/homepage.avif", // absolute URL for OG image
+        url: "/brand/lenovo/homepage.avif", // MetadataBase will handle the domain
         width: 1200,
         height: 630,
+        alt: "LAPX Lenovo Service Center Vijay Nagar Indore",
       },
     ],
+    locale: "en_IN",
     type: "website",
   },
 };
-
 
 export default function Page() {
   return (

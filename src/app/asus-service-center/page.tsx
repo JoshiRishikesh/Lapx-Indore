@@ -2,45 +2,46 @@ import { Metadata } from "next";
 import { BrandThemeProvider } from "@/context/BrandThemeContext";
 import AsusServiceCenterPage from "./AsusServiceCenterPage";
 
-
 export const metadata: Metadata = {
-  title: "Authorized ASUS Laptop Service Center Indore | Trusted ASUS Repair Experts",
+  title: "ASUS Laptop Service Center Vijay Nagar Indore | ROG & TUF Repair",
   description:
-    "Looking for an ASUS Service Center near me in Indore? Visit our Authorized & Trusted ASUS Laptop Service Center for ZenBook, ROG, and TUF series. Expert motherboard, battery, keyboard, screen, and component-level repairs with genuine parts and fast diagnosis.",
+    "Official & Trusted ASUS Service Center in Vijay Nagar, Indore. Specializing in ROG, TUF, and ZenBook repair. Fast screen replacement, battery changes, and motherboard repairs by experts.",
   authors: [{ name: "LAPX Service Center" }],
   keywords: [
-    "ASUS Service Center Indore",
+    "ASUS Service Center Vijay Nagar Indore",
     "ASUS Laptop Repair Indore",
-    "Authorized ASUS Service Center",
-    "Trusted ASUS Repair",
-    "ZenBook Repair Indore",
-    "ROG Laptop Service Indore",
-    "TUF Laptop Repair Indore",
-    "Laptop Service Center Near Me Indore",
-    "ASUS Component Level Repair",
-    "ASUS Motherboard Repair Indore",
+    "ASUS ROG Repair Vijay Nagar",
+    "ASUS TUF Service Center Indore",
+    "ZenBook Repair Vijay Nagar",
+    "ASUS Laptop Service Near Me Indore",
+    "ASUS Motherboard Repair Vijay Nagar",
     "ASUS Screen Replacement Indore",
-    "ASUS Battery Replacement Indore",
+    "ASUS Battery Replacement Vijay Nagar",
+    "Gaming Laptop Repair Indore",
+    "ASUS Component Level Repair Indore",
   ],
-  metadataBase: new URL("https://lapx.co.in"), // Add this after Vercel deployment
+  metadataBase: new URL("https://lapx.co.in"),
+  alternates: {
+    canonical: "/asus-service-center",
+  },
   openGraph: {
-    title: "ASUS Laptop Service Center Indore",
+    title: "ASUS Laptop Service Center Vijay Nagar Indore",
     description:
-      "Authorized & Trusted ASUS laptop repair experts in Indore. Genuine spare parts, certified technicians, and fast diagnosis for ZenBook, ROG, and TUF laptops.",
+      "Expert ASUS laptop repair in Vijay Nagar, Indore. We use genuine parts for ROG, TUF, and ZenBook series. Fast diagnosis and certified technicians.",
     url: "/asus-service-center",
     siteName: "LapX Service Center",
     images: [
       {
-        url: "https://lapx.co.in/brand/asus/homepage.webp", // absolute URL
+        url: "/brand/asus/homepage.webp", // MetadataBase will handle the domain
         width: 1200,
         height: 630,
+        alt: "LAPX ASUS Service Center Vijay Nagar Indore",
       },
     ],
+    locale: "en_IN",
     type: "website",
   },
 };
-
-
 
 export default function Page() {
   return (
