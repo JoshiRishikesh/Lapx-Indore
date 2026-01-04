@@ -9,8 +9,9 @@ const slides = [
   {
     brand: "ASUS",
     title: "Expert ASUS Repair Services",
-    description: "From ROG gaming powerhouses to elegant Zenbooks, we provide certified component-level repairs.",
-    image: "/carousals/home/asus.avif", 
+    description:
+      "Certified ASUS laptop repair in Vijay Nagar, Indore. We provide screen replacement, motherboard repair, and performance fixes using genuine parts.",
+    image: "/carousals/home/asus.avif",
     color: "from-blue-50 to-indigo-100",
     accent: "text-blue-600",
     btnColor: "bg-blue-600",
@@ -18,7 +19,8 @@ const slides = [
   {
     brand: "HP",
     title: "HP Spectre & Pavilion Specialists",
-    description: "Original screen replacements and battery upgrades for all HP laptop models with 90-day warranty.",
+    description:
+      "Trusted HP laptop repair in Vijay Nagar, Indore offering original screen replacement, battery upgrades, and hardware repairs with warranty.",
     image: "/carousals/home/hp.avif",
     color: "from-cyan-50 to-blue-100",
     accent: "text-cyan-600",
@@ -27,7 +29,8 @@ const slides = [
   {
     brand: "DELL",
     title: "Premium DELL Support Center",
-    description: "Fast-track servicing for Dell XPS and Latitude series. Genuine parts and expert technicians.",
+    description:
+      "Professional Dell laptop repair in Vijay Nagar, Indore for XPS and Latitude series. Genuine parts and fast turnaround.",
     image: "/carousals/home/dell.avif",
     color: "from-slate-100 to-blue-50",
     accent: "text-blue-700",
@@ -36,7 +39,8 @@ const slides = [
   {
     brand: "LENOVO",
     title: "Lenovo ThinkPad & Yoga Care",
-    description: "Specialized motherboard repairs and hinge fixes for the entire Lenovo ThinkPad lineup.",
+    description:
+      "Reliable Lenovo laptop repair in Vijay Nagar, Indore with specialized motherboard repair, hinge fixing, and complete diagnostics.",
     image: "/carousals/home/lenovo.avif",
     color: "from-red-50 to-orange-100",
     accent: "text-red-600",
@@ -62,6 +66,10 @@ export default function HeroSection() {
 
   return (
     <section className="relative w-full min-h-[700px] lg:h-[750px] overflow-hidden bg-white">
+      
+      {/* PRIMARY SEO H1 */}
+      <h1 className="sr-only">Laptop Repair in Vijay Nagar, Indore</h1>
+
       <AnimatePresence mode="wait">
         <motion.div
           key={current}
@@ -72,49 +80,55 @@ export default function HeroSection() {
           className={`absolute inset-0 bg-linear-to-br ${slides[current].color} flex items-center pt-20 pb-12 lg:py-0`}
         >
           <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center w-full">
-            
-            {/* TEXT CONTENT - Always First on Mobile (order-1) */}
-            <div className="z-10 order-1 lg:order-1 text-center lg:text-left">
-              <motion.span 
+
+            {/* TEXT CONTENT */}
+            <div className="z-10 order-1 text-center lg:text-left">
+              <motion.span
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
                 className={`inline-block px-4 py-1.5 rounded-full bg-white/80 backdrop-blur-sm border border-white/50 text-[10px] lg:text-xs font-bold tracking-widest uppercase mb-4 lg:mb-6 ${slides[current].accent}`}
               >
                 {slides[current].brand} Certified Repair
               </motion.span>
-              
-              <motion.h1 
+
+              <motion.h2
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.1 }}
                 className="text-3xl md:text-5xl lg:text-7xl font-black text-slate-900 leading-[1.1] mb-4 lg:mb-6"
               >
                 {slides[current].title}
-              </motion.h1>
+              </motion.h2>
 
-              <motion.p 
+              <motion.p
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.2 }}
-                className="text-base lg:text-lg text-slate-600 mb-6 lg:mb-8 max-w-lg mx-auto lg:mx-0"
+                className="text-base lg:text-lg text-slate-600 mb-4 max-w-lg mx-auto lg:mx-0"
               >
-                {slides[current].description}
+                {slides[current].description} Located at LG-11, Orbit Mall near C21 Mall on AB Road, serving Vijay Nagar and Indore.
               </motion.p>
 
-              <motion.div 
+              {/* ⭐ TRUST STRIP (LIGHTWEIGHT, SEO-SAFE) */}
+              <p className="text-sm font-semibold text-slate-700 mb-6">
+                ⭐ 4.9 Rating on Google • Trusted Laptop Repair in Vijay Nagar, Indore
+              </p>
+
+              <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.3 }}
                 className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4"
               >
-                <a 
-                  href="/contact" 
+                <a
+                  href="/contact"
                   className={`w-full sm:w-auto flex items-center justify-center gap-2 px-8 py-4 rounded-2xl ${slides[current].btnColor} text-white font-bold shadow-xl hover:scale-105 transition-all active:scale-95`}
                 >
                   <BsCalendarCheck /> Book Now
                 </a>
-                <a 
-                  href={`/${slides[current].brand.toLowerCase()}-service-center`} 
+
+                <a
+                  href={`/${slides[current].brand.toLowerCase()}-service-center`}
                   className="w-full sm:w-auto flex items-center justify-center gap-2 px-8 py-4 rounded-2xl bg-white/50 backdrop-blur border border-white text-slate-900 font-bold hover:bg-white transition-all"
                 >
                   Learn More <BsArrowRight />
@@ -122,20 +136,18 @@ export default function HeroSection() {
               </motion.div>
             </div>
 
-            {/* IMAGE CONTENT - Always Second on Mobile (order-2) */}
-            <div className="relative order-2 lg:order-2 flex justify-center lg:justify-end">
+            {/* IMAGE */}
+            <div className="relative order-2 flex justify-center lg:justify-end">
               <motion.div
                 initial={{ opacity: 0, scale: 0.9, y: 30 }}
                 animate={{ opacity: 1, scale: 1, y: 0 }}
                 transition={{ duration: 0.7 }}
                 className="relative w-full max-w-[320px] md:max-w-[450px] lg:max-w-[550px] aspect-square flex items-center justify-center"
               >
-                {/* Visual Glow behind laptop */}
-                <div className={`absolute inset-0 opacity-40 rounded-full blur-[80px] bg-white`} />
-                
+                <div className="absolute inset-0 opacity-40 rounded-full blur-[80px] bg-white" />
                 <Image
                   src={slides[current].image}
-                  alt={`${slides[current].brand} Laptop Repair`}
+                  alt={`${slides[current].brand} Laptop Repair in Vijay Nagar Indore`}
                   width={600}
                   height={600}
                   priority
@@ -146,35 +158,6 @@ export default function HeroSection() {
           </div>
         </motion.div>
       </AnimatePresence>
-
-      {/* Navigation Controls - Hidden on very small screens or repositioned */}
-      <div className="absolute bottom-6 right-6 lg:bottom-12 lg:right-12 flex gap-3 z-20 scale-90 lg:scale-100">
-        <button 
-          onClick={prevSlide}
-          className="p-3 lg:p-4 rounded-full bg-white/80 backdrop-blur hover:bg-white text-slate-900 border border-slate-200 shadow-lg transition-all active:scale-90"
-        >
-          <BsArrowLeft size={20} />
-        </button>
-        <button 
-          onClick={nextSlide}
-          className="p-3 lg:p-4 rounded-full bg-white/80 backdrop-blur hover:bg-white text-slate-900 border border-slate-200 shadow-lg transition-all active:scale-90"
-        >
-          <BsArrowRight size={20} />
-        </button>
-      </div>
-
-      {/* Progress Dots */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 lg:left-12 lg:translate-x-0 flex gap-2 z-20">
-        {slides.map((_, index) => (
-          <button
-            key={index}
-            onClick={() => setCurrent(index)}
-            className={`h-1.5 rounded-full transition-all duration-300 ${
-              current === index ? "w-8 lg:w-12 bg-blue-600" : "w-2 lg:w-3 bg-slate-300"
-            }`}
-          />
-        ))}
-      </div>
     </section>
   );
 }

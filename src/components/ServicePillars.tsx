@@ -1,49 +1,61 @@
-// src/components/ServicePillars.tsx
-import React from 'react';
-import { FiCpu, FiCheckCircle, FiClock, FiUserCheck } from 'react-icons/fi';
+import React from "react";
+import { FiCpu, FiCheckCircle, FiClock, FiUserCheck } from "react-icons/fi";
 
 const pillars = [
   {
     icon: FiCpu,
-    title: 'Component-Level Motherboard Repair',
-    description: 'Our specialty: Complex fault diagnosis and repair, saving you the high cost of replacement.',
-    accent: 'gray',
+    title: "Component-Level Laptop Motherboard Repair",
+    description:
+      "Advanced chip-level laptop motherboard repair that fixes complex faults and avoids expensive full replacements.",
+    accent: "gray",
   },
   {
     icon: FiCheckCircle,
-    title: 'Genuine Quality Parts',
-    description: 'We use high-grade, original quality components for longevity and performance, maintaining OEM standards.',
-    accent: 'green',
+    title: "Genuine Laptop Spare Parts",
+    description:
+      "We use original-quality laptop components to ensure long-lasting performance while maintaining OEM repair standards.",
+    accent: "green",
   },
   {
     icon: FiClock,
-    title: 'Fast Diagnosis & Same-Day Repair',
-    description: 'Minimize your downtime with rapid assessments and same-day service availability for common issues.',
-    accent: 'blue',
+    title: "Fast Laptop Diagnosis & Same-Day Repair",
+    description:
+      "Quick laptop issue diagnosis with same-day repair availability for common problems, minimizing downtime.",
+    accent: "blue",
   },
   {
     icon: FiUserCheck,
-    title: 'Certified Expert Technicians',
-    description: 'Repairs performed by highly trained professionals specializing in ASUS, HP, Dell, and Lenovo architectures.',
-    accent: 'red',
+    title: "Certified Laptop Repair Technicians",
+    description:
+      "Experienced technicians specializing in HP, Dell, ASUS, and Lenovo laptop repairs for customers in Vijay Nagar, Indore.",
+    accent: "red",
   },
 ];
 
-// Map accent keys to Tailwind classes
-const accentClasses: Record<string, { border: string; text: string; bg: string }> = {
-  gray: { border: 'border-gray-500', text: 'text-gray-500', bg: 'bg-gray-500/10' },
-  green: { border: 'border-green-500', text: 'text-green-500', bg: 'bg-green-500/10' },
-  blue: { border: 'border-blue-500', text: 'text-blue-500', bg: 'bg-blue-500/10' },
-  red: { border: 'border-red-500', text: 'text-red-500', bg: 'bg-red-500/10' },
-};
+// Accent styles
+const accentClasses: Record<string, { border: string; text: string; bg: string }> =
+  {
+    gray: { border: "border-gray-500", text: "text-gray-500", bg: "bg-gray-500/10" },
+    green: {
+      border: "border-green-500",
+      text: "text-green-500",
+      bg: "bg-green-500/10",
+    },
+    blue: {
+      border: "border-blue-500",
+      text: "text-blue-500",
+      bg: "bg-blue-500/10",
+    },
+    red: { border: "border-red-500", text: "text-red-500", bg: "bg-red-500/10" },
+  };
 
 const ServicePillars: React.FC = () => {
   return (
     <section className="py-16 bg-gray-50 font-poppins">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Heading */}
+        {/* SEO-SAFE HEADING */}
         <h2 className="text-3xl md:text-4xl font-extrabold text-center text-gray-900 mb-14">
-          The Advantage of Choosing an Authorized-Level Specialist
+          Why LAPX is a Trusted Laptop Repair Service in Vijay Nagar, Indore
         </h2>
 
         {/* Pillars Grid */}

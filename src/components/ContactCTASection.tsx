@@ -12,16 +12,23 @@ export default function ContactCTASection() {
         viewport={{ once: true }}
         className="max-w-6xl mx-auto px-4 text-center"
       >
+        {/* UPDATED H2 */}
         <h2 className="text-3xl md:text-4xl font-orbitron font-bold tracking-[0.18em] uppercase">
-          Visit Our Premium Indore Service Center
+          Visit Our Premium Laptop Repair Service Center in Vijay Nagar, Indore
         </h2>
 
+        {/* Address */}
         <p className="mt-4 text-lg text-gray-300">
           LG-11, Orbit Mall, Vijay Nagar, Indore — Open Daily 10:00 AM – 9:30 PM
         </p>
 
-        <div className="mt-10 flex flex-col sm:flex-row gap-5 justify-center">
+        {/* Optional service reinforcement */}
+        <p className="mt-2 text-gray-400 text-base">
+          We specialize in ASUS, HP, Dell, and Lenovo laptop repairs with genuine parts and certified technicians.
+        </p>
 
+        {/* CTA Buttons */}
+        <div className="mt-10 flex flex-col sm:flex-row gap-5 justify-center">
           <motion.a
             href="tel:09111000757"
             whileHover={{ scale: 1.06 }}

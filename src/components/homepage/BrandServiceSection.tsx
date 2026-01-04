@@ -15,6 +15,7 @@ export default function BrandServiceSection() {
     <section className="py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4">
 
+        {/* SEO POWER HEADING */}
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -22,7 +23,7 @@ export default function BrandServiceSection() {
           viewport={{ once: true }}
           className="text-center text-3xl md:text-4xl font-orbitron font-bold uppercase tracking-[0.18em] mb-16 text-gray-900"
         >
-          Find Your Brand's Dedicated Service Center
+          Laptop Repair Service Centers in Vijay Nagar, Indore
         </motion.h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
@@ -43,7 +44,7 @@ export default function BrandServiceSection() {
                   <div className="w-14 h-14 relative">
                     <Image
                       src={brand.logo}
-                      alt={brand.name}
+                      alt={`${brand.name} Laptop Repair Service Center in Vijay Nagar Indore`}
                       fill
                       className="object-contain transition group-hover:scale-110"
                     />
@@ -52,12 +53,12 @@ export default function BrandServiceSection() {
                     className="text-2xl font-extrabold transition group-hover:tracking-wide"
                     style={{ color: brand.color }}
                   >
-                    {brand.name} Service
+                    {brand.name} Laptop Repair Service
                   </h3>
                 </div>
 
                 <p className="mt-3 text-gray-600">
-                  Premium post-warranty repair for all {brand.name} laptops.
+                  Premium post-warranty {brand.name} laptop repair service in Vijay Nagar, Indore.
                 </p>
               </Link>
             </motion.div>

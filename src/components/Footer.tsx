@@ -105,7 +105,7 @@ const Footer: React.FC = () => {
               rel="noopener noreferrer" 
               className="text-sm font-black tracking-wider transition-opacity hover:opacity-80"
             >
-              <span className="bg-gradient-to-r from-yellow-400 to-yellow-100 bg-clip-text text-transparent uppercase">
+              <span className="bg-linear-to-r from-yellow-400 to-yellow-100 bg-clip-text text-transparent uppercase">
                 Lupa Entertainment
               </span>
             </a>
