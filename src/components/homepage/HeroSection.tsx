@@ -77,7 +77,7 @@ export default function HeroSection() {
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 0.5 }}
-          className={`absolute inset-0 bg-linear-to-br ${slides[current].color} flex items-center pt-20 pb-12 lg:py-0`}
+          className={`absolute inset-0 bg-linear-to-br ${slides[current].color} flex items-center pt-28 sm:pt-32 lg:py-0 pb-12`}
         >
           <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center w-full">
 
