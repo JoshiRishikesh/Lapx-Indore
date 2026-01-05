@@ -5,18 +5,19 @@ export const getLocalBusinessSchema = () => {
     "@type": "LocalBusiness",
     "name": "Lap-X",
     "alternateName": "Lap-X Laptop Repair Indore",
-    "description": "Premium laptop service center in Vijay Nagar, Indore. Expert motherboard repair, screen replacement, and hardware upgrades for ASUS, HP, Dell, and Lenovo.",
-    "url": "https://yourwebsite.com", // Replace with your live URL
-    "logo": "https://yourwebsite.com/logo.png",
+    "@id": "https://lapx.co.in/#website", // Links the site to the business entity
+    "description": "Indore's trusted laptop service center in Orbit Mall, Vijay Nagar. Specialists in motherboard repair, screen replacement, and hardware upgrades for ASUS, HP, Dell, and Lenovo.",
+    "url": "https://lapx.co.in",
+    "logo": "https://lapx.co.in/logo.png", // Ensure your logo is at this path
     "telephone": "+91-9111000757",
     "priceRange": "₹₹",
     "image": [
-       "https://yourwebsite.com/images/shop-front.jpg",
-       "https://yourwebsite.com/images/interior.jpg"
+       "https://lapx.co.in/og-image.jpg", // Using your OG image as a primary business photo
+       "https://lapx.co.in/images/shop-interior.jpg" 
     ],
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "LG-11, Orbit Mall, AB Road, near C21 Mall",
+      "streetAddress": "LG-11, Orbit Mall, AB Road, Near C21 Mall",
       "addressLocality": "Vijay Nagar, Indore",
       "addressRegion": "MP",
       "postalCode": "452010",
@@ -27,7 +28,8 @@ export const getLocalBusinessSchema = () => {
       "latitude": 22.744527,
       "longitude": 75.893815
     },
-    "hasMap": "https://www.google.com/maps?cid=13312389643449339089", // Derived from your PlaceID
+    // The PlaceID link you provided in the footer
+    "hasMap": "https://www.google.com/maps/search/?api=1&query=Lap-X+Orbit+Mall+Indore&query_place_id=ChIJg3l2lGb9YjkR0U_e3MSkOzs",
     "openingHoursSpecification": [
       {
         "@type": "OpeningHoursSpecification",
@@ -39,10 +41,13 @@ export const getLocalBusinessSchema = () => {
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": "4.9",
-      "reviewCount": "150" // Update this number periodically
+      "reviewCount": "150", 
+      "bestRating": "5",
+      "worstRating": "1"
     },
     "sameAs": [
-      "https://www.justdial.com/Indore/Lap-X-Near-C21-Malhar-Mega-Mall-Vijay-Nagar/0731PX731-X731-221031122403-F5F9_BZDET"
+      "https://www.justdial.com/Indore/Lap-X-Near-C21-Malhar-Mega-Mall-Vijay-Nagar/0731PX731-X731-221031122403-F5F9_BZDET",
+      // Add your Instagram or Facebook here if you have them
     ]
   };
 };
