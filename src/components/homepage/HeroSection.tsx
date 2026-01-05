@@ -77,7 +77,10 @@ export default function HeroSection() {
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 0.5 }}
-          className={`absolute inset-0 bg-linear-to-br ${slides[current].color} flex items-center pt-28 sm:pt-32 lg:py-0 pb-12`}
+          // 1. Change items-center to items-start
+          // 2. Increase pt-24 to pt-32 or more
+          // 3. Keep lg:items-center for desktop centering
+          className={`absolute inset-0 bg-linear-to-br ${slides[current].color} flex items-start lg:items-center pt-15 pb-12 lg:py-0 overflow-y-auto`}
         >
           <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center w-full">
 
