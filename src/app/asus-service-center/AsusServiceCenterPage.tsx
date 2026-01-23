@@ -85,7 +85,7 @@ const AsusServiceCenterPage: React.FC = () => {
 
       {/* PROMO SECTION */}
       <BrandPromo
-        imageSrc="/brand/asus/homepage.webp"
+        imageSrc="/brand/asus/homepage.avif"
         brandName="Asus"
       />
 

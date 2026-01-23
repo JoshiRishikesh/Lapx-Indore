@@ -84,7 +84,7 @@ const HpServiceCenterPage: React.FC = () => {
 
       {/* PROMO SECTION */}
       <BrandPromo
-        imageSrc="/brand/hp/homepage.webp"
+        imageSrc="/brand/hp/homepage.avif"
         brandName="HP"
       />
 
