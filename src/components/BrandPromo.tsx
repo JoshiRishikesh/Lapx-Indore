@@ -1,4 +1,3 @@
-// src/components/BrandPromo.tsx
 'use client';
 
 import Image from 'next/image';
@@ -15,40 +14,50 @@ const BrandPromo: React.FC<BrandPromoProps> = ({ imageSrc, brandName, ctaLink = 
   const theme = useBrandTheme();
 
   return (
-    <section className="mt-24 mb-24 w-full">
+    <section className="mt-16 mb-16 w-full px-4">
       <div
-        className="max-w-7xl mx-auto rounded-2xl overflow-hidden shadow-lg border border-gray-200 flex flex-col md:flex-row h-[60vh] md:h-[420px]"
+        className="max-w-7xl mx-auto rounded-2xl overflow-hidden shadow-2xl border border-gray-100 flex flex-col md:flex-row min-h-[400px]"
       >
-        {/* IMAGE */}
-        <div className="relative flex items-center justify-center w-full md:w-2/3 h-2/3 md:h-full bg-white">
+        {/* IMAGE SECTION - Forced 1:1 Aspect Ratio */}
+        <div 
+          className="relative aspect-square w-full md:w-[400px] lg:w-[450px] bg-white shrink-0 flex items-center justify-center"
+        >
           <Image
             src={imageSrc}
-            alt={`${brandName} Repair Banner`}
+            alt={`${brandName} Service Center Indore Vijay Nagar`}
             fill
-            className="object-contain p-4"
+            className="object-contain p-8 md:p-12"
             priority
+            sizes="(max-width: 768px) 100vw, 450px"
           />
         </div>
 
-        {/* TEXT */}
+        {/* TEXT SECTION - Takes up remaining fluid space */}
         <div
-          className="flex flex-col justify-center px-6 md:px-12 w-full md:w-1/3 h-1/3 md:h-full text-center md:text-left"
+          className="flex-1 flex flex-col justify-center px-8 py-10 md:px-16 text-center md:text-left"
           style={{ backgroundColor: theme.primary }}
         >
           <h2
-            className="font-orbitron font-bold leading-tight mb-4 text-2xl md:text-3xl lg:text-4xl"
+            className="font-orbitron font-extrabold leading-tight mb-6 text-3xl md:text-4xl lg:text-5xl uppercase tracking-tighter"
             style={{ color: theme.secondary }}
           >
-            {brandName} Repair Experts
+            {brandName} <br /> 
+            <span className="text-white">Repair Experts</span>
           </h2>
+          
+          <p className="text-white/80 mb-8 text-lg font-light max-w-md mx-auto md:mx-0">
+            Professional chip-level repairing and genuine parts replacement for all {brandName} models in Vijay Nagar, Indore.
+          </p>
 
-          <a
-            href={ctaLink}
-            className="mt-4 inline-block px-6 py-3 text-white font-bold rounded-lg hover:opacity-80 transition duration-300 shadow-lg"
-            style={{ backgroundColor: theme.secondary }}
-          >
-            Book Your Repair Now
-          </a>
+          <div>
+            <a
+              href={ctaLink}
+              className="inline-block px-10 py-4 text-white font-black rounded-sm hover:brightness-110 transition duration-300 shadow-[0_10px_20px_rgba(0,0,0,0.2)] uppercase tracking-widest text-sm"
+              style={{ backgroundColor: theme.secondary }}
+            >
+              Book Your Repair Now
+            </a>
+          </div>
         </div>
       </div>
     </section>
