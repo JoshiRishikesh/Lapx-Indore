@@ -12,9 +12,11 @@ import { motion, AnimatePresence } from "framer-motion";
 const navLinks = [
   { name: "Home", href: "/" },
   { name: "ASUS", href: "/asus-service-center" },
+  { name: "MSI", href: "/msi-service-center" },
   { name: "HP", href: "/hp-service-center" },
   { name: "DELL", href: "/dell-service-center" },
   { name: "LENOVO", href: "/lenovo-service-center" },
+  { name: "SUPPORT", href: "/faqs" },
 ];
 
 export default function Navbar() {

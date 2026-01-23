@@ -4,7 +4,6 @@ import Image from 'next/image';
 
 const useMediaQuery = (query: string) => {
   const [matches, setMatches] = useState(false);
-
   useEffect(() => {
     const media = window.matchMedia(query);
     if (media.matches !== matches) setMatches(media.matches);
@@ -12,7 +11,6 @@ const useMediaQuery = (query: string) => {
     window.addEventListener('resize', listener);
     return () => window.removeEventListener('resize', listener);
   }, [matches, query]);
-
   return matches;
 };
 
@@ -24,10 +22,10 @@ const imageBasePaths = {
 const imageFiles = ['1.avif', '2.avif', '3.avif', '4.avif'];
 
 const slideTexts = [
-  { heading: "Expert Lenovo Laptop Repair", subheading: "Fast Diagnosis. Genuine Parts. Certified Technicians." },
-  { heading: "ThinkPad & IdeaPad Specialized Care", subheading: "Precision repair for business and everyday laptops." },
-  { heading: "Legion Gaming Laptop Support", subheading: "High-performance gaming laptops require expert maintenance." },
-  { heading: "Battery, Keyboard & Display Replacement", subheading: "Original Lenovo parts for reliable, long-lasting performance." },
+  { heading: "Expert Lenovo Laptop Repair", subheading: "Fast Diagnosis. Genuine Parts. Certified Technicians in Vijay Nagar." },
+  { heading: "ThinkPad & IdeaPad Specialized Care", subheading: "Precision motherboard repair for business and everyday laptops." },
+  { heading: "Legion Gaming Laptop Support", subheading: "High-performance GPU repair and thermal optimization in Indore." },
+  { heading: "Battery, Keyboard & Display Replacement", subheading: "Original Lenovo parts for reliable, same-day service performance." },
 ];
 
 const LenovoCarousel: React.FC = () => {
@@ -37,7 +35,7 @@ const LenovoCarousel: React.FC = () => {
 
   const dynamicImages = imageFiles.map((file, index) => ({
     src: basePath + file,
-    alt: `Lenovo Service Image - ${file}`,
+    alt: `Lenovo Laptop Repair Indore - ${file}`,
     text: slideTexts[index],
   }));
 
@@ -49,59 +47,68 @@ const LenovoCarousel: React.FC = () => {
   }, [dynamicImages.length]);
 
   return (
-    <div className={`relative overflow-hidden flex items-center ${isMobile ? 'h-[60vh]' : 'h-[calc(100vh-4rem)]'}`}>
-      {dynamicImages.map((slide, index) => (
-        <div
-          key={index}
-          className={`absolute inset-0 w-full h-full flex ${isMobile ? 'flex-col' : 'flex-row'} transition-opacity duration-1000 ease-in-out ${
-            index === currentIndex ? 'opacity-100 z-10' : 'opacity-0 z-0'
-          }`}
-        >
-          {/* Text Section */}
-          <div className={`${isMobile ? 'w-full px-4 py-6 bg-gray-900/90 text-white flex flex-col items-center text-center' : 'w-1/3 px-8 md:px-16 bg-gray-900 text-white flex flex-col justify-center'}`}>
-            <h2 className={`${isMobile ? 'text-2xl' : 'text-3xl md:text-5xl'} font-extrabold mb-3 text-red-500`}>
-              {slide.text.heading}
-            </h2>
-            <p className={`${isMobile ? 'text-sm' : 'text-lg md:text-2xl'} font-light text-gray-300`}>
-              {slide.text.subheading}
-            </p>
-            <div className="mt-4 sm:mt-6">
-              <a
-                href="/contact"
-                className="inline-block px-4 sm:px-6 py-2 sm:py-3 bg-red-500 text-gray-900 font-bold rounded-lg hover:bg-red-400 transition duration-300 shadow-lg"
-              >
-                Book Lenovo Repair Now
-              </a>
+    <section className="relative w-full bg-[#0a0a0a] overflow-hidden">
+      <div className="relative w-full">
+        {dynamicImages.map((slide, index) => (
+          <div
+            key={index}
+            className={`w-full flex ${isMobile ? 'flex-col' : 'flex-row'} transition-all duration-1000 ease-in-out ${
+              index === currentIndex 
+                ? 'relative opacity-100 z-10' 
+                : 'absolute top-0 left-0 opacity-0 z-0 pointer-events-none'
+            }`}
+          >
+            {/* Image Section - 1:1 Ratio */}
+            <div className={`relative aspect-square ${isMobile ? 'w-full order-1' : 'h-[70vh] lg:h-[80vh] order-2 shrink-0'}`}>
+              <Image
+                src={slide.src}
+                alt={slide.alt}
+                fill
+                className="object-cover"
+                quality={95}
+                priority={index === 0}
+              />
+              {/* Lenovo Professional Gradient */}
+              {isMobile ? (
+                <div className="absolute inset-x-0 bottom-0 h-24 bg-linear-to-t from-[#0a0a0a] to-transparent" />
+              ) : (
+                <div className="absolute inset-y-0 left-0 w-24 bg-linear-to-r from-[#0a0a0a] to-transparent" />
+              )}
+            </div>
+
+            {/* Text Section - Auto Height Adjustment */}
+            <div className={`flex-1 flex flex-col justify-center px-6 md:px-16 bg-[#0a0a0a] text-white ${isMobile ? 'order-2 pt-4 pb-24 items-center text-center' : 'order-1 border-r border-blue-600/10'}`}>
+              <h2 className={`${isMobile ? 'text-3xl' : 'text-3xl md:text-5xl'} font-sans font-black mb-4 text-white uppercase tracking-tight leading-tight`}>
+                {slide.text.heading}
+              </h2>
+              <p className={`${isMobile ? 'text-base' : 'text-lg md:text-xl'} font-light text-gray-400 max-w-lg mb-8`}>
+                {slide.text.subheading}
+              </p>
+              <div className="w-full flex justify-center md:justify-start">
+                <a
+                  href="tel:09111000757"
+                  className="inline-block px-10 py-4 bg-[#E22B26] text-white font-bold rounded-sm hover:bg-red-700 transition-all duration-300 shadow-[0_5px_15px_rgba(226,43,38,0.3)] uppercase text-sm tracking-widest active:scale-95"
+                >
+                  Book Lenovo Repair
+                </a>
+              </div>
             </div>
           </div>
+        ))}
+      </div>
 
-          {/* Image Section */}
-          <div className={`${isMobile ? 'w-full h-2/3 relative mt-2 sm:mt-0' : 'w-2/3 h-full relative'}`}>
-            <Image
-              src={slide.src}
-              alt={slide.alt}
-              fill
-              className="object-cover object-center"
-              quality={85}
-              priority={index === 0}
-            />
-            {!isMobile && <div className="absolute inset-0 bg-linear-to-l from-gray-900/30 to-transparent"></div>}
-          </div>
-        </div>
-      ))}
-
-      {/* Dots Navigation */}
-      <div className="absolute bottom-4 sm:bottom-6 left-1/2 transform -translate-x-1/2 flex space-x-3 z-20">
+      {/* Navigation Bars */}
+      <div className={`absolute z-20 flex space-x-2 ${isMobile ? 'bottom-8 left-1/2 -translate-x-1/2' : 'bottom-10 left-16'}`}>
         {dynamicImages.map((_, idx) => (
           <button
             key={idx}
-            aria-label={`Go to slide ${idx + 1}`}
             onClick={() => setCurrentIndex(idx)}
-            className={`w-3 h-3 rounded-full transition-colors duration-300 ${idx === currentIndex ? 'bg-red-500 scale-125' : 'bg-gray-400 hover:bg-red-300'}`}
+            className={`h-1 transition-all duration-500 rounded-full ${idx === currentIndex ? 'bg-blue-500 w-12' : 'bg-gray-700 w-6 hover:bg-blue-400'}`}
+            aria-label={`Slide ${idx + 1}`}
           />
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

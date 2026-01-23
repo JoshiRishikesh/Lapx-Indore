@@ -3,17 +3,23 @@ export const getLocalBusinessSchema = () => {
   return {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": "Lap-X",
-    "alternateName": "Lap-X Laptop Repair Indore",
-    "@id": "https://lapx.co.in/#website", // Links the site to the business entity
-    "description": "Indore's trusted laptop service center in Orbit Mall, Vijay Nagar. Specialists in motherboard repair, screen replacement, and hardware upgrades for ASUS, HP, Dell, and Lenovo.",
+    "name": "LapX - Laptop Repair Indore",
+    "alternateName": [
+      "Lap-X Laptop Repair Indore",
+      "Asus Service Center in Indore Vijay Nagar",
+      "MSI Service Center Indore",
+      "MacBook Repair Specialist Indore",
+      "Best Laptop Repairing Near Orbit Mall"
+    ],
+    "@id": "https://lapx.co.in/#localbusiness",
+    "description": "Indore's #1 trusted service center for MacBook, ASUS, MSI, Dell, HP, Lenovo, and Acer. Specialist in Chip-level motherboard repair, liquid damage, and screen replacement with over 300+ 5-star reviews.",
     "url": "https://lapx.co.in",
-    "logo": "https://lapx.co.in/logo.png", // Ensure your logo is at this path
+    "logo": "https://lapx.co.in/logo.png",
     "telephone": "+91-9111000757",
     "priceRange": "₹₹",
     "image": [
-       "https://lapx.co.in/og-image.jpg", // Using your OG image as a primary business photo
-       "https://lapx.co.in/images/shop-interior.jpg" 
+       "https://lapx.co.in/og-image.jpg",
+       "https://lapx.co.in/shop-interior.jpg" 
     ],
     "address": {
       "@type": "PostalAddress",
@@ -25,29 +31,37 @@ export const getLocalBusinessSchema = () => {
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": 22.744527,
-      "longitude": 75.893815
+      "latitude": 22.7453065,
+      "longitude": 75.8942294
     },
-    // The PlaceID link you provided in the footer
-    "hasMap": "https://www.google.com/maps/search/?api=1&query=Lap-X+Orbit+Mall+Indore&query_place_id=ChIJg3l2lGb9YjkR0U_e3MSkOzs",
+    "knowsAbout": [
+      "MacBook Logic Board Repair", 
+      "Asus ROG Gaming Laptop Repair", 
+      "MSI Gaming Laptop Service", 
+      "Chip-level Motherboard Repairing",
+      "Laptop Screen Replacement Vijay Nagar",
+      "Liquid Damage Repair",
+      "Dell and HP Laptop Service",
+      "Genuine Laptop Battery Replacement"
+    ],
+    "hasMap": "https://lapx.co.in/",
     "openingHoursSpecification": [
       {
         "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
         "opens": "10:00",
         "closes": "21:30"
       }
     ],
     "aggregateRating": {
       "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "reviewCount": "150", 
+      "ratingValue": "5.0",
+      "reviewCount": "301", 
       "bestRating": "5",
       "worstRating": "1"
     },
     "sameAs": [
-      "https://www.justdial.com/Indore/Lap-X-Near-C21-Malhar-Mega-Mall-Vijay-Nagar/0731PX731-X731-221031122403-F5F9_BZDET",
-      // Add your Instagram or Facebook here if you have them
+      "https://www.justdial.com/Indore/Lap-X-Near-C21-Malhar-Mega-Mall-Vijay-Nagar/0731PX731-X731-221031122403-F5F9_BZDET"
     ]
   };
 };
