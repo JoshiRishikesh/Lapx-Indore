@@ -140,5 +140,53 @@ export const faqData: FAQCategory[] = [
         answer: "Try a 'Force Restart' (Hold Power button for 10s) or reset the NVRAM/PRAM. If you hear the startup sound but see no image, the backlight or display cable is faulty. For premium MacBook screen replacement in Vijay Nagar, visit Lap-X Indore or call 9111000757."
       }
     ]
-  }
+  },
+  {
+  title: "MacBook Repair Indore Vijay Nagar",
+  slug: "macbook-logic-board-repair-indore",
+  description: "Specialized MacBook Repair Indore for logic board short circuits and power issues. Expert Liquid Damage Repair Indore for M-series and Intel Macs.",
+  iconType: 'macbook',
+  questions: [
+    {
+      question: "My MacBook is not turning on and the charger light is dim, what can I do?",
+      answer: "First, try a different charging cable or port. For Intel Macs, try an SMC reset; for M1/M2/M3 Macs, ensure you hold the power button for 10 seconds. If the light remains dim, it usually indicates a 'G3 Hot' rail short circuit on the logic board. For professional MacBook Repair Indore, bring your device to Lap-X in Vijay Nagar for expert Chip-level repairing or call 9111000757."
+    }
+  ]
+},
+{
+  title: "Asus Service Center in Indore Vijay Nagar",
+  slug: "asus-laptop-power-repair",
+  description: "Advanced Asus Laptop Repair in Vijay Nagar Indore. Experts in BIOS recovery, power IC replacement, and Asus screen replacement.",
+  iconType: 'asus',
+  questions: [
+    {
+      question: "How do I fix an Asus laptop stuck on 'Automatic Repair' or BIOS screen?",
+      answer: "This often happens after a failed Windows update or if the SSD is not detected. Try 'Load Optimized Defaults' (F9 then F10) in the BIOS menu. If it still loops, your SSD might have a file system error. For a permanent fix or SSD Upgrade for Laptop Indore, visit our Asus Service Center in Indore Vijay Nagar at Lap-X or call 9111000757 for Same-day repair."
+    }
+  ]
+},
+{
+  title: "MSI Service Center Indore",
+  slug: "msi-display-gpu-repair",
+  description: "Professional MSI Service Center Indore for gaming laptop display issues and GPU servicing. Experts in Gaming Laptop Repair Indore.",
+  iconType: 'msi',
+  questions: [
+    {
+      question: "My MSI laptop screen is showing horizontal lines or artifacts, is it the GPU?",
+      answer: "Connect your laptop to an external monitor via HDMI. If the lines don't appear on the external screen, your laptop LCD panel or EDP cable is faulty. If they do appear, the GPU is overheating or failing. For expert Gaming Laptop Repair Indore and genuine MSI screen replacement, visit Lap-X, the leading MSI Service Center Indore, or call 9111000757."
+    }
+  ]
+},
+{
+  title: "Acer Service Center Indore",
+  slug: "acer-battery-charging-repair",
+  description: "Reliable Acer Laptop Repair in Vijay Nagar Indore. Specialized in Acer charging port repair and Laptop Battery Replacement Indore.",
+  iconType: 'acer',
+  questions: [
+    {
+      question: "Why is my Acer Swift/Aspire laptop battery not charging beyond 80%?",
+      answer: "Check the 'Acer Care Center' app; you might have 'Battery Charge Limit' enabled to protect battery health. If it's not charging at all, the DC jack might be loose. For a quick fix or a genuine Laptop Battery Replacement Indore, visit Lap-X, your trusted Acer Service Center Indore near Orbit Mall, or call 9111000757."
+    }
+  ]
+}
 ];
