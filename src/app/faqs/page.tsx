@@ -4,7 +4,7 @@ import { faqData, FAQCategory } from "@/data/faqs";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { FaChevronRight, FaMicrochip, FaLaptop, FaApple, FaTools, FaCheckCircle } from "react-icons/fa";
-import { SiAsus, SiMsi } from "react-icons/si";
+import { SiAsus, SiMsi, SiHp, SiLenovo, SiAcer } from "react-icons/si";
 import FaqSearch from "@/components/faqs/FaqSearch";
 
 const IconMap = ({ type }: { type: FAQCategory['iconType'] }) => {
@@ -13,8 +13,13 @@ const IconMap = ({ type }: { type: FAQCategory['iconType'] }) => {
       {type === 'asus' && <SiAsus className="text-5xl md:text-6xl" />}
       {type === 'msi' && <SiMsi className="text-6xl md:text-7xl" />}
       {type === 'apple' && <FaApple className="text-4xl" />}
+      {type === 'macbook' && <FaApple className="text-4xl" />}
+      {type === 'hp' && <SiHp className="text-4xl" />}
+      {type === 'lenovo' && <SiLenovo className="text-5xl" />}
+      {type === 'dell' && <FaLaptop className="text-4xl" />} {/* Replace with FaDell if available in your lib */}
+      {type === 'acer' && <SiAcer className="text-5xl" />}
       {type === 'chip' && <FaMicrochip className="text-4xl" />}
-      {!['asus', 'msi', 'apple', 'chip'].includes(type || '') && <FaLaptop className="text-4xl" />}
+      {!['asus', 'msi', 'apple', 'chip', 'hp', 'lenovo', 'dell', 'acer'].includes(type || '') && <FaLaptop className="text-4xl" />}
     </div>
   );
 };
@@ -43,8 +48,8 @@ export default function FAQHub() {
               Laptop <span className="text-sky-500">Help Desk</span>
             </h1>
             <p className="max-w-3xl text-gray-500 text-base md:text-xl leading-relaxed">
-              Find professional technical guides and troubleshooting for <span className="text-gray-900 font-bold italic underline decoration-sky-500/30">Laptop Repair at C21 Mall, Vijay Nagar, Indore</span>. 
-              Our experts provide certified service for Dell, HP, MSI, Lenovo, Asus, and MacBook.
+              Find professional technical guides for <span className="text-gray-900 font-bold italic underline decoration-sky-500/30 text-nowrap">Laptop Repair in Vijay Nagar Indore</span>. 
+              Certified service for Dell, HP, MSI, Lenovo, Asus, and Apple at **Orbit Mall (Opp. C21)**.
             </p>
           </motion.div>
         </header>
@@ -84,8 +89,8 @@ export default function FAQHub() {
                   </div>
 
                   <div className="mt-8 pt-6 border-t border-gray-50 flex items-center justify-between text-[10px] font-bold uppercase tracking-widest">
-                    <span className="text-sky-600 italic">Certified Solutions</span>
-                    <span className="text-gray-300">C21 Mall, Indore</span>
+                    <span className="text-sky-600 italic">Expert Technician Resolution</span>
+                    <span className="text-gray-300">Orbit Mall, Indore</span>
                   </div>
                 </div>
               </Link>
@@ -93,7 +98,7 @@ export default function FAQHub() {
           ))}
         </div>
 
-        {/* SEO Trust Banner: Enhanced for Lapx C21 Mall */}
+        {/* SEO Trust Banner: Enhanced for Lapx Orbit Mall */}
         <motion.section 
           initial={{ opacity: 0, scale: 0.98 }}
           whileInView={{ opacity: 1, scale: 1 }}
@@ -109,29 +114,29 @@ export default function FAQHub() {
 
             <div className="relative z-10 max-w-4xl mx-auto">
               <h3 className="text-3xl md:text-5xl font-bold text-white mb-6 tracking-tight leading-tight">
-                Best Laptop Repairing Service Center <br className="hidden md:block" /> at <span className="text-sky-400 italic text-4xl md:text-6xl">C21 Mall, Indore</span>
+                Best Laptop Repairing Service Center <br className="hidden md:block" /> near <span className="text-sky-400 italic text-4xl md:text-6xl">Orbit Mall, Indore</span>
               </h3>
               
               <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
-                Visit **Lapx** for premium chip-level repairs, screen replacements, and battery upgrades. 
-                The most trusted hub for Dell, HP, Lenovo, Asus, MSI, and MacBook repair in Vijay Nagar.
+                Visit **LapX** at LG-31, Orbit Mall (Opp. C21) for premium chip-level repairs, screen replacements, and battery upgrades. 
+                Expert technicians for <span className="text-white">Same-day repair</span> with genuine parts and transparent pricing.
               </p>
               
               <div className="flex flex-wrap justify-center gap-4 mb-10 text-xs md:text-sm font-medium text-gray-300">
                 <span className="flex items-center gap-1.5 bg-white/5 px-4 py-2 rounded-full border border-white/10"><FaCheckCircle className="text-sky-500" /> Genuine Spares</span>
-                <span className="flex items-center gap-1.5 bg-white/5 px-4 py-2 rounded-full border border-white/10"><FaCheckCircle className="text-sky-500" /> Expert Technicians</span>
+                <span className="flex items-center gap-1.5 bg-white/5 px-4 py-2 rounded-full border border-white/10"><FaCheckCircle className="text-sky-500" /> Chip-level repairing</span>
                 <span className="flex items-center gap-1.5 bg-white/5 px-4 py-2 rounded-full border border-white/10"><FaCheckCircle className="text-sky-500" /> Transparent Pricing</span>
-                <span className="flex items-center gap-1.5 bg-white/5 px-4 py-2 rounded-full border border-white/10"><FaCheckCircle className="text-sky-500" /> Same-Day Service</span>
+                <span className="flex items-center gap-1.5 bg-white/5 px-4 py-2 rounded-full border border-white/10"><FaCheckCircle className="text-sky-500" /> Expert technicians</span>
               </div>
 
               <div className="flex flex-col md:flex-row items-center justify-center gap-6">
                 <a href="tel:09111000757" className="w-full md:w-auto bg-sky-500 hover:bg-sky-400 text-white font-bold py-5 px-10 rounded-2xl transition-all hover:scale-105 active:scale-95 flex items-center justify-center gap-3 shadow-lg shadow-sky-500/20">
                   <span className="bg-white/20 p-2 rounded-lg"><FaTools /></span>
-                  Consult a Lapx Expert
+                  Consult a LapX Expert
                 </a>
                 <div className="text-left">
                   <p className="text-white font-black text-xl leading-none">+91 91110 00757</p>
-                  <p className="text-gray-500 text-[10px] uppercase tracking-widest mt-2 font-bold">Lapx • C21 Mall • Vijay Nagar</p>
+                  <p className="text-gray-500 text-[10px] uppercase tracking-widest mt-2 font-bold text-nowrap">LG-31, Orbit Mall • Vijay Nagar • Indore</p>
                 </div>
               </div>
             </div>

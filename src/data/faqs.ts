@@ -1,6 +1,7 @@
 export interface FAQItem {
   question: string;
   answer: string;
+  categoryName?: string;
 }
 
 export interface FAQCategory {
@@ -33,7 +34,7 @@ export const faqData: FAQCategory[] = [
 
   // MSI Focus
   {
-    title: "MSI Service Center Indore",
+    title: "MSI Service Center in Indore Vijay Nagar",
     slug: "msi-service-center-indore",
     description: "Professional Gaming Laptop Repair Indore for MSI Alpha, Bravo, and Stealth series. Experts in MSI chip-level repairing and hinge repair.",
     iconType: 'msi',
@@ -51,7 +52,7 @@ export const faqData: FAQCategory[] = [
 
   // MacBook Focus
   {
-    title: "MacBook Repair Indore Vijay Nagar",
+    title: "MacBook Service Center in Indore Vijay Nagar",
     slug: "macbook-repair-indore",
     description: "Specialized MacBook Repair Indore for Air, Pro, and M-series chips. Experts in MacBook screen replacement and Liquid Damage Repair Indore.",
     iconType: 'macbook',
@@ -69,7 +70,7 @@ export const faqData: FAQCategory[] = [
 
   // Chip-Level/Motherboard Focus
   {
-    title: "Laptop Motherboard Repair Indore",
+    title: "Laptop Motherboard Repair in Indore Vijay Nagar",
     slug: "laptop-motherboard-repair-indore",
     description: "Advanced Chip-level repairing for Liquid Damage Repair Indore and power issues. The most trusted computer service center in Vijay Nagar near Orbit Mall.",
     iconType: 'chip',
@@ -83,7 +84,7 @@ export const faqData: FAQCategory[] = [
 
   // Dell Focus
   {
-    title: "Dell Service Center Indore Vijay Nagar",
+    title: "Dell Service Center in Indore Vijay Nagar",
     slug: "dell-service-center-indore",
     description: "Professional Dell Laptop Repair in Vijay Nagar Indore for Inspiron, XPS, and Alienware. Specialists in Dell screen replacement and charging issues.",
     iconType: 'dell',
@@ -97,7 +98,7 @@ export const faqData: FAQCategory[] = [
 
   // Lenovo Focus
   {
-    title: "Lenovo Laptop Repair Indore",
+    title: "Lenovo Service Center in Indore Vijay Nagar",
     slug: "lenovo-laptop-repair-indore",
     description: "Expert Lenovo Laptop Repair Indore for ThinkPad, IdeaPad, and Legion series. Specializing in Lenovo screen replacement and keyboard repair.",
     iconType: 'lenovo',
@@ -111,7 +112,7 @@ export const faqData: FAQCategory[] = [
 
   // HP Focus
   {
-    title: "HP Laptop Service Center Indore Vijay Nagar",
+    title: "HP Service Center in Indore Vijay Nagar",
     slug: "hp-laptop-repair-indore",
     description: "Professional HP Laptop Repair in Vijay Nagar Indore for Pavilion, EliteBook, and Omen. Best HP screen replacement and battery services.",
     iconType: 'hp',
@@ -125,7 +126,7 @@ export const faqData: FAQCategory[] = [
 
   // Acer Focus
   {
-    title: "Acer Service Center Indore",
+    title: "Acer Service Center in Indore Vijay Nagar",
     slug: "acer-battery-charging-repair",
     description: "Reliable Acer Laptop Repair in Vijay Nagar Indore. Specialized in Acer charging port repair and Laptop Battery Replacement Indore.",
     iconType: 'acer',
