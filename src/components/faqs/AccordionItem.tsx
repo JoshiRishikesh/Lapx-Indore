@@ -75,8 +75,8 @@ export default function AccordionItem({ item }: { item: EnhancedFAQItem }) {
               >
                 <p className="text-xs text-gray-400 italic leading-relaxed mb-4">
                   Need urgent help? Visit <span className="text-sky-500 font-semibold">
-                    LapX - Certified {item.categoryName || "Laptop Service Center"} In Indore Vijay Nagar 
-                  </span> for Apple | Asus | MSI | Dell | HP | Lenovo.
+                    LapX - Certified {item.categoryName || "Laptop Service Center"} 
+                  </span>
                 </p>
 
                 {/* Direct Action Buttons for Local SEO Conversion */}
