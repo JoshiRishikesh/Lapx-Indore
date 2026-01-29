@@ -32,6 +32,14 @@ export const faqData: FAQCategory[] = [
       {
         question: "My Asus ROG laptop is not detecting the Nvidia GPU, only the Intel graphics are showing. How to fix?",
         answer: "Check 'Armoury Crate' to ensure you aren't in 'Eco Mode,' which disables the GPU. If the GPU is missing from Device Manager entirely, it may have a power delivery issue on the motherboard. For specialized Gaming Laptop Repair Indore and Chip-level repairing, visit our Asus Service Center in Indore Vijay Nagar at LapX, LG-31, Orbit Mall, Opposite to C21 Mall. Open Daily 10:00 AM – 9:30 PM. Call 9111000757."
+      },
+      {
+        question: "My Asus Vivobook/Zenbook keyboard is typing multiple letters or wrong characters. Is it a virus?",
+        answer: "It is rarely a virus; usually, it is caused by moisture or 'carbon buildup' inside the keyboard membrane. Try uninstalling the keyboard driver from Device Manager and restarting. If it persists, the internal keyboard matrix is damaged and needs replacement. For genuine Asus keyboard or Asus screen replacement in Vijay Nagar, visit LapX Certified Asus Service Center in Indore at LG-31, Orbit Mall Opposite to C21 Mall. Open Daily 10:00 AM – 9:30 PM. Call 9111000757."
+      },
+      {
+        question: "My Asus laptop screen stays black even though the power light is on. What should I do?",
+        answer: "This often indicates a static charge buildup. Try a 'Static Discharge' by unplugging the charger and holding the power button for 60 seconds. If it still won't boot, the RAM or internal display cable may be faulty. For a professional diagnosis, visit our Asus Service Center in Indore Vijay Nagar at LapX, LG-31, Orbit Mall, Opposite to C21 Mall. Open Daily 10:00 AM – 9:30 PM. Call 9111000757."
       }
     ]
   },
@@ -54,6 +62,14 @@ export const faqData: FAQCategory[] = [
       {
         question: "How do I fix the 'Scented/Burning' smell coming from my MSI gaming laptop vents?",
         answer: "Turn off the laptop immediately. This smell usually indicates a short circuit or a melting DC power jack due to high current draw during gaming. Continuing to use it can cause permanent Laptop Motherboard Repair Indore issues. Bring your device to LapX Certified MSI Service Center in Indore at LG-31, Orbit Mall, Opposite to C21 Mall, Vijay Nagar. We are open Daily 10:00 AM – 9:30 PM. Call 9111000757 for an emergency diagnostic."
+      },
+      {
+        question: "My MSI laptop won't turn on unless the charger is plugged in, even though the battery shows 100%.",
+        answer: "This indicates a 'Battery Circuit' failure on the motherboard or a dead battery cell that can no longer provide the 'peak current' required to boot. Try a battery calibration via the MSI Center app. If the laptop still cuts off the moment you unplug it, you need a hardware check. Visit LapX Certified MSI Service Center in Indore at LG-31, Orbit Mall, Opposite to C21 Mall, Vijay Nagar. Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for Genuine parts and expert repair."
+      },
+      {
+        question: "Why does my MSI laptop make a loud grinding noise from the fans?",
+        answer: "Grinding noises usually mean the fan bearings have failed or are clogged with heavy dust, which is common in high-performance gaming laptops. To prevent the GPU from overheating, the fans should be replaced or serviced. Visit LapX Certified MSI Service Center in Indore located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for expert Gaming Laptop Repair Indore."
       }
     ]
   },
@@ -76,6 +92,14 @@ export const faqData: FAQCategory[] = [
       {
         question: "Why is my MacBook Pro fan running at full speed even when I’m not doing anything?",
         answer: "This is often caused by a failing thermal sensor or an 'SMC' error. On Intel Macs, try an SMC reset; on M-series Macs, check 'Activity Monitor' for a process called 'kernel_task' using high CPU. If the fans stay at max speed, there is likely a hardware sensor fault on the logic board. For expert MacBook Repair Indore, bring your laptop to LapX Certified Apple Service Center in Indore which is located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757."
+      },
+      {
+        question: "Why does my MacBook screen show a 'faint image' but the backlight is completely off?",
+        answer: "This is usually a 'No Backlight' issue caused by a blown backlight fuse or a failed IC on the logic board, often due to a minor liquid spill or a shorted display cable. You can verify this by shining a flashlight through the Apple logo or at the screen; if you see your files, the logic board needs chip-level repair. Bring your laptop to LapX Certified Apple Service Center in Indore which is located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757."
+      },
+      {
+        question: "Why is my MacBook trackpad physically hard to click or feeling 'swollen'?",
+        answer: "This is a critical sign of a swollen battery pushing against the trackpad from underneath. Stop using the laptop immediately to avoid cracking the trackpad or causing a fire hazard. Bring your laptop to LapX Certified Apple Service Center in Indore which is located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for immediate MacBook Repair Indore."
       }
     ]
   },
@@ -122,6 +146,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "How to fix a Lenovo laptop stuck on the 'Lenovo' logo?",
         answer: "Perform a 'Static Discharge': Unplug everything, hold the power button for 30 seconds, then try to boot. If it stays stuck, the SSD or RAM might be faulty. For expert Lenovo Laptop Repair Indore, visit LapX at LG-31, Orbit Mall Opposite to C21 Mall, Vijay Nagar. Open Daily 10:00 AM – 9:30 PM. Call 9111000757."
+      },
+      {
+        question: "My Lenovo Legion/IdeaPad is very slow and the disk usage is always at 100% in Task Manager.",
+        answer: "If you are using a traditional HDD, it is likely failing or cannot keep up with Windows 11 updates. The best solution is to migrate to an NVMe SSD. We specialize in SSD Upgrade for Laptop Indore to make your device 10x faster. For expert Lenovo Laptop Repair Indore, visit LapX at LG-31, Orbit Mall, Opposite to C21 Mall, Vijay Nagar. We provide Same-day repair and are open Daily 10:00 AM – 9:30 PM. Call 9111000757."
       }
     ]
   },
@@ -136,6 +164,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "Where can I get a genuine HP laptop battery replacement Indore?",
         answer: "If your HP Pavilion or Omen isn't holding a charge, visit LapX at LG-31, Orbit Mall Opposite to C21 Mall, Vijay Nagar. We provide original HP laptop battery replacement Indore with a full replacement warranty. Our HP Laptop Service Center is open Daily 10:00 AM – 9:30 PM. Contact us at 9111000757."
+      },
+      {
+        question: "How do I fix an HP laptop that is stuck on the 'HP' logo and won't load Windows?",
+        answer: "This is often a 'Boot Loop' caused by a corrupted Windows update or a failing hard drive/SSD. You can try a BIOS reset by tapping F10 during startup. If the hardware is failing, an SSD upgrade is the best solution. Visit LapX at LG-31, Orbit Mall Opposite to C21 Mall, Vijay Nagar, the best HP Laptop Service Center Indore Vijay Nagar. Open Daily 10:00 AM – 9:30 PM. Call 9111000757."
       }
     ]
   },
