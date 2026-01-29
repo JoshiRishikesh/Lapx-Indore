@@ -7,40 +7,57 @@ import PillarsSection from "@/components/homepage/PillarsSection";
 import BrandServiceSection from "@/components/homepage/BrandServiceSection";
 
 export const metadata: Metadata = {
-  title: "Laptop Repair Service Center in Vijay Nagar, Indore | HP, Dell, ASUS",
+  title: "LapX - Certified Laptop Service Center & Repair In Indore Vijay Nagar - APPLE | ASUS | MSI | DELL | HP | ACER | LENOVO",
   description:
-    "LAPX (also known as Lapzoo) is Indore's trusted laptop repair service center in Vijay Nagar. Specializing in HP service center indore, Dell, ASUS, and Lenovo repairs. We provide genuine parts for screen replacement, motherboard repair, and battery issues with 1,500+ happy customers.",
-  authors: [{ name: "LAPX Service Center" }, { name: "Lapzoo" }],
+    "LapX - Certified Laptop Service Center In Indore Vijay Nagar. Professional repair for APPLE MACBOOK | ASUS | MSI | DELL | HP | ACER | LENOVO. Expert chip-level repairing and genuine parts near Orbit Mall.",
+  authors: [{ name: "LapX Service Center" }],
   keywords: [
-    "Laptop Repair Service Center Indore",
-    "LAPX Indore",
-    "Lapzoo Indore",
-    "HP Service Center Indore",
-    "Dell Service Center Indore",
-    "ASUS Service Center Indore",
-    "Laptop Repair Near Me",
-    "Lenovo Service Center Indore",
-    "Laptop Repair Vijay Nagar",
-    "HP Laptop Service Center Vijay Nagar",
-    "Best laptop repair shop in Indore",
-    "LAPX Lapzoo Indore",
+    // Priority 1: Indore + Focus Brands
+    "Asus Service Center in Indore Vijay Nagar",
+    "MSI Service Center Indore Vijay Nagar",
+    "Apple MacBook Repair Indore Vijay Nagar",
+    "Laptop repair in Indore Vijay Nagar",
+    
+    // Priority 2: Indore + Specific Services
+    "HP Laptop Service Center in Indore Vijay Nagar",
+    "Dell Service Center in Indore Vijay Nagar",
+    "Lenovo Laptop Repair in Indore Vijay Nagar",
+    "Acer Service Center in Indore Vijay Nagar",
+    "Gaming Laptop Repair in Indore",
+    "Laptop Motherboard Repair in Indore",
+    
+    // Priority 3: Localized High-Intent
+    "Laptop Repair Shop Near Me",
+    "Best Laptop Repairing Near Orbit Mall",
+    "Laptop Screen Replacement Vijay Nagar",
+    "SSD Upgrade for Laptop Indore",
+    "Liquid Damage Repair Indore",
+    
+    // Priority 4: Trust & Brand
+    "Same-day repair in Indore",
+    "Genuine parts in Indore",
+    "Chip-level laptop repairing in Indore",
+    "LapX Indore",
   ],
   metadataBase: new URL("https://lapx.co.in"),
   openGraph: {
-    title: "Laptop Repair Service Center in Vijay Nagar | LAPX (Lapzoo)",
+    title: "LapX - Certified Laptop Service Center & Repair In Indore Vijay Nagar",
     description:
-      "Expert HP, Dell, and ASUS laptop repairs at LAPX (formerly Lapzoo) Indore. Genuine parts and fast service in Vijay Nagar.",
+      "Expert Apple MacBook, Asus, MSI, Dell, and HP laptop repairs at LapX Indore. Same-day chip-level repairing and genuine parts near Orbit Mall, Vijay Nagar.",
     url: "/",
-    siteName: "LAPX Service Center",
+    siteName: "LapX Service Center",
     images: [
       {
         url: "/homepage-og.jpg", 
         width: 1200,
         height: 630,
-        alt: "LAPX (Lapzoo) Laptop Repair Service Center Indore",
+        alt: "LapX Certified Laptop Service Center Indore Vijay Nagar",
       },
     ],
     type: "website",
+  },
+  alternates: {
+    canonical: "https://lapx.co.in",
   },
 };
 
