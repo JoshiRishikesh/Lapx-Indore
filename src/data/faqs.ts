@@ -40,6 +40,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "My Asus laptop screen stays black even though the power light is on. What should I do?",
         answer: "This often indicates a static charge buildup. Try a 'Static Discharge' by unplugging the charger and holding the power button for 60 seconds. If it still won't boot, the RAM or internal display cable may be faulty. For a professional diagnosis, visit our Asus Service Center in Indore Vijay Nagar at LapX, LG-31, Orbit Mall, Opposite to C21 Mall. Open Daily 10:00 AM – 9:30 PM. Call 9111000757."
+      },
+      {
+        question: "How can I fix the 'USB Device Over Current Status Detected' error on my Asus laptop?",
+        answer: "This error is a protective measure when a USB port is shorted or a component on the motherboard is drawing too much power. Inspect your USB ports for bent pins. If the ports look clean, the 5V power IC on the motherboard is likely damaged. Visit our Asus Service Center in Indore Vijay Nagar at Lap-X, located in LG-31, Orbit Mall, Opposite to C21 Mall. Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for professional Chip-level repairing."
       }
     ]
   },
@@ -70,6 +74,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "Why does my MSI laptop make a loud grinding noise from the fans?",
         answer: "Grinding noises usually mean the fan bearings have failed or are clogged with heavy dust, which is common in high-performance gaming laptops. To prevent the GPU from overheating, the fans should be replaced or serviced. Visit LapX Certified MSI Service Center in Indore located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for expert Gaming Laptop Repair Indore."
+      },
+      {
+        question: "Why is my MSI laptop stuck in 'Dragon Center' or 'MSI Center' and won't switch power modes?",
+        answer: "This is often a software conflict with the 'EC' (Embedded Controller). You can perform an EC Reset by shuting down the laptop and holding the power button for 30 seconds (or using the reset pinhole on the bottom). If software resets don't work, the EC chip might need reprogramming. Visit LapX Certified MSI Service Center in Indore at LG-31, Orbit Mall, Opposite to C21 Mall, Vijay Nagar. Open Daily 10:00 AM – 9:30 PM. Call 9111000757."
       }
     ]
   },
@@ -100,6 +108,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "Why is my MacBook trackpad physically hard to click or feeling 'swollen'?",
         answer: "This is a critical sign of a swollen battery pushing against the trackpad from underneath. Stop using the laptop immediately to avoid cracking the trackpad or causing a fire hazard. Bring your laptop to LapX Certified Apple Service Center in Indore which is located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for immediate MacBook Repair Indore."
+      },
+      {
+        question: "Why does my MacBook restart unexpectedly with a 'Kernel Panic' error message?",
+        answer: "Kernel panics are often caused by faulty RAM, incompatible peripherals, or deep-seated logic board issues. Try disconnecting all accessories and booting in Safe Mode. If the issue persists, it usually indicates a hardware fault in the power rails or CPU. Bring your laptop to LapX Certified Apple Service Center in Indore which is located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for expert MacBook Repair Indore."
       }
     ]
   },
@@ -182,6 +194,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "Why is my Acer Swift/Aspire laptop battery not charging beyond 80%?",
         answer: "Check the 'Acer Care Center' app for a 'Battery Charge Limit' setting. If it's not charging at all, the DC jack may be loose. For a genuine Laptop Battery Replacement Indore or port repair, visit LapX Certified Acer Service Center in Indore at LG-31, Orbit Mall Opposite to C21 Mall, Vijay Nagar. Open Daily 10:00 AM – 9:30 PM. Call 9111000757."
+      },
+      {
+        question: "My Acer Nitro 5 is turning on, but the keyboard backlight flashes and it immediately shuts off. Why?",
+        answer: "This sequence usually indicates a 'short to ground' on the main power rail or a failure in the RAM power circuit. It prevents the laptop from booting to protect the CPU. For a precision diagnostic and motherboard fix, visit LapX Certified Acer Service Center in Indore at LG-31, Orbit Mall Opposite to C21 Mall, Vijay Nagar. We specialize in Acer charging port repair and Chip-level repairing. Open Daily 10:00 AM – 9:30 PM. Call 9111000757."
       }
     ]
   }

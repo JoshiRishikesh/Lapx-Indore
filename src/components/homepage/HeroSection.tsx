@@ -10,7 +10,7 @@ const slides = [
     brand: "ASUS",
     title: "Expert ASUS Repair Services",
     description:
-      "Certified ASUS laptop repair in Vijay Nagar, Indore. We provide screen replacement, motherboard repair, and performance fixes using genuine parts.",
+      "Certified ASUS laptop Service Center in Indore, Vijay Nagar. We provide screen replacement, motherboard repair, and performance fixes using genuine parts.",
     image: "/carousals/home/asus.avif",
     color: "from-blue-50 to-indigo-100",
     accent: "text-blue-600",
@@ -20,7 +20,7 @@ const slides = [
     brand: "HP",
     title: "HP Spectre & Pavilion Specialists",
     description:
-      "Trusted HP laptop repair in Vijay Nagar, Indore offering original screen replacement, battery upgrades, and hardware repairs with warranty.",
+      "Trusted HP laptop Service Center in Indore, Vijay Nagar offering original screen replacement, battery upgrades, and hardware repairs with warranty.",
     image: "/carousals/home/hp.avif",
     color: "from-cyan-50 to-blue-100",
     accent: "text-cyan-600",
@@ -30,7 +30,7 @@ const slides = [
     brand: "DELL",
     title: "Premium DELL Support Center",
     description:
-      "Professional Dell laptop repair in Vijay Nagar, Indore for XPS and Latitude series. Genuine parts and fast turnaround.",
+      "Professional Dell laptop Service Center in Indore, Vijay Nagar for XPS and Latitude series. Genuine parts and fast turnaround.",
     image: "/carousals/home/dell.avif",
     color: "from-slate-100 to-blue-50",
     accent: "text-blue-700",
@@ -40,7 +40,7 @@ const slides = [
     brand: "LENOVO",
     title: "Lenovo ThinkPad & Yoga Care",
     description:
-      "Reliable Lenovo laptop repair in Vijay Nagar, Indore with specialized motherboard repair, hinge fixing, and complete diagnostics.",
+      "Reliable Lenovo laptop Service Center in Indore, Vijay Nagar with specialized motherboard repair, hinge fixing, and complete diagnostics.",
     image: "/carousals/home/lenovo.avif",
     color: "from-red-50 to-orange-100",
     accent: "text-red-600",
@@ -68,7 +68,7 @@ export default function HeroSection() {
     <section className="relative w-full min-h-[700px] lg:h-[750px] overflow-hidden bg-white">
       
       {/* PRIMARY SEO H1 */}
-      <h1 className="sr-only">Laptop Repair in Vijay Nagar, Indore</h1>
+      <h1 className="sr-only">Laptop Service Center in Indore, Vijay Nagar </h1>
 
       <AnimatePresence mode="wait">
         <motion.div
@@ -109,12 +109,12 @@ export default function HeroSection() {
                 transition={{ delay: 0.2 }}
                 className="text-base lg:text-lg text-slate-600 mb-4 max-w-lg mx-auto lg:mx-0"
               >
-                {slides[current].description} Located at LG-11, Orbit Mall near C21 Mall on AB Road, serving Vijay Nagar and Indore.
+                {slides[current].description} Located at LG-31, Orbit Mall near C21 Mall on AB Road, serving Vijay Nagar and Indore.
               </motion.p>
 
               {/* ⭐ TRUST STRIP (LIGHTWEIGHT, SEO-SAFE) */}
               <p className="text-sm font-semibold text-slate-700 mb-6">
-                ⭐ 4.9 Rating on Google • Trusted Laptop Repair in Vijay Nagar, Indore
+                ⭐ 4.9 Rating on Google • Trusted Laptop Service Center in Indore
               </p>
 
               <motion.div
@@ -150,7 +150,7 @@ export default function HeroSection() {
                 <div className="absolute inset-0 opacity-40 rounded-full blur-[80px] bg-white" />
                 <Image
                   src={slides[current].image}
-                  alt={`${slides[current].brand} Laptop Repair in Vijay Nagar Indore`}
+                  alt={`${slides[current].brand} Laptop Service Center in Indore, Vijay Nagar`}
                   width={600}
                   height={600}
                   priority
