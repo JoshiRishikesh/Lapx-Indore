@@ -76,7 +76,7 @@ const MSIServiceCenterPage: React.FC = () => {
       <BrandHeader
         logo="/logos/msi-logo.avif"
         brandName="MSI"
-        tagline="Indore's Premier MSI Gaming Laptop Repair Center."
+        tagline="MSI Service Center In Inodre"
       />
 
       {/* CAROUSEL */}

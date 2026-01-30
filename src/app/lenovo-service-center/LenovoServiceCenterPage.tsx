@@ -75,7 +75,7 @@ const LenovoServiceCenterPage: React.FC = () => {
       <BrandHeader
         logo="/logos/lenovo-logo.webp"
         brandName="LENOVO"
-        tagline="Premium Lenovo Laptop Repair You Can Trust."
+        tagline="Certified Lenovo Service Center In Indore"
       />
 
       <LenovoCarousel />

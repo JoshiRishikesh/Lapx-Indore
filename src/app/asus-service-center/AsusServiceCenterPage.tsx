@@ -77,7 +77,7 @@ const AsusServiceCenterPage: React.FC = () => {
       <BrandHeader
         logo="/logos/asus-logo.webp"
         brandName="ASUS"
-        tagline="Premium ASUS Laptop Repair You Can Trust."
+        tagline="Certified ASUS Service Center In Indore"
       />
 
       {/* CAROUSEL */}

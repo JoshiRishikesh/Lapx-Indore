@@ -19,18 +19,25 @@ export const viewport: Viewport = {
 // 2. ADVANCED METADATA
 export const metadata: Metadata = {
   metadataBase: new URL('https://lapx.co.in'),
-  title: {
-    default: 'Lap-X | Best Laptop Repair in Vijay Nagar, Indore',
-    template: '%s | Lap-X Indore'
-  },
-  description: 'Lap-X is Indore\'s trusted laptop service center in Orbit Mall. Certified repair for ASUS, HP, Dell, & Lenovo. Specialist in motherboard & chip-level service.',
-  keywords: [
-    "laptop repair Vijay Nagar Indore", 
-    "laptop service center Indore", 
-    "Lap-X Indore", 
-    "laptop repair near me", 
-    "Orbit Mall laptop service",
-    "chip level motherboard repair Indore"
+title: {
+  default: 'Lap-X | Best Laptop Service Center in Indore | Apple, Dell, HP, MSI, Asus',
+  template: '%s | Lap-X Indore'
+},
+description: 'Indore\'s trusted laptop repair experts at Orbit Mall. Certified service for Apple, Dell, HP, MSI, Asus, & Lenovo. Specialized in chip-level motherboard repair.',
+keywords: [
+    "Apple Service Center Indore",
+
+    "Dell Laptop Service Center Indore",
+
+    "HP Laptop Repair Indore",
+
+    "Lenovo Service Center Indore",
+
+    "Asus Laptop Repair Indore",
+
+    "Acer Service Center Indore",
+
+    "MSI Gaming Laptop Repair Indore"
   ],
   
   // Advanced Robots instructions

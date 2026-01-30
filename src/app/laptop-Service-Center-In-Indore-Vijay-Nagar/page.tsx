@@ -11,24 +11,25 @@ export const metadata: Metadata = {
   description:
     "LAPX (Lapzoo) provides expert HP, Dell, ASUS & Lenovo laptop repairs in Vijay Nagar, Indore. Fast service, genuine parts, and 1,500+ happy customers.",
   keywords: [
-    "Laptop Repair Vijay Nagar",
-    "Laptop Repair Near Me Vijay Nagar",
-    "HP Laptop Repair Vijay Nagar",
-    "Dell Laptop Service Center Vijay Nagar",
-    "ASUS Repair Vijay Nagar",
-    "Lenovo Laptop Repair Indore",
-    "Laptop Service Center Vijay Nagar",
+    "Laptop Service Center In Indore, Vijay Nagar",
+    "Laptop Service Center Near Me In Indore, Vijay Nagar",
+    "HP Laptop Service Center In Indore",
+    "Dell Laptop Service Center In Indore, Vijay Nagar",
+    "ASUS Service Center In Indore, Vijay Nagar",
+    "Lenovo Service Center In Indore, Vijay Nagar",
+    "Macbook Service Center In Indore, Vijay Nagar",
+    "Apple Service Center In Indore, Vijay Nagar"
   ],
   metadataBase: new URL("https://lapx.co.in"),
   openGraph: {
-    title: "Laptop Repair in Vijay Nagar, Indore | LAPX ",
+    title: "Laptop Service Center In Indore, Vijay Nagar | LAPX ",
     description:
       "Expert HP, Dell, ASUS & Lenovo laptop repairs in Vijay Nagar, Indore. Genuine parts and fast service by LAPX (Lapzoo).",
     url: "/laptop-repair-in-vijay-nagar-indore",
     siteName: "LAPX Service Center",
     images: [
       {
-        url: "/homepage-og.jpg",
+        url: "/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "LAPX (Lapzoo) Laptop Repair Service Center Vijay Nagar, Indore",

@@ -77,7 +77,7 @@ const DellServiceCenterPage: React.FC = () => {
       <BrandHeader
         logo="/logos/dell-logo.webp"
         brandName="DELL"
-        tagline="Premium Dell Laptop Repair You Can Trust."
+        tagline="Certified Dell Service Center In Indore"
       />
 
       {/* CAROUSEL */}

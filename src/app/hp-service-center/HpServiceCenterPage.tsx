@@ -76,7 +76,7 @@ const HpServiceCenterPage: React.FC = () => {
       <BrandHeader
         logo="/logos/hp-logo.webp"
         brandName="HP"
-        tagline="Premium HP Laptop Repair You Can Trust."
+        tagline="Certified HP Service Center In Indore"
       />
 
       {/* CAROUSEL */}
