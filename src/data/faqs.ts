@@ -44,6 +44,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "How can I fix the 'USB Device Over Current Status Detected' error on my Asus laptop?",
         answer: "This error is a protective measure when a USB port is shorted or a component on the motherboard is drawing too much power. Inspect your USB ports for bent pins. If the ports look clean, the 5V power IC on the motherboard is likely damaged. Visit our Asus Service Center in Indore Vijay Nagar at Lap-X, located in LG-31, Orbit Mall, Opposite to C21 Mall. Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for professional Chip-level repairing."
+      },
+      {
+        question: "My Asus laptop battery is stuck at 0% and says 'Plugged in, not charging.' Is the battery dead?",
+        answer: "Not necessarily. This can be caused by a 'frozen' battery management controller or a failed charging IC on the motherboard. Try a BIOS reset by holding the power button for 40 seconds. If that fails, it requires a hardware check. Visit our Asus Service Center in Indore Vijay Nagar at Lap-X, located in LG-31, Orbit Mall, Opposite to C21 Mall. Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for Genuine parts and Same-day repair."
       }
     ]
   },
@@ -78,6 +82,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "Why is my MSI laptop stuck in 'Dragon Center' or 'MSI Center' and won't switch power modes?",
         answer: "This is often a software conflict with the 'EC' (Embedded Controller). You can perform an EC Reset by shuting down the laptop and holding the power button for 30 seconds (or using the reset pinhole on the bottom). If software resets don't work, the EC chip might need reprogramming. Visit LapX Certified MSI Service Center in Indore at LG-31, Orbit Mall, Opposite to C21 Mall, Vijay Nagar. Open Daily 10:00 AM – 9:30 PM. Call 9111000757."
+      },
+      {
+        question: "How do I fix an MSI laptop that suddenly stopped detecting Wi-Fi networks?",
+        answer: "First, try a 'Network Reset' in Windows settings or toggle the 'Airplane Mode' key. If the Wi-Fi option is missing from the taskbar, the internal Wi-Fi card may have loosened due to gaming vibrations or has failed. For a quick card reseating or replacement, visit LapX Certified MSI Service Center in Indore at LG-31, Orbit Mall, Opposite to C21 Mall, Vijay Nagar. Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for expert Gaming Laptop Repair Indore."
       }
     ]
   },
@@ -112,6 +120,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "Why does my MacBook restart unexpectedly with a 'Kernel Panic' error message?",
         answer: "Kernel panics are often caused by faulty RAM, incompatible peripherals, or deep-seated logic board issues. Try disconnecting all accessories and booting in Safe Mode. If the issue persists, it usually indicates a hardware fault in the power rails or CPU. Bring your laptop to LapX Certified Apple Service Center in Indore which is located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for expert MacBook Repair Indore."
+      },
+      {
+        question: "Why is my MacBook screen showing 'Stage Light' or vertical bars at the bottom?",
+        answer: "This 'Stage Light' effect is a sign of 'Flexgate,' where the thin display flex cables wear out from opening and closing the lid. Instead of a full screen replacement, we can often repair the existing cable. Bring your laptop to LapX Certified Apple Service Center in Indore which is located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for specialized MacBook Repair Indore."
       }
     ]
   },
@@ -144,6 +156,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "My Dell laptop screen has vertical colored lines that move when I touch the lid. Is it a software issue?",
         answer: "No, colored lines that change when the lid moves indicate a faulty EDP (display) cable or a failing LCD panel. It is a hardware fault. For genuine Dell screen replacement in Vijay Nagar, visit LapX at LG-31, Orbit Mall, Opposite to C21 Mall, Vijay Nagar. Our Expert technicians provide Same-day repair with Genuine parts. Open Daily 10:00 AM – 9:30 PM. Call 9111000757."
+      },
+      {
+        question: "Why does my Dell laptop keep saying 'AC Power Adapter Type Cannot Be Determined'?",
+        answer: "This is a common Dell issue where the center 'ID Pin' in the charger or the charging port (DC Jack) is damaged, causing the laptop to run slowly and not charge the battery. To fix this, the DC Jack or the adapter needs replacement. Visit LapX Certified Dell Service Center in Indore at LG-31, Orbit Mall Opposite to C21 Mall, Vijay Nagar. We are open Daily 10:00 AM – 9:30 PM. Call 9111000757 for genuine Dell parts."
       }
     ]
   },

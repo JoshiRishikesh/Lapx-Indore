@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     siteName: "LapX Service Center",
     images: [
       {
-        url: "/homepage-og.jpg", 
+        url: "/og-image.jpg", 
         width: 1200,
         height: 630,
         alt: "LapX Certified Laptop Service Center Indore Vijay Nagar",
