@@ -48,6 +48,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "My Asus laptop battery is stuck at 0% and says 'Plugged in, not charging.' Is the battery dead?",
         answer: "Not necessarily. This can be caused by a 'frozen' battery management controller or a failed charging IC on the motherboard. Try a BIOS reset by holding the power button for 40 seconds. If that fails, it requires a hardware check. Visit our Asus Service Center in Indore Vijay Nagar at Lap-X, located in LG-31, Orbit Mall, Opposite to C21 Mall. Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for Genuine parts and Same-day repair."
+      },
+      {
+        question: "How do I fix the 'Pin-Wheeling' or constant loading cursor on my Asus Zenbook?",
+        answer: "This is often a sign of a fragmented Hard Drive or a thermal issue where the CPU is too hot to process data. Try cleaning your temporary files and checking background apps in Task Manager. If the speed doesn't improve, it's time for an SSD Upgrade for Laptop Indore. Visit our Asus Service Center in Indore Vijay Nagar at Lap-X, located in LG-31, Orbit Mall, Opposite to C21 Mall. Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for Same-day repair."
       }
     ]
   },
@@ -86,6 +90,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "How do I fix an MSI laptop that suddenly stopped detecting Wi-Fi networks?",
         answer: "First, try a 'Network Reset' in Windows settings or toggle the 'Airplane Mode' key. If the Wi-Fi option is missing from the taskbar, the internal Wi-Fi card may have loosened due to gaming vibrations or has failed. For a quick card reseating or replacement, visit LapX Certified MSI Service Center in Indore at LG-31, Orbit Mall, Opposite to C21 Mall, Vijay Nagar. Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for expert Gaming Laptop Repair Indore."
+      },
+      {
+        question: "My MSI laptop screen is flickering when I change the brightness. What should I do?",
+        answer: "Flickering during brightness adjustment usually points to a failing backlight inverter or a loose display (EDP) cable. In some cases, it can be a driver conflict with the MSI True Color app. For a professional hardware check, visit LapX Certified MSI Service Center in Indore located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for expert Gaming Laptop Repair Indore."
       }
     ]
   },
@@ -124,6 +132,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "Why is my MacBook screen showing 'Stage Light' or vertical bars at the bottom?",
         answer: "This 'Stage Light' effect is a sign of 'Flexgate,' where the thin display flex cables wear out from opening and closing the lid. Instead of a full screen replacement, we can often repair the existing cable. Bring your laptop to LapX Certified Apple Service Center in Indore which is located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for specialized MacBook Repair Indore."
+      },
+      {
+        question: "Why is my MacBook Pro keyboard not responding, or keys are getting stuck?",
+        answer: "On older MacBook models with butterfly switches, even a tiny speck of dust can cause keys to fail. For newer M1/M2/M3 Macs, it is usually caused by a software glitch or a faulty trackpad cable which controls the keyboard. Try an external keyboard to confirm. If it's a hardware issue, bring your laptop to LapX Certified Apple Service Center in Indore which is located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for MacBook Repair Indore."
       }
     ]
   },
@@ -178,6 +190,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "My Lenovo Legion/IdeaPad is very slow and the disk usage is always at 100% in Task Manager.",
         answer: "If you are using a traditional HDD, it is likely failing or cannot keep up with Windows 11 updates. The best solution is to migrate to an NVMe SSD. We specialize in SSD Upgrade for Laptop Indore to make your device 10x faster. For expert Lenovo Laptop Repair Indore, visit LapX at LG-31, Orbit Mall, Opposite to C21 Mall, Vijay Nagar. We provide Same-day repair and are open Daily 10:00 AM – 9:30 PM. Call 9111000757."
+      },
+      {
+        question: "Why does my Lenovo Yoga/Flex laptop screen show 'Ghost Touches' (touching itself)?",
+        answer: "Ghost touches are often caused by static buildup or a hairline crack in the digitizer. You can try disabling and re-enabling the 'HID-compliant touch screen' in Device Manager as a temporary fix. For a permanent solution, the touch glass may need replacement. Visit LapX at LG-31, Orbit Mall Opposite to C21 Mall, Vijay Nagar, the best Lenovo Laptop Repair Indore center. Open Daily 10:00 AM – 9:30 PM. Call 9111000757."
       }
     ]
   },
