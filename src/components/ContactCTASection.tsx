@@ -19,7 +19,7 @@ export default function ContactCTASection() {
 
         {/* Address */}
         <p className="mt-4 text-lg text-gray-300">
-          LG-11, Orbit Mall, Vijay Nagar, Indore — Open Daily 10:00 AM – 9:30 PM
+          Lower Ground Floor, LG-31, Orbit Mall, Vijay Nagar, Indore — Open Daily 10:00 AM – 9:30 PM
         </p>
 
         {/* Optional service reinforcement */}

@@ -24,7 +24,7 @@ const Footer: React.FC = () => {
           <div className="space-y-4">
             <h3 className={headingClass}>Visit Lap-X</h3> 
             <div className={textClass}>
-              <p className="font-medium text-gray-200">LG-11, Orbit Mall</p>
+              <p className="font-medium text-gray-200">Lower Ground Floor, LG-31, Orbit Mall</p>
               <p>Vijay Nagar, Indore, MP 452010</p>
             </div>
             <div className="pt-2">

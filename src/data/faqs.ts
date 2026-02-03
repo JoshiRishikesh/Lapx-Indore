@@ -52,6 +52,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "How do I fix the 'Pin-Wheeling' or constant loading cursor on my Asus Zenbook?",
         answer: "This is often a sign of a fragmented Hard Drive or a thermal issue where the CPU is too hot to process data. Try cleaning your temporary files and checking background apps in Task Manager. If the speed doesn't improve, it's time for an SSD Upgrade for Laptop Indore. Visit our Asus Service Center in Indore Vijay Nagar at Lap-X, located in LG-31, Orbit Mall, Opposite to C21 Mall. Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for Same-day repair."
+      },
+      {
+        question: "My Asus ROG laptop fans are spinning but there is no air coming out. Why?",
+        answer: "This is a common issue where dust has formed a 'carpet' or 'lint wall' between the fan and the copper heatsink fins, blocking all airflow. This causes the laptop to reach 90°C+ and shut down. A deep internal cleaning and thermal paste replacement are required. Visit our Asus Service Center in Indore Vijay Nagar at Lap-X, located in LG-31, Orbit Mall, Opposite to C21 Mall. Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for expert thermal management."
       }
     ]
   },
@@ -94,6 +98,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "My MSI laptop screen is flickering when I change the brightness. What should I do?",
         answer: "Flickering during brightness adjustment usually points to a failing backlight inverter or a loose display (EDP) cable. In some cases, it can be a driver conflict with the MSI True Color app. For a professional hardware check, visit LapX Certified MSI Service Center in Indore located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for expert Gaming Laptop Repair Indore."
+      },
+      {
+        question: "How do I fix the 'Battery LED Blinking Orange' on my MSI laptop?",
+        answer: "A blinking orange light typically means the battery has suffered a permanent failure or the charging circuit on the motherboard is malfunctioning. Try an 'EC Reset' by pressing the reset hole on the bottom for 10 seconds. If the blinking continues, the battery needs replacement. Visit LapX Certified MSI Service Center in Indore at LG-31, Orbit Mall, Opposite to C21 Mall, Vijay Nagar. Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for Gaming Laptop Repair Indore."
       }
     ]
   },
@@ -136,6 +144,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "Why is my MacBook Pro keyboard not responding, or keys are getting stuck?",
         answer: "On older MacBook models with butterfly switches, even a tiny speck of dust can cause keys to fail. For newer M1/M2/M3 Macs, it is usually caused by a software glitch or a faulty trackpad cable which controls the keyboard. Try an external keyboard to confirm. If it's a hardware issue, bring your laptop to LapX Certified Apple Service Center in Indore which is located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for MacBook Repair Indore."
+      },
+      {
+        question: "Why is my MacBook stuck on the 'Loading Bar' during startup?",
+        answer: "A MacBook stuck on the Apple logo with a loading bar usually indicates a corrupted File System or a failing SSD/Logic Board component. You can try booting into 'Recovery Mode' (Command + R or holding the Power button) to run Disk Utility. If First Aid fails, it likely requires professional data recovery or chip-level repair. Bring your laptop to LapX Certified Apple Service Center in Indore which is located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for MacBook Repair Indore."
       }
     ]
   },
@@ -212,6 +224,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "How do I fix an HP laptop that is stuck on the 'HP' logo and won't load Windows?",
         answer: "This is often a 'Boot Loop' caused by a corrupted Windows update or a failing hard drive/SSD. You can try a BIOS reset by tapping F10 during startup. If the hardware is failing, an SSD upgrade is the best solution. Visit LapX at LG-31, Orbit Mall Opposite to C21 Mall, Vijay Nagar, the best HP Laptop Service Center Indore Vijay Nagar. Open Daily 10:00 AM – 9:30 PM. Call 9111000757."
+      },
+      {
+        question: "Why is my HP laptop screen dim even at 100% brightness?",
+        answer: "If your HP screen is very dark, it could be a failing backlight LED, a faulty hall sensor (lid sensor), or a blown backlight fuse on the motherboard. Sometimes, it's caused by the 'Adaptive Brightness' setting in the Intel Graphics Command Center. For a hardware fix, visit LapX at LG-31, Orbit Mall Opposite to C21 Mall, Vijay Nagar, the leading HP Laptop Service Center Indore Vijay Nagar. Open Daily 10:00 AM – 9:30 PM. Call 9111000757."
       }
     ]
   },

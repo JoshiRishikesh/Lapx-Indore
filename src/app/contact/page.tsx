@@ -57,7 +57,7 @@ const ContactPage: React.FC = () => {
                   Address
                 </h3>
                 <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-                  LG-31, Orbit Mall (Arbitto Mall) <br />
+                  Lower Ground Floor, LG-31, Orbit Mall (Arbitto Mall) <br />
                   Near C21 &amp; Malhar Mall, AB Road Vijay Nagar <br />
                   Indore 452010
                 </p>
