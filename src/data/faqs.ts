@@ -56,6 +56,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "My Asus ROG laptop fans are spinning but there is no air coming out. Why?",
         answer: "This is a common issue where dust has formed a 'carpet' or 'lint wall' between the fan and the copper heatsink fins, blocking all airflow. This causes the laptop to reach 90°C+ and shut down. A deep internal cleaning and thermal paste replacement are required. Visit our Asus Service Center in Indore Vijay Nagar at Lap-X, located in LG-31, Orbit Mall, Opposite to C21 Mall. Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for expert thermal management."
+      },
+      {
+        question: "How do I fix my Asus laptop if the Wi-Fi icon has completely disappeared?",
+        answer: "This 'Missing Wi-Fi' issue is common in Asus TUF and ROG series due to the Wi-Fi card overheating or getting loose. Try a 'Network Reset' in Windows settings first. If the icon doesn't return, the card may need to be reseated or replaced with a more stable Intel card. Visit our Asus Service Center in Indore Vijay Nagar at Lap-X, located in LG-31, Orbit Mall, Opposite to C21 Mall. Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for Same-day repair."
       }
     ]
   },
@@ -102,6 +106,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "How do I fix the 'Battery LED Blinking Orange' on my MSI laptop?",
         answer: "A blinking orange light typically means the battery has suffered a permanent failure or the charging circuit on the motherboard is malfunctioning. Try an 'EC Reset' by pressing the reset hole on the bottom for 10 seconds. If the blinking continues, the battery needs replacement. Visit LapX Certified MSI Service Center in Indore at LG-31, Orbit Mall, Opposite to C21 Mall, Vijay Nagar. Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for Gaming Laptop Repair Indore."
+      },
+      {
+        question: "Why is the paint on my MSI laptop palm rest peeling or bubbling?",
+        answer: "This is often caused by 'Palm Sweat Acidity' reacting with the chassis coating, or excessive internal heat transferring to the surface. To prevent further damage, avoid using harsh cleaning chemicals. If you want a fresh look, we offer body part replacements. Visit LapX Certified MSI Service Center in Indore located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for expert Gaming Laptop Repair Indore."
       }
     ]
   },
@@ -148,6 +156,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "Why is my MacBook stuck on the 'Loading Bar' during startup?",
         answer: "A MacBook stuck on the Apple logo with a loading bar usually indicates a corrupted File System or a failing SSD/Logic Board component. You can try booting into 'Recovery Mode' (Command + R or holding the Power button) to run Disk Utility. If First Aid fails, it likely requires professional data recovery or chip-level repair. Bring your laptop to LapX Certified Apple Service Center in Indore which is located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for MacBook Repair Indore."
+      },
+      {
+        question: "Why does my MacBook trackpad stop clicking when the laptop gets hot?",
+        answer: "This is a major warning sign of battery swelling. As the battery heats up and expands, it puts pressure on the trackpad assembly from below, making it physically impossible to click. Continued use can crack the glass trackpad. Bring your laptop to LapX Certified Apple Service Center in Indore which is located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for immediate MacBook Repair Indore."
       }
     ]
   },
@@ -246,6 +258,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "My Acer Nitro 5 is turning on, but the keyboard backlight flashes and it immediately shuts off. Why?",
         answer: "This sequence usually indicates a 'short to ground' on the main power rail or a failure in the RAM power circuit. It prevents the laptop from booting to protect the CPU. For a precision diagnostic and motherboard fix, visit LapX Certified Acer Service Center in Indore at LG-31, Orbit Mall Opposite to C21 Mall, Vijay Nagar. We specialize in Acer charging port repair and Chip-level repairing. Open Daily 10:00 AM – 9:30 PM. Call 9111000757."
+      },
+      {
+        question: "Why does my Acer Predator/Nitro laptop shut down as soon as I unplug the charger?",
+        answer: "This indicates a 'Battery Communication' failure. High-performance Acer laptops can sometimes blow a MOSFET on the motherboard's charging circuit, or the battery has reached its end-of-life cycle. For a precision motherboard repair or battery swap, visit LapX Certified Acer Service Center in Indore at LG-31, Orbit Mall Opposite to C21 Mall, Vijay Nagar. Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for Chip-level repairing."
       }
     ]
   }
