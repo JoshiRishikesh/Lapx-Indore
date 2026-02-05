@@ -60,6 +60,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "How do I fix my Asus laptop if the Wi-Fi icon has completely disappeared?",
         answer: "This 'Missing Wi-Fi' issue is common in Asus TUF and ROG series due to the Wi-Fi card overheating or getting loose. Try a 'Network Reset' in Windows settings first. If the icon doesn't return, the card may need to be reseated or replaced with a more stable Intel card. Visit our Asus Service Center in Indore Vijay Nagar at Lap-X, located in LG-31, Orbit Mall, Opposite to C21 Mall. Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for Same-day repair."
+      },
+      {
+        question: "How do I fix an Asus laptop that is stuck in a 'BIOS Loop' and won't boot Windows?",
+        answer: "A BIOS loop usually means the motherboard cannot detect a bootable drive, often due to a loose or failed SSD. It can also happen if the 'Launch CSM' or 'Secure Boot' settings were changed after a Windows update. Try resetting BIOS to defaults (F9, then F10). If the SSD is still not listed, visit our Asus Service Center in Indore Vijay Nagar at Lap-X, located in LG-31, Orbit Mall, Opposite to C21 Mall. Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for SSD Upgrade for Laptop Indore."
       }
     ]
   },
@@ -110,6 +114,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "Why is the paint on my MSI laptop palm rest peeling or bubbling?",
         answer: "This is often caused by 'Palm Sweat Acidity' reacting with the chassis coating, or excessive internal heat transferring to the surface. To prevent further damage, avoid using harsh cleaning chemicals. If you want a fresh look, we offer body part replacements. Visit LapX Certified MSI Service Center in Indore located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for expert Gaming Laptop Repair Indore."
+      },
+      {
+        question: "My MSI laptop keyboard is missing keypresses or double-typing. Can this be repaired?",
+        answer: "Mechanical or membrane fatigue is common in MSI gaming keyboards due to high-intensity use. While cleaning with isopropyl alcohol might help temporarily, it usually requires a full keyboard replacement. For professional MSI keyboard repair, visit LapX Certified MSI Service Center in Indore located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for expert Gaming Laptop Repair Indore."
       }
     ]
   },
@@ -160,6 +168,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "Why does my MacBook trackpad stop clicking when the laptop gets hot?",
         answer: "This is a major warning sign of battery swelling. As the battery heats up and expands, it puts pressure on the trackpad assembly from below, making it physically impossible to click. Continued use can crack the glass trackpad. Bring your laptop to LapX Certified Apple Service Center in Indore which is located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for immediate MacBook Repair Indore."
+      },
+      {
+        question: "Why does my MacBook screen have vertical flickering lines or a 'shutter' effect?",
+        answer: "Vertical lines or a 'shutter' flickering effect are often symptoms of a damaged display flex cable or 'Flexgate' issue, where the cable wears down from repeated lid movement. In some cases, it can also be a failing T-CON board. Bring your laptop to LapX Certified Apple Service Center in Indore which is located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for expert MacBook Repair Indore and screen replacement."
       }
     ]
   },
@@ -196,6 +208,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "Why does my Dell laptop keep saying 'AC Power Adapter Type Cannot Be Determined'?",
         answer: "This is a common Dell issue where the center 'ID Pin' in the charger or the charging port (DC Jack) is damaged, causing the laptop to run slowly and not charge the battery. To fix this, the DC Jack or the adapter needs replacement. Visit LapX Certified Dell Service Center in Indore at LG-31, Orbit Mall Opposite to C21 Mall, Vijay Nagar. We are open Daily 10:00 AM – 9:30 PM. Call 9111000757 for genuine Dell parts."
+      },
+      {
+        question: "Why is my Dell laptop making a loud beeping sound (3 or 7 times) when I turn it on?",
+        answer: "Dell laptops use 'Beep Codes' to signal hardware failure. For example, 3 beeps often indicate a Chipset/Motherboard failure, while 7 beeps usually mean a CPU/Processor error. These require advanced diagnostic tools to locate the short circuit. Visit LapX Certified Dell Service Center in Indore at LG-31, Orbit Mall Opposite to C21 Mall, Vijay Nagar. We specialize in Dell motherboard repair and Chip-level repairing. Open Daily 10:00 AM – 9:30 PM. Call 9111000757."
       }
     ]
   },
