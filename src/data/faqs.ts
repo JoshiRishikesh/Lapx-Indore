@@ -64,6 +64,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "How do I fix an Asus laptop that is stuck in a 'BIOS Loop' and won't boot Windows?",
         answer: "A BIOS loop usually means the motherboard cannot detect a bootable drive, often due to a loose or failed SSD. It can also happen if the 'Launch CSM' or 'Secure Boot' settings were changed after a Windows update. Try resetting BIOS to defaults (F9, then F10). If the SSD is still not listed, visit our Asus Service Center in Indore Vijay Nagar at Lap-X, located in LG-31, Orbit Mall, Opposite to C21 Mall. Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for SSD Upgrade for Laptop Indore."
+      },
+      {
+        question: "How do I fix the 'USB Device Over Current Status Detected' error on my Asus motherboard?",
+        answer: "This error is a safety shut-off triggered when a USB port has bent pins or a component on the motherboard has shorted out. Unplug all USB devices and check the ports for damage. If the error persists, the 5V power controller chip likely needs replacement. Visit our Asus Service Center in Indore Vijay Nagar at LapX, located in LG-31, Orbit Mall, Opposite to C21 Mall. Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for specialized Chip-level repairing."
       }
     ]
   },
@@ -118,6 +122,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "My MSI laptop keyboard is missing keypresses or double-typing. Can this be repaired?",
         answer: "Mechanical or membrane fatigue is common in MSI gaming keyboards due to high-intensity use. While cleaning with isopropyl alcohol might help temporarily, it usually requires a full keyboard replacement. For professional MSI keyboard repair, visit LapX Certified MSI Service Center in Indore located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for expert Gaming Laptop Repair Indore."
+      },
+      {
+        question: "My MSI laptop hinge is making a cracking sound. Should I keep using it?",
+        answer: "No, stop immediately! MSI gaming laptops often have tight hinges that pull away from the plastic frame. Forcing it will eventually crack the LCD panel or the bezel. We can reinforce the hinge mounts with industrial epoxy to make them stronger than the original. Visit LapX Certified MSI Service Center in Indore located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for professional hinge repair and Gaming Laptop Repair Indore."
       }
     ]
   },
@@ -172,6 +180,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "Why does my MacBook screen have vertical flickering lines or a 'shutter' effect?",
         answer: "Vertical lines or a 'shutter' flickering effect are often symptoms of a damaged display flex cable or 'Flexgate' issue, where the cable wears down from repeated lid movement. In some cases, it can also be a failing T-CON board. Bring your laptop to LapX Certified Apple Service Center in Indore which is located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for expert MacBook Repair Indore and screen replacement."
+      },
+      {
+        question: "Why does my MacBook Pro screen go black when I open it more than 45 degrees?",
+        answer: "This is a classic 'Flexgate' symptom caused by the display flex cable being too short and wearing out over time. When the lid is opened past a certain angle, the connection breaks. Instead of a full screen replacement, we can often perform a micro-solder repair to extend the cable. Bring your laptop to LapX Certified Apple Service Center in Indore which is located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for expert MacBook Repair Indore."
       }
     ]
   },
@@ -234,6 +246,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "Why does my Lenovo Yoga/Flex laptop screen show 'Ghost Touches' (touching itself)?",
         answer: "Ghost touches are often caused by static buildup or a hairline crack in the digitizer. You can try disabling and re-enabling the 'HID-compliant touch screen' in Device Manager as a temporary fix. For a permanent solution, the touch glass may need replacement. Visit LapX at LG-31, Orbit Mall Opposite to C21 Mall, Vijay Nagar, the best Lenovo Laptop Repair Indore center. Open Daily 10:00 AM – 9:30 PM. Call 9111000757."
+      },
+      {
+        question: "Why is my Lenovo ThinkPad/IdeaPad stuck on a 'Black Screen with Cursor' after login?",
+        answer: "This is usually caused by a corrupted 'Windows Explorer' process or a failing storage drive. You can try pressing Ctrl+Alt+Del to open Task Manager and manually start 'explorer.exe'. If the issue repeats, your SSD might have bad sectors. For a reliable SSD Upgrade for Laptop Indore, visit LapX at LG-31, Orbit Mall Opposite to C21 Mall, Vijay Nagar. Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for Lenovo Laptop Repair Indore."
       }
     ]
   },
