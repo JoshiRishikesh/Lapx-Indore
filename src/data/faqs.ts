@@ -68,6 +68,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "How do I fix the 'USB Device Over Current Status Detected' error on my Asus motherboard?",
         answer: "This error is a safety shut-off triggered when a USB port has bent pins or a component on the motherboard has shorted out. Unplug all USB devices and check the ports for damage. If the error persists, the 5V power controller chip likely needs replacement. Visit our Asus Service Center in Indore Vijay Nagar at LapX, located in LG-31, Orbit Mall, Opposite to C21 Mall. Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for specialized Chip-level repairing."
+      },
+      {
+        question: "My Asus ROG/TUF laptop is dropping FPS suddenly during gaming. Is it a software bug?",
+        answer: "This is likely 'Thermal Throttling.' When dust clogs the cooling fins or the thermal paste dries out, the CPU/GPU slows down to prevent overheating, causing frame drops. A professional internal cleaning and high-quality thermal paste application usually solve this. Visit our Asus Service Center in Indore Vijay Nagar at LapX, located in LG-31, Orbit Mall, Opposite to C21 Mall. Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for expert thermal management and Same-day repair."
       }
     ]
   },
@@ -126,6 +130,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "My MSI laptop hinge is making a cracking sound. Should I keep using it?",
         answer: "No, stop immediately! MSI gaming laptops often have tight hinges that pull away from the plastic frame. Forcing it will eventually crack the LCD panel or the bezel. We can reinforce the hinge mounts with industrial epoxy to make them stronger than the original. Visit LapX Certified MSI Service Center in Indore located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for professional hinge repair and Gaming Laptop Repair Indore."
+      },
+      {
+        question: "How do I fix the 'No Bootable Device' error on my MSI gaming laptop?",
+        answer: "This error means your motherboard cannot find the SSD. It can be caused by a failed SSD or a corrupted boot sector. Try reseating the SSD or checking BIOS settings (F2/Del key). If the drive is dead, we can help with data recovery and a new drive installation. Visit LapX Certified MSI Service Center in Indore located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for SSD Upgrade for Laptop Indore and Gaming Laptop Repair Indore."
       }
     ]
   },
@@ -184,6 +192,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "Why does my MacBook Pro screen go black when I open it more than 45 degrees?",
         answer: "This is a classic 'Flexgate' symptom caused by the display flex cable being too short and wearing out over time. When the lid is opened past a certain angle, the connection breaks. Instead of a full screen replacement, we can often perform a micro-solder repair to extend the cable. Bring your laptop to LapX Certified Apple Service Center in Indore which is located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for expert MacBook Repair Indore."
+      },
+      {
+        question: "Why does my MacBook trackpad feel 'mushy' or won't click physically?",
+        answer: "A trackpad that loses its 'click' feel is a major warning sign of a swollen battery. As the lithium-ion cells expand, they press against the trackpad from underneath, causing it to jam. Continuing to use it can crack the glass trackpad. Bring your laptop to LapX Certified Apple Service Center in Indore which is located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for immediate MacBook Repair Indore and battery replacement."
       }
     ]
   },
@@ -272,6 +284,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "Why is my HP laptop screen dim even at 100% brightness?",
         answer: "If your HP screen is very dark, it could be a failing backlight LED, a faulty hall sensor (lid sensor), or a blown backlight fuse on the motherboard. Sometimes, it's caused by the 'Adaptive Brightness' setting in the Intel Graphics Command Center. For a hardware fix, visit LapX at LG-31, Orbit Mall Opposite to C21 Mall, Vijay Nagar, the leading HP Laptop Service Center Indore Vijay Nagar. Open Daily 10:00 AM – 9:30 PM. Call 9111000757."
+      },
+      {
+        question: "Why is my HP Pavilion/Omen laptop fan making a loud grinding or rattling noise?",
+        answer: "Loud rattling usually indicates that the fan bearing has worn out or a blade is hitting the fan housing. Cleaning with air might not work if the hardware is physically damaged. A genuine fan replacement is required to avoid CPU damage. Visit LapX at LG-31, Orbit Mall Opposite to C21 Mall, Vijay Nagar, the best HP Laptop Service Center Indore Vijay Nagar. Open Daily 10:00 AM – 9:30 PM. Call 9111000757."
       }
     ]
   },
