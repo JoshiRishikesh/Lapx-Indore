@@ -72,6 +72,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "My Asus ROG/TUF laptop is dropping FPS suddenly during gaming. Is it a software bug?",
         answer: "This is likely 'Thermal Throttling.' When dust clogs the cooling fins or the thermal paste dries out, the CPU/GPU slows down to prevent overheating, causing frame drops. A professional internal cleaning and high-quality thermal paste application usually solve this. Visit our Asus Service Center in Indore Vijay Nagar at LapX, located in LG-31, Orbit Mall, Opposite to C21 Mall. Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for expert thermal management and Same-day repair."
+      },
+      {
+        question: "My Asus laptop keyboard is typing the wrong characters or multiple letters. How to fix?",
+        answer: "This is usually caused by 'matrix failure' due to humidity or a minor liquid spill. Before replacing the keyboard, try uninstalling the 'HID Keyboard Device' from Device Manager and restarting. If it persists, the internal keyboard membrane is damaged. For a genuine replacement, visit our Asus Service Center in Indore Vijay Nagar at LapX, located in LG-31, Orbit Mall, Opposite to C21 Mall. Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for same-day repair."
       }
     ]
   },
@@ -134,6 +138,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "How do I fix the 'No Bootable Device' error on my MSI gaming laptop?",
         answer: "This error means your motherboard cannot find the SSD. It can be caused by a failed SSD or a corrupted boot sector. Try reseating the SSD or checking BIOS settings (F2/Del key). If the drive is dead, we can help with data recovery and a new drive installation. Visit LapX Certified MSI Service Center in Indore located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for SSD Upgrade for Laptop Indore and Gaming Laptop Repair Indore."
+      },
+      {
+        question: "Why is my MSI laptop stuck in an 'Automatic Repair' loop after a Windows update?",
+        answer: "An Automatic Repair loop usually signifies a corrupted boot sector or a failing SSD. In MSI laptops, high heat can sometimes desolder SSD components over time. You can try a 'System Restore' from the advanced options, but if it fails, the SSD likely needs replacement. Visit LapX Certified MSI Service Center in Indore located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for Gaming Laptop Repair Indore and SSD Upgrade for Laptop Indore."
       }
     ]
   },
@@ -196,6 +204,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "Why does my MacBook trackpad feel 'mushy' or won't click physically?",
         answer: "A trackpad that loses its 'click' feel is a major warning sign of a swollen battery. As the lithium-ion cells expand, they press against the trackpad from underneath, causing it to jam. Continuing to use it can crack the glass trackpad. Bring your laptop to LapX Certified Apple Service Center in Indore which is located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for immediate MacBook Repair Indore and battery replacement."
+      },
+      {
+        question: "Why does my MacBook screen stay black even though I can hear the startup chime?",
+        answer: "This often indicates a backlight failure or a faulty hall sensor (the sensor that tells the Mac the lid is closed). You can check by shining a bright light at the screen; if you see a faint image, the backlight circuit on the logic board needs repair. Bring your laptop to LapX Certified Apple Service Center in Indore which is located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for expert MacBook Repair Indore."
       }
     ]
   },
@@ -310,6 +322,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "Why does my Acer Predator/Nitro laptop shut down as soon as I unplug the charger?",
         answer: "This indicates a 'Battery Communication' failure. High-performance Acer laptops can sometimes blow a MOSFET on the motherboard's charging circuit, or the battery has reached its end-of-life cycle. For a precision motherboard repair or battery swap, visit LapX Certified Acer Service Center in Indore at LG-31, Orbit Mall Opposite to C21 Mall, Vijay Nagar. Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for Chip-level repairing."
+      },
+      {
+        question: "My Acer Nitro 5 is turning on but the screen is completely white. What happened?",
+        answer: "A solid white screen is usually a sign of a faulty LCD cable or a blown fuse on the LCD panel itself. It happens when the internal display cable gets pinched in the hinge. For a precision display diagnostic or Acer screen replacement, visit LapX Certified Acer Service Center in Indore at LG-31, Orbit Mall Opposite to C21 Mall, Vijay Nagar. Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for expert Chip-level repairing."
       }
     ]
   }
