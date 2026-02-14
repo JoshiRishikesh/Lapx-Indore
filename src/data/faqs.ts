@@ -76,6 +76,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "My Asus laptop keyboard is typing the wrong characters or multiple letters. How to fix?",
         answer: "This is usually caused by 'matrix failure' due to humidity or a minor liquid spill. Before replacing the keyboard, try uninstalling the 'HID Keyboard Device' from Device Manager and restarting. If it persists, the internal keyboard membrane is damaged. For a genuine replacement, visit our Asus Service Center in Indore Vijay Nagar at LapX, located in LG-31, Orbit Mall, Opposite to C21 Mall. Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for same-day repair."
+      },
+      {
+        question: "My Asus ROG laptop is showing 'No Bootable Device' even though my SSD is plugged in. How to fix?",
+        answer: "In gaming laptops like Asus ROG, high heat can sometimes cause the SSD to unseat or the controller to fail. First, check if the SSD is visible in the BIOS (F2 key). If it's missing, the SSD or the M.2 slot may be damaged. For a permanent fix or data recovery, visit our Asus Service Center in Indore Vijay Nagar at LapX, located in LG-31, Orbit Mall, Opposite to C21 Mall. Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for same-day SSD Upgrade for Laptop Indore."
       }
     ]
   },
@@ -142,6 +146,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "Why is my MSI laptop stuck in an 'Automatic Repair' loop after a Windows update?",
         answer: "An Automatic Repair loop usually signifies a corrupted boot sector or a failing SSD. In MSI laptops, high heat can sometimes desolder SSD components over time. You can try a 'System Restore' from the advanced options, but if it fails, the SSD likely needs replacement. Visit LapX Certified MSI Service Center in Indore located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for Gaming Laptop Repair Indore and SSD Upgrade for Laptop Indore."
+      },
+      {
+        question: "How do I fix the 'Scented/Burning' smell coming from my MSI laptop vents during gaming?",
+        answer: "A burning smell usually indicates a melting DC Power Jack or a short circuit on the motherboard's power rails due to excessive current draw. Stop using the laptop immediately to prevent a fire hazard or CPU damage. Visit LapX Certified MSI Service Center in Indore located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for expert Gaming Laptop Repair Indore and Chip-level repairing."
       }
     ]
   },
@@ -208,6 +216,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "Why does my MacBook screen stay black even though I can hear the startup chime?",
         answer: "This often indicates a backlight failure or a faulty hall sensor (the sensor that tells the Mac the lid is closed). You can check by shining a bright light at the screen; if you see a faint image, the backlight circuit on the logic board needs repair. Bring your laptop to LapX Certified Apple Service Center in Indore which is located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for expert MacBook Repair Indore."
+      },
+      {
+        question: "Why does my MacBook Pro charger light stay green but the battery percentage doesn't increase?",
+        answer: "This is a common sign of a communication failure between the battery's BMS (Battery Management System) and the logic board. It can be caused by a dirty MagSafe port or a failing charging IC (ISL chip). Try cleaning the port with a soft brush and isopropyl alcohol. If the issue remains, bring your device to LapX Certified Apple Service Center in Indore located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for expert MacBook Repair Indore."
       }
     ]
   },
@@ -248,6 +260,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "Why is my Dell laptop making a loud beeping sound (3 or 7 times) when I turn it on?",
         answer: "Dell laptops use 'Beep Codes' to signal hardware failure. For example, 3 beeps often indicate a Chipset/Motherboard failure, while 7 beeps usually mean a CPU/Processor error. These require advanced diagnostic tools to locate the short circuit. Visit LapX Certified Dell Service Center in Indore at LG-31, Orbit Mall Opposite to C21 Mall, Vijay Nagar. We specialize in Dell motherboard repair and Chip-level repairing. Open Daily 10:00 AM – 9:30 PM. Call 9111000757."
+      },
+      {
+        question: "My Dell Inspiron/XPS laptop fan is always at 100% speed even on the desktop. Why?",
+        answer: "This is often caused by a failed thermal sensor or 'Thermal Throttling' due to dried-out thermal paste. If the sensors detect 90°C+, the fans will stay at max speed to protect the hardware. A professional thermal repasting and internal cleaning are required. Visit LapX Certified Dell Service Center in Indore at LG-31, Orbit Mall Opposite to C21 Mall, Vijay Nagar. Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for Dell laptop repair in Vijay Nagar."
       }
     ]
   },
