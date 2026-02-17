@@ -80,6 +80,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "My Asus ROG laptop is showing 'No Bootable Device' even though my SSD is plugged in. How to fix?",
         answer: "In gaming laptops like Asus ROG, high heat can sometimes cause the SSD to unseat or the controller to fail. First, check if the SSD is visible in the BIOS (F2 key). If it's missing, the SSD or the M.2 slot may be damaged. For a permanent fix or data recovery, visit our Asus Service Center in Indore Vijay Nagar at LapX, located in LG-31, Orbit Mall, Opposite to C21 Mall. Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for same-day SSD Upgrade for Laptop Indore."
+      },
+      {
+        question: "My Asus laptop touchpad works in BIOS but stops working in Windows. Is it broken?",
+        answer: "If it works in BIOS, your hardware is fine. This is usually a driver conflict or an accidental 'Function Key' (F6 or F9) press that disabled the trackpad. Try pressing the touchpad toggle key or updating the 'ASUS Precision Touchpad' drivers. If the issue persists, visit our Asus Service Center in Indore Vijay Nagar at LapX, LG-31, Orbit Mall, Opposite to C21 Mall. Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for Same-day repair."
       }
     ]
   },
@@ -150,6 +154,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "How do I fix the 'Scented/Burning' smell coming from my MSI laptop vents during gaming?",
         answer: "A burning smell usually indicates a melting DC Power Jack or a short circuit on the motherboard's power rails due to excessive current draw. Stop using the laptop immediately to prevent a fire hazard or CPU damage. Visit LapX Certified MSI Service Center in Indore located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for expert Gaming Laptop Repair Indore and Chip-level repairing."
+      },
+      {
+        question: "How do I fix the 'Static Crackling' sound in my MSI laptop speakers?",
+        answer: "Static crackling is often caused by electromagnetic interference from the GPU or a failing audio capacitor on the motherboard. Sometimes, reinstalling the Nahimic Audio drivers can fix it. If it’s a physical speaker pop, the hardware needs replacement. Visit LapX Certified MSI Service Center in Indore located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for expert Gaming Laptop Repair Indore."
       }
     ]
   },
@@ -220,6 +228,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "Why does my MacBook Pro charger light stay green but the battery percentage doesn't increase?",
         answer: "This is a common sign of a communication failure between the battery's BMS (Battery Management System) and the logic board. It can be caused by a dirty MagSafe port or a failing charging IC (ISL chip). Try cleaning the port with a soft brush and isopropyl alcohol. If the issue remains, bring your device to LapX Certified Apple Service Center in Indore located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for expert MacBook Repair Indore."
+      },
+      {
+        question: "Why does my MacBook M1/M2 screen have a thin horizontal line across the middle?",
+        answer: "Horizontal lines on Apple Silicon MacBooks are usually caused by 'Dustgate'—small debris getting trapped between the screen and the flex cables—or a hairline crack in the LCD. This is a hardware fault that typically requires a display assembly replacement. Bring your laptop to LapX Certified Apple Service Center in Indore which is located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for expert MacBook Repair Indore."
       }
     ]
   },
@@ -290,6 +302,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "Why is my Lenovo ThinkPad/IdeaPad stuck on a 'Black Screen with Cursor' after login?",
         answer: "This is usually caused by a corrupted 'Windows Explorer' process or a failing storage drive. You can try pressing Ctrl+Alt+Del to open Task Manager and manually start 'explorer.exe'. If the issue repeats, your SSD might have bad sectors. For a reliable SSD Upgrade for Laptop Indore, visit LapX at LG-31, Orbit Mall Opposite to C21 Mall, Vijay Nagar. Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for Lenovo Laptop Repair Indore."
+      },
+      {
+        question: "My Lenovo Legion keyboard backlight is on, but the keys aren't typing. What's wrong?",
+        answer: "This is a common 'Controller Lock' issue in the Lenovo Legion series. Try a 'Static Discharge': Unplug the charger, hold the power button for 60 seconds, then restart. If the keys still don't respond, the internal keyboard connector might be loose or damaged. For expert Lenovo Laptop Repair Indore, visit LapX at LG-31, Orbit Mall Opposite to C21 Mall, Vijay Nagar. Open Daily 10:00 AM – 9:30 PM. Call 9111000757."
       }
     ]
   },
