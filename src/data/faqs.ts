@@ -84,6 +84,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "My Asus laptop touchpad works in BIOS but stops working in Windows. Is it broken?",
         answer: "If it works in BIOS, your hardware is fine. This is usually a driver conflict or an accidental 'Function Key' (F6 or F9) press that disabled the trackpad. Try pressing the touchpad toggle key or updating the 'ASUS Precision Touchpad' drivers. If the issue persists, visit our Asus Service Center in Indore Vijay Nagar at LapX, LG-31, Orbit Mall, Opposite to C21 Mall. Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for Same-day repair."
+      },
+      {
+        question: "Why is my Asus ROG/TUF laptop stuck on the 'Automatic Repair' blue screen?",
+        answer: "This loop often occurs due to a corrupted boot sector or a failing NVMe SSD caused by excessive gaming heat. Try entering BIOS (F2) to see if the drive is detected. If it isn't, the SSD likely needs replacement. Visit our Asus Service Center in Indore Vijay Nagar at LapX, located in LG-31, Orbit Mall, Opposite to C21 Mall. Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for expert SSD Upgrade for Laptop Indore."
       }
     ]
   },
@@ -158,6 +162,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "How do I fix the 'Static Crackling' sound in my MSI laptop speakers?",
         answer: "Static crackling is often caused by electromagnetic interference from the GPU or a failing audio capacitor on the motherboard. Sometimes, reinstalling the Nahimic Audio drivers can fix it. If it’s a physical speaker pop, the hardware needs replacement. Visit LapX Certified MSI Service Center in Indore located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for expert Gaming Laptop Repair Indore."
+      },
+      {
+        question: "How do I fix the 'Grinding Noise' coming from my MSI laptop fans?",
+        answer: "A grinding or rattling noise indicates the fan's hydraulic bearing has dried out or the blades are hitting dust buildup. Continuing to use it will lead to 'Thermal Throttling' and potential GPU damage. Visit LapX Certified MSI Service Center in Indore located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for expert Gaming Laptop Repair Indore and fan replacement."
       }
     ]
   },
@@ -232,6 +240,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "Why does my MacBook M1/M2 screen have a thin horizontal line across the middle?",
         answer: "Horizontal lines on Apple Silicon MacBooks are usually caused by 'Dustgate'—small debris getting trapped between the screen and the flex cables—or a hairline crack in the LCD. This is a hardware fault that typically requires a display assembly replacement. Bring your laptop to LapX Certified Apple Service Center in Indore which is located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for expert MacBook Repair Indore."
+      },
+      {
+        question: "My MacBook Pro screen has 'shutter-like' black bars at the bottom. Is the display dying?",
+        answer: "This is a typical symptom of 'Flexgate' or a failing T-CON board, where the display flex cable gets damaged from opening and closing the lid. Before opting for a full screen replacement, we can often repair the cable via micro-soldering. Bring your laptop to LapX Certified Apple Service Center in Indore which is located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for MacBook Repair Indore."
       }
     ]
   },
@@ -332,6 +344,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "Why is my HP Pavilion/Omen laptop fan making a loud grinding or rattling noise?",
         answer: "Loud rattling usually indicates that the fan bearing has worn out or a blade is hitting the fan housing. Cleaning with air might not work if the hardware is physically damaged. A genuine fan replacement is required to avoid CPU damage. Visit LapX at LG-31, Orbit Mall Opposite to C21 Mall, Vijay Nagar, the best HP Laptop Service Center Indore Vijay Nagar. Open Daily 10:00 AM – 9:30 PM. Call 9111000757."
+      },
+      {
+        question: "My HP Pavilion/Omen laptop battery is 100% charged but the laptop shuts off when I unplug it.",
+        answer: "This indicates a 'Battery Cell Failure' or a blown MOSFET on the motherboard's power distribution circuit. The battery shows 100% voltage but cannot provide the current needed to run the system. For a genuine HP laptop battery replacement Indore, visit LapX at LG-31, Orbit Mall Opposite to C21 Mall, Vijay Nagar. Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for HP Laptop Service Center Indore Vijay Nagar."
       }
     ]
   },
