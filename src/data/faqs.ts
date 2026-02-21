@@ -88,6 +88,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "Why is my Asus ROG/TUF laptop stuck on the 'Automatic Repair' blue screen?",
         answer: "This loop often occurs due to a corrupted boot sector or a failing NVMe SSD caused by excessive gaming heat. Try entering BIOS (F2) to see if the drive is detected. If it isn't, the SSD likely needs replacement. Visit our Asus Service Center in Indore Vijay Nagar at LapX, located in LG-31, Orbit Mall, Opposite to C21 Mall. Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for expert SSD Upgrade for Laptop Indore."
+      },
+      {
+        question: "My Asus laptop keyboard is typing multiple characters or 'ghosting' keys. How to fix?",
+        answer: "Ghosting or double-typing is usually caused by moisture or carbon buildup inside the keyboard matrix. Try cleaning the keys with compressed air first. If it persists, the internal keyboard membrane likely needs replacement. For genuine Asus keyboard or Asus screen replacement in Vijay Nagar, visit LapX Certified Asus Service Center in Indore at LG-31, Orbit Mall Opposite to C21 Mall. Open Daily 10:00 AM – 9:30 PM. Call 9111000757."
       }
     ]
   },
@@ -166,6 +170,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "How do I fix the 'Grinding Noise' coming from my MSI laptop fans?",
         answer: "A grinding or rattling noise indicates the fan's hydraulic bearing has dried out or the blades are hitting dust buildup. Continuing to use it will lead to 'Thermal Throttling' and potential GPU damage. Visit LapX Certified MSI Service Center in Indore located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for expert Gaming Laptop Repair Indore and fan replacement."
+      },
+      {
+        question: "Why does my MSI gaming laptop make a loud rattling noise from the fans?",
+        answer: "Rattling noises indicate that the fan's hydraulic bearing has failed or is clogged with heavy dust. In gaming laptops, this leads to 'Thermal Throttling' and low FPS. A deep internal cleaning or fan replacement is required immediately. Visit LapX Certified MSI Service Center in Indore located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for expert Gaming Laptop Repair Indore."
       }
     ]
   },
@@ -244,6 +252,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "My MacBook Pro screen has 'shutter-like' black bars at the bottom. Is the display dying?",
         answer: "This is a typical symptom of 'Flexgate' or a failing T-CON board, where the display flex cable gets damaged from opening and closing the lid. Before opting for a full screen replacement, we can often repair the cable via micro-soldering. Bring your laptop to LapX Certified Apple Service Center in Indore which is located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for MacBook Repair Indore."
+      },
+      {
+        question: "Why is my MacBook Pro screen showing 'Stage Light' or vertical shadows at the bottom?",
+        answer: "This 'Stage Light' effect is a classic symptom of 'Flexgate,' where the display flex cable wears out due to repeated lid movement. Instead of an expensive full screen replacement, we can often repair the existing cable. Bring your laptop to LapX Certified Apple Service Center in Indore which is located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for expert MacBook Repair Indore."
       }
     ]
   },
@@ -374,6 +386,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "My Acer Nitro 5 is turning on but the screen is completely white. What happened?",
         answer: "A solid white screen is usually a sign of a faulty LCD cable or a blown fuse on the LCD panel itself. It happens when the internal display cable gets pinched in the hinge. For a precision display diagnostic or Acer screen replacement, visit LapX Certified Acer Service Center in Indore at LG-31, Orbit Mall Opposite to C21 Mall, Vijay Nagar. Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for expert Chip-level repairing."
+      },
+      {
+        question: "My Acer Nitro 5 is turning on but showing a completely 'Blue Screen' (BSOD). Is it a virus?",
+        answer: "A BSOD is rarely a virus; it’s usually a hardware conflict like a failing SSD or a RAM error. Try reseating the RAM sticks. If the error persists, the OS boot partition might be corrupted. For a precision hardware diagnostic and Acer laptop repair, visit LapX Certified Acer Service Center in Indore at LG-31, Orbit Mall Opposite to C21 Mall, Vijay Nagar. Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for specialized Chip-level repairing."
       }
     ]
   }
