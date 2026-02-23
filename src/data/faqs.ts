@@ -92,6 +92,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "My Asus laptop keyboard is typing multiple characters or 'ghosting' keys. How to fix?",
         answer: "Ghosting or double-typing is usually caused by moisture or carbon buildup inside the keyboard matrix. Try cleaning the keys with compressed air first. If it persists, the internal keyboard membrane likely needs replacement. For genuine Asus keyboard or Asus screen replacement in Vijay Nagar, visit LapX Certified Asus Service Center in Indore at LG-31, Orbit Mall Opposite to C21 Mall. Open Daily 10:00 AM – 9:30 PM. Call 9111000757."
+      },
+      {
+        question: "My Asus laptop is stuck on the 'Aptio Setup Utility' screen every time I boot. How do I exit?",
+        answer: "This screen appears when the BIOS cannot find a bootable operating system, often due to a failed SSD or a loose connection. It can also happen if 'Secure Boot' settings are mismatched. Check if your storage drive is listed under 'Storage' in the BIOS. For a permanent fix or SSD Upgrade for Laptop Indore, visit our Asus Service Center in Indore Vijay Nagar at LapX, LG-31, Orbit Mall, Opposite to C21 Mall. Open Daily 10:00 AM – 9:30 PM. Call 9111000757."
       }
     ]
   },
@@ -174,6 +178,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "Why does my MSI gaming laptop make a loud rattling noise from the fans?",
         answer: "Rattling noises indicate that the fan's hydraulic bearing has failed or is clogged with heavy dust. In gaming laptops, this leads to 'Thermal Throttling' and low FPS. A deep internal cleaning or fan replacement is required immediately. Visit LapX Certified MSI Service Center in Indore located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for expert Gaming Laptop Repair Indore."
+      },
+      {
+        question: "How do I fix my MSI laptop hinges that are starting to pop out or crack the bezel?",
+        answer: "MSI laptops are prone to hinge failure where the metal hinge breaks away from the plastic lid anchors. Do not force the lid open or closed, as this will crack the LCD screen. We provide 'Hinge Reconstruction' using industrial-grade bonding agents that are stronger than the original plastic. Visit LapX Certified MSI Service Center in Indore located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for Gaming Laptop Repair Indore."
       }
     ]
   },
@@ -256,6 +264,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "Why is my MacBook Pro screen showing 'Stage Light' or vertical shadows at the bottom?",
         answer: "This 'Stage Light' effect is a classic symptom of 'Flexgate,' where the display flex cable wears out due to repeated lid movement. Instead of an expensive full screen replacement, we can often repair the existing cable. Bring your laptop to LapX Certified Apple Service Center in Indore which is located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for expert MacBook Repair Indore."
+      },
+      {
+        question: "Why is my MacBook Pro charging port (MagSafe) sparking or showing a black burn mark?",
+        answer: "Sparking or carbon buildup on MagSafe pins is usually caused by 'pitting' from debris or a short circuit in the DC-In board. This can prevent charging or damage the logic board. Try cleaning the pins with 99% isopropyl alcohol and a soft brush. If the burn remains, the DC-In jack must be replaced. Bring your laptop to LapX Certified Apple Service Center in Indore which is located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for MacBook Repair Indore."
       }
     ]
   },
@@ -300,6 +312,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "My Dell Inspiron/XPS laptop fan is always at 100% speed even on the desktop. Why?",
         answer: "This is often caused by a failed thermal sensor or 'Thermal Throttling' due to dried-out thermal paste. If the sensors detect 90°C+, the fans will stay at max speed to protect the hardware. A professional thermal repasting and internal cleaning are required. Visit LapX Certified Dell Service Center in Indore at LG-31, Orbit Mall Opposite to C21 Mall, Vijay Nagar. Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for Dell laptop repair in Vijay Nagar."
+      },
+      {
+        question: "Why is my Dell laptop showing a 'Battery Excellent' status but dropping from 50% to 0% instantly?",
+        answer: "This is known as a 'Voltage Drop' caused by one or more dead cells within the battery pack. The Windows indicator stays high, but as soon as the dead cell is reached, the system loses power. A battery replacement is the only reliable fix. Visit LapX Certified Dell Service Center in Indore at LG-31, Orbit Mall Opposite to C21 Mall, Vijay Nagar. We provide Genuine Dell batteries with warranty. Open Daily 10:00 AM – 9:30 PM. Call 9111000757."
       }
     ]
   },
