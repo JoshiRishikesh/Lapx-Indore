@@ -96,6 +96,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "My Asus laptop is stuck on the 'Aptio Setup Utility' screen every time I boot. How do I exit?",
         answer: "This screen appears when the BIOS cannot find a bootable operating system, often due to a failed SSD or a loose connection. It can also happen if 'Secure Boot' settings are mismatched. Check if your storage drive is listed under 'Storage' in the BIOS. For a permanent fix or SSD Upgrade for Laptop Indore, visit our Asus Service Center in Indore Vijay Nagar at LapX, LG-31, Orbit Mall, Opposite to C21 Mall. Open Daily 10:00 AM – 9:30 PM. Call 9111000757."
+      },
+      {
+        question: "Why is my Asus ROG laptop's GPU not showing up in Task Manager or Armoury Crate?",
+        answer: "This usually happens if the laptop is in 'Eco Mode' or 'iGPU Mode,' which physically cuts power to the Nvidia chip to save battery. Switch to 'Standard' or 'Ultimate' mode in Armoury Crate. If the GPU still isn't detected, it may be a power delivery failure on the motherboard. Visit our Asus Service Center in Indore Vijay Nagar at LapX, located in LG-31, Orbit Mall, Opposite to C21 Mall. Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for expert Chip-level repairing."
       }
     ]
   },
@@ -182,6 +186,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "How do I fix my MSI laptop hinges that are starting to pop out or crack the bezel?",
         answer: "MSI laptops are prone to hinge failure where the metal hinge breaks away from the plastic lid anchors. Do not force the lid open or closed, as this will crack the LCD screen. We provide 'Hinge Reconstruction' using industrial-grade bonding agents that are stronger than the original plastic. Visit LapX Certified MSI Service Center in Indore located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for Gaming Laptop Repair Indore."
+      },
+      {
+        question: "How do I fix the 'Scented/Burning' smell coming from my MSI laptop vents during gaming?",
+        answer: "A burning smell is a critical warning of a melting DC Power Jack or a short circuit on the motherboard's power rails. Stop using the laptop immediately to prevent permanent CPU/GPU damage or a fire hazard. Visit LapX Certified MSI Service Center in Indore located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for expert Gaming Laptop Repair Indore and motherboard diagnostics."
       }
     ]
   },
@@ -268,6 +276,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "Why is my MacBook Pro charging port (MagSafe) sparking or showing a black burn mark?",
         answer: "Sparking or carbon buildup on MagSafe pins is usually caused by 'pitting' from debris or a short circuit in the DC-In board. This can prevent charging or damage the logic board. Try cleaning the pins with 99% isopropyl alcohol and a soft brush. If the burn remains, the DC-In jack must be replaced. Bring your laptop to LapX Certified Apple Service Center in Indore which is located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for MacBook Repair Indore."
+      },
+      {
+        question: "Why does my MacBook Pro screen show 'vertical bars' that disappear at certain angles?",
+        answer: "This is a sign of 'Flexgate'—a failure of the thin display flex cable. The bars appear because the cable is cracking from being opened and closed. At specific angles, the connection might briefly touch and work. Instead of a full screen replacement, we can often repair the cable. Bring your laptop to LapX Certified Apple Service Center in Indore which is located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for specialized MacBook Repair Indore."
       }
     ]
   },
@@ -346,6 +358,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "My Lenovo Legion keyboard backlight is on, but the keys aren't typing. What's wrong?",
         answer: "This is a common 'Controller Lock' issue in the Lenovo Legion series. Try a 'Static Discharge': Unplug the charger, hold the power button for 60 seconds, then restart. If the keys still don't respond, the internal keyboard connector might be loose or damaged. For expert Lenovo Laptop Repair Indore, visit LapX at LG-31, Orbit Mall Opposite to C21 Mall, Vijay Nagar. Open Daily 10:00 AM – 9:30 PM. Call 9111000757."
+      },
+      {
+        question: "My Lenovo Legion keyboard backlight is working, but the keys aren't typing. What's wrong?",
+        answer: "This is a common 'Embedded Controller' (EC) lockup in Lenovo laptops. Try a 'Static Discharge': Unplug the charger, hold the power button for 60 seconds, then restart. If it still doesn't type, the internal keyboard ribbon cable may be loose or the keyboard matrix has failed. For expert Lenovo Laptop Repair Indore, visit LapX at LG-31, Orbit Mall Opposite to C21 Mall, Vijay Nagar. Open Daily 10:00 AM – 9:30 PM. Call 9111000757."
       }
     ]
   },
