@@ -100,6 +100,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "Why is my Asus ROG laptop's GPU not showing up in Task Manager or Armoury Crate?",
         answer: "This usually happens if the laptop is in 'Eco Mode' or 'iGPU Mode,' which physically cuts power to the Nvidia chip to save battery. Switch to 'Standard' or 'Ultimate' mode in Armoury Crate. If the GPU still isn't detected, it may be a power delivery failure on the motherboard. Visit our Asus Service Center in Indore Vijay Nagar at LapX, located in LG-31, Orbit Mall, Opposite to C21 Mall. Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for expert Chip-level repairing."
+      },
+      {
+        question: "Why is my Asus laptop stuck on the 'Aptio Setup Utility' screen every time I boot?",
+        answer: "The Aptio Setup Utility (BIOS) appears automatically when the motherboard cannot detect a bootable drive. This is often caused by a failed NVMe SSD or a loose connection due to laptop impact. Check the 'Storage' section in BIOS; if 'No M.2 Drive' is listed, your SSD needs replacement. Visit our Asus Service Center in Indore Vijay Nagar at LapX, located in LG-31, Orbit Mall, Opposite to C21 Mall. Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for expert SSD Upgrade for Laptop Indore."
       }
     ]
   },
@@ -190,6 +194,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "How do I fix the 'Scented/Burning' smell coming from my MSI laptop vents during gaming?",
         answer: "A burning smell is a critical warning of a melting DC Power Jack or a short circuit on the motherboard's power rails. Stop using the laptop immediately to prevent permanent CPU/GPU damage or a fire hazard. Visit LapX Certified MSI Service Center in Indore located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for expert Gaming Laptop Repair Indore and motherboard diagnostics."
+      },
+      {
+        question: "How do I fix my MSI laptop hinges that are starting to pop out or crack the screen bezel?",
+        answer: "MSI laptops often suffer from 'Hinge Separation' where the metal hinges break away from the plastic lid mounts. Do not force the lid open as it will crack the LCD panel. We perform 'Hinge Reconstruction' using industrial-grade structural bonding that is stronger than the original factory plastic. Visit LapX Certified MSI Service Center in Indore located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for professional Gaming Laptop Repair Indore."
       }
     ]
   },
@@ -280,6 +288,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "Why does my MacBook Pro screen show 'vertical bars' that disappear at certain angles?",
         answer: "This is a sign of 'Flexgate'—a failure of the thin display flex cable. The bars appear because the cable is cracking from being opened and closed. At specific angles, the connection might briefly touch and work. Instead of a full screen replacement, we can often repair the cable. Bring your laptop to LapX Certified Apple Service Center in Indore which is located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for specialized MacBook Repair Indore."
+      },
+      {
+        question: "My MacBook M1/M2 screen has a faint image but the backlight is completely off. Why?",
+        answer: "This 'No Backlight' issue is usually caused by a blown backlight fuse or a failed 'Backlight IC' on the logic board, often triggered by a minor liquid spill. You can verify this by shining a flashlight through the Apple logo; if you see your desktop, the logic board needs chip-level repair. Bring your laptop to LapX Certified Apple Service Center in Indore which is located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for MacBook Repair Indore."
       }
     ]
   },
@@ -392,6 +404,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "My HP Pavilion/Omen laptop battery is 100% charged but the laptop shuts off when I unplug it.",
         answer: "This indicates a 'Battery Cell Failure' or a blown MOSFET on the motherboard's power distribution circuit. The battery shows 100% voltage but cannot provide the current needed to run the system. For a genuine HP laptop battery replacement Indore, visit LapX at LG-31, Orbit Mall Opposite to C21 Mall, Vijay Nagar. Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for HP Laptop Service Center Indore Vijay Nagar."
+      },
+      {
+        question: "Why is my HP Pavilion/Omen laptop making a loud grinding or rattling noise?",
+        answer: "A grinding noise indicates that the cooling fan's hydraulic bearing has failed or is hitting dust debris. In high-performance HP laptops, a failing fan leads to instant 'Thermal Throttling' and potential CPU damage. A genuine fan replacement is recommended. Visit LapX at LG-31, Orbit Mall Opposite to C21 Mall, Vijay Nagar, the best HP Laptop Service Center Indore Vijay Nagar. Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for HP laptop repair in Vijay Nagar."
       }
     ]
   },
