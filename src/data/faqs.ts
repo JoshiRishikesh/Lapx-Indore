@@ -104,6 +104,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "Why is my Asus laptop stuck on the 'Aptio Setup Utility' screen every time I boot?",
         answer: "The Aptio Setup Utility (BIOS) appears automatically when the motherboard cannot detect a bootable drive. This is often caused by a failed NVMe SSD or a loose connection due to laptop impact. Check the 'Storage' section in BIOS; if 'No M.2 Drive' is listed, your SSD needs replacement. Visit our Asus Service Center in Indore Vijay Nagar at LapX, located in LG-31, Orbit Mall, Opposite to C21 Mall. Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for expert SSD Upgrade for Laptop Indore."
+      },
+      {
+        question: "Why is my Asus ROG/TUF laptop screen flickering or showing horizontal lines at 144Hz?",
+        answer: "Flickering at high refresh rates is a common sign of a failing EDP cable or a degradation in the LCD panel's timing controller (T-CON). Try lowering the refresh rate to 60Hz in Windows Display Settings; if the flickering stops, your screen needs a hardware replacement. For a genuine Asus screen replacement in Vijay Nagar, visit LapX Certified Asus Service Center in Indore at LG-31, Orbit Mall Opposite to C21 Mall. Open Daily 10:00 AM – 9:30 PM. Call 9111000757."
       }
     ]
   },
@@ -198,6 +202,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "How do I fix my MSI laptop hinges that are starting to pop out or crack the screen bezel?",
         answer: "MSI laptops often suffer from 'Hinge Separation' where the metal hinges break away from the plastic lid mounts. Do not force the lid open as it will crack the LCD panel. We perform 'Hinge Reconstruction' using industrial-grade structural bonding that is stronger than the original factory plastic. Visit LapX Certified MSI Service Center in Indore located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for professional Gaming Laptop Repair Indore."
+      },
+      {
+        question: "My MSI gaming laptop is turning on but the screen is completely black. How to fix?",
+        answer: "This 'No Display' issue is often caused by a BIOS corruption or a RAM stick that has become loose/oxidized. Try an 'EC Reset' by holding the power button for 30 seconds while the charger is unplugged. If it still doesn't boot, the GPU or VRAM may have a power delivery fault. Visit LapX Certified MSI Service Center in Indore located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for expert Gaming Laptop Repair Indore."
       }
     ]
   },
@@ -292,6 +300,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "My MacBook M1/M2 screen has a faint image but the backlight is completely off. Why?",
         answer: "This 'No Backlight' issue is usually caused by a blown backlight fuse or a failed 'Backlight IC' on the logic board, often triggered by a minor liquid spill. You can verify this by shining a flashlight through the Apple logo; if you see your desktop, the logic board needs chip-level repair. Bring your laptop to LapX Certified Apple Service Center in Indore which is located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for MacBook Repair Indore."
+      },
+      {
+        question: "Why does my MacBook trackpad stop clicking when the laptop gets hot?",
+        answer: "A trackpad that loses its 'click' or feels physically jammed is a critical warning of a swollen battery. As the lithium-ion cells expand due to heat or age, they press against the trackpad from underneath. Continued use can crack the glass trackpad or damage the logic board. Bring your laptop to LapX Certified Apple Service Center in Indore located in Vijay nagar LG-31, Orbit Mall Oppsite to C21 Mall, Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for immediate MacBook Repair Indore."
       }
     ]
   },
@@ -438,6 +450,10 @@ export const faqData: FAQCategory[] = [
       {
         question: "My Acer Nitro 5 is turning on but showing a completely 'Blue Screen' (BSOD). Is it a virus?",
         answer: "A BSOD is rarely a virus; it’s usually a hardware conflict like a failing SSD or a RAM error. Try reseating the RAM sticks. If the error persists, the OS boot partition might be corrupted. For a precision hardware diagnostic and Acer laptop repair, visit LapX Certified Acer Service Center in Indore at LG-31, Orbit Mall Opposite to C21 Mall, Vijay Nagar. Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for specialized Chip-level repairing."
+      },
+      {
+        question: "My Acer Nitro 5 / Predator laptop shuts down immediately when the charger is unplugged. Why?",
+        answer: "This indicates a 'Battery Communication' failure or a dead battery cell that can no longer hold a load. In Acer laptops, it can also be a blown charging MOSFET on the motherboard. For a precision motherboard repair or genuine battery replacement, visit LapX Certified Acer Service Center in Indore at LG-31, Orbit Mall Opposite to C21 Mall, Vijay Nagar. Open Daily 10:00 AM – 9:30 PM. Call 9111000757 for expert Chip-level repairing."
       }
     ]
   }
