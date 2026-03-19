@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     title: "Dell Laptop Service Center Vijay Nagar Indore",
     description:
       "Trusted Dell laptop repair experts in Vijay Nagar, Indore. We provide genuine parts and fast service for all Dell models including Alienware & XPS.",
-    url: "/dell-service-center",
+    url: "https://lapx.co.in/dell-service-center",
     siteName: "LapX Service Center",
     images: [
       {

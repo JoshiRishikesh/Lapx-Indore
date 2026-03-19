@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     title: "ASUS Laptop Service Center Vijay Nagar Indore",
     description:
       "Expert ASUS laptop repair in Vijay Nagar, Indore. We use genuine parts for ROG, TUF, and ZenBook series. Fast diagnosis and certified technicians.",
-    url: "/asus-service-center",
+    url: "https://lapx.co.in/asus-service-center",
     siteName: "LapX Service Center",
     images: [
       {

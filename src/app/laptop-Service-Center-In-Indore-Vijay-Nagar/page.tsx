@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     title: "Laptop Service Center In Indore, Vijay Nagar | LAPX ",
     description:
       "Expert HP, Dell, ASUS & Lenovo laptop repairs in Vijay Nagar, Indore. Genuine parts and fast service by LAPX (Lapzoo).",
-    url: "/laptop-repair-in-vijay-nagar-indore",
+    url: "https://lapx.co.in/laptop-repair-in-vijay-nagar-indore",
     siteName: "LAPX Service Center",
     images: [
       {

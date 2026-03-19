@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     title: "HP Laptop Service Center Vijay Nagar Indore",
     description:
       "Trusted HP laptop repair experts in Vijay Nagar, Indore. Certified service for Pavilion, Omen, and EliteBook using genuine HP spare parts.",
-    url: "/hp-service-center",
+    url: "https://lapx.co.in/hp-service-center",
     siteName: "LapX Service Center",
     images: [
       {

@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     title: "Lenovo Laptop Service Center Vijay Nagar Indore",
     description:
       "Looking for Lenovo repair in Vijay Nagar? We provide expert service for ThinkPad, Legion, and IdeaPad using genuine Lenovo spare parts.",
-    url: "/lenovo-service-center",
+    url: "https://lapx.co.in/lenovo-service-center",
     siteName: "LapX Service Center",
     images: [
       {

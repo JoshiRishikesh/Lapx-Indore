@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   ],
   metadataBase: new URL("https://lapx.co.in"),
   alternates: {
-    canonical: "/msi-service-center",
+    canonical: "https://lapx.co.in/msi-service-center",
   },
   openGraph: {
     title: "MSI Laptop Service Center Indore Vijay Nagar",
