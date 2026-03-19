@@ -4,59 +4,30 @@ import { faqData } from "@/data/faqs";
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://lapx.co.in";
 
-  // This maps your data to the /faqs/[category] structure
-  const faqEntries = faqData.map((category) => ({
+  // 1. Dynamic FAQ Mapping
+  const faqEntries: MetadataRoute.Sitemap = faqData.map((category) => ({
     url: `${baseUrl}/faqs/${category.slug}`,
     lastModified: new Date(),
-    changeFrequency: "daily" as const, // High frequency for your daily FAQ updates
+    changeFrequency: "daily" as const, 
     priority: 0.8,
   }));
 
-  return [
-    {
-      url: `${baseUrl}/`,
-      lastModified: new Date(),
-      changeFrequency: "weekly",
-      priority: 1.0,
-    },
-    // Main Brand Service Pages
-    {
-      url: `${baseUrl}/asus-service-center`,
-      lastModified: new Date(),
-      changeFrequency: "weekly",
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/msi-service-center`,
-      lastModified: new Date(),
-      changeFrequency: "weekly",
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/dell-service-center`,
-      lastModified: new Date(),
-      changeFrequency: "weekly",
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/hp-service-center`,
-      lastModified: new Date(),
-      changeFrequency: "weekly",
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/lenovo-service-center`,
-      lastModified: new Date(),
-      changeFrequency: "weekly",
-      priority: 0.9,
-    },
-    // Spread the dynamic FAQ categories here
-    ...faqEntries,
-    {
-      url: `${baseUrl}/contact`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.7,
-    },
-  ];
+  // 2. Static Pages Mapping
+  // We use an array and map it to ensure all fields have 'as const' applied correctly
+  const staticPages = [
+    { url: "", priority: 1.0, changeFrequency: "weekly" as const },
+    { url: "/asus-service-center", priority: 0.9, changeFrequency: "weekly" as const },
+    { url: "/msi-service-center", priority: 0.9, changeFrequency: "weekly" as const },
+    { url: "/dell-service-center", priority: 0.9, changeFrequency: "weekly" as const },
+    { url: "/hp-service-center", priority: 0.9, changeFrequency: "weekly" as const },
+    { url: "/lenovo-service-center", priority: 0.9, changeFrequency: "weekly" as const },
+    { url: "/contact", priority: 0.7, changeFrequency: "monthly" as const },
+  ].map((page) => ({
+    url: `${baseUrl}${page.url}`,
+    lastModified: new Date(),
+    changeFrequency: page.changeFrequency,
+    priority: page.priority,
+  }));
+
+  return [...staticPages, ...faqEntries];
 }
