@@ -1,17 +1,26 @@
 // src/components/Footer.tsx
 import Link from 'next/link';
+import { FaFacebookF, FaInstagram, FaYoutube } from 'react-icons/fa'; // Added react-icons
 
 const Footer: React.FC = () => {
   // UI Design Constants
   const headingClass = "text-lg font-bold mb-6 text-sky-400 tracking-tight uppercase";
   const textClass = "text-gray-400 text-sm leading-relaxed font-light";
   const linkHoverClass = "hover:text-white hover:translate-x-1 transition-all duration-300 flex items-center gap-2";
+  
+  // Custom styling for social circles to match your sky-blue theme
+  const socialIconClass = "flex items-center justify-center w-9 h-9 rounded-full bg-gray-900 border border-gray-800 text-gray-400 hover:text-white hover:border-sky-500 hover:bg-sky-950/30 transition-all duration-300";
 
   // --- LIVE DATA ---
   const googlePlaceId = "ChIJg3l2lGb9YjkR0U_e3MSkOzs";
   const googleWriteReviewUrl = `https://search.google.com/local/writereview?placeid=${googlePlaceId}`;
   const googleMapsUrl = `https://www.google.com/maps/place/?q=place_id:${googlePlaceId}`;
   const justdialUrl = "https://www.justdial.com/Indore/Lap-X-Near-C21-Malhar-Mega-Mall-Vijay-Nagar/0731PX731-X731-221031122403-F5F9_BZDET";
+  
+  // Social Links
+  const facebookUrl = "https://www.facebook.com/people/Lapx-indore/100083816658201/?checkpoint_src=any#";
+  const instagramUrl = "https://www.instagram.com/lapx_laptop_repair_indore/";
+  const youtubeUrl = "https://www.youtube.com/@lapxindore";
 
   return (
     <footer className="bg-gray-950 text-white font-poppins border-t border-gray-900"> 
@@ -21,17 +30,32 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12">
           
           {/* Column 1: Contact & Identity */}
-          <div className="space-y-4">
-            <h3 className={headingClass}>Visit Lap-X</h3> 
-            <div className={textClass}>
-              <p className="font-medium text-gray-200">Lower Ground Floor, LG-31, Orbit Mall</p>
-              <p>Vijay Nagar, Indore, MP 452010</p>
+          <div className="space-y-6">
+            <div className="space-y-4">
+              <h3 className={headingClass}>Visit Lap-X</h3> 
+              <div className={textClass}>
+                <p className="font-medium text-gray-200">Lower Level, LG-31, Orbit Mall</p>
+                <p>Vijay Nagar, Indore, MP 452010</p>
+              </div>
+              <div className="pt-2">
+                <a href="tel:09111000757" className="text-sky-400 font-bold text-lg hover:text-sky-300 transition">
+                  091110 00757
+                </a>
+                <p className="text-[11px] text-gray-500 mt-1 uppercase tracking-widest">Available: 10:00 AM - 9:30 PM</p>
+              </div>
             </div>
-            <div className="pt-2">
-              <a href="tel:09111000757" className="text-sky-400 font-bold text-lg hover:text-sky-300 transition">
-                091110 00757
+
+            {/* Social Media Links Section */}
+            <div className="flex gap-3 pt-2">
+              <a href={facebookUrl} target="_blank" rel="noopener noreferrer" className={socialIconClass} aria-label="Facebook">
+                <FaFacebookF size={16} />
               </a>
-              <p className="text-[11px] text-gray-500 mt-1 uppercase tracking-widest">Available: 10:00 AM - 9:30 PM</p>
+              <a href={instagramUrl} target="_blank" rel="noopener noreferrer" className={socialIconClass} aria-label="Instagram">
+                <FaInstagram size={18} />
+              </a>
+              <a href={youtubeUrl} target="_blank" rel="noopener noreferrer" className={socialIconClass} aria-label="YouTube">
+                <FaYoutube size={18} />
+              </a>
             </div>
           </div>
 
@@ -50,7 +74,6 @@ const Footer: React.FC = () => {
           <div>
             <h3 className={headingClass}>Customer Trust</h3>
             <div className="space-y-4">
-              {/* Google Badge */}
               <div className="bg-gray-900/40 border border-gray-800 p-4 rounded-xl backdrop-blur-sm group hover:border-sky-500/50 transition-colors">
                 <div className="flex justify-between items-start mb-2">
                   <span className="text-xs font-bold text-gray-300 uppercase tracking-tighter">Google Rating</span>
@@ -66,7 +89,6 @@ const Footer: React.FC = () => {
                 </div>
               </div>
 
-              {/* Justdial Link */}
               <a href={justdialUrl} target="_blank" rel="noopener noreferrer" 
                  className="flex items-center justify-between p-3 bg-gray-900/20 border border-gray-800 rounded-lg hover:bg-gray-900/60 transition group">
                 <span className="text-xs text-gray-400 font-medium">Justdial Verified</span>
@@ -96,7 +118,6 @@ const Footer: React.FC = () => {
             </div>
           </div>
 
-          {/* Lupa Entertainment Credit with Yellow Gradient */}
           <div className="flex flex-col items-center md:items-end">
             <span className="text-[10px] text-gray-700 uppercase tracking-[0.2em] mb-1">Developed By</span>
             <a 
