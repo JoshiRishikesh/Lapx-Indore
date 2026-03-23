@@ -1,97 +1,35 @@
-// src/app/layout.tsx
-import type { Metadata, Viewport } from 'next'; // Added Viewport
-import Script from 'next/script';
-import './globals.css';
-import Navbar from '@/components/navbar';
-import Footer from '@/components/Footer';
-import ContactCTASection from "@/components/ContactCTASection";
-import "@fontsource/orbitron/700.css";
-import { getLocalBusinessSchema } from '@/lib/schema';
+import type { Metadata } from "next";
+import { Inter, JetBrains_Mono } from "next/font/google";
+import Navbar from "@/components/Navbar"; // Ensure your Navbar is in the components folder
+import Footer from "@/components/Footer"; // Ensure your Footer is in the components folder
+import "./globals.css";
 
-// 1. ADVANCED VIEWPORT SETTINGS (Mobile UX is a ranking factor)
-export const viewport: Viewport = {
-  themeColor: '#0ea5e9', // Sky blue to match your brand
-  width: 'device-width',
-  initialScale: 1,
-  maximumScale: 5,
-};
+const inter = Inter({ 
+  subsets: ["latin"], 
+  variable: "--font-inter",
+  display: 'swap', 
+});
 
-// 2. ADVANCED METADATA
+const jetbrains = JetBrains_Mono({ 
+  subsets: ["latin"], 
+  variable: "--font-mono",
+  display: 'swap',
+});
+
 export const metadata: Metadata = {
-  metadataBase: new URL('https://lapx.co.in'),
-title: {
-  default: 'Lap-X | Best Laptop Service Center in Indore | Apple, Dell, HP, MSI, Asus',
-  template: '%s | Lap-X Indore'
-},
-description: 'Indore\'s trusted laptop repair experts at Orbit Mall. Certified service for Apple, Dell, HP, MSI, Asus, & Lenovo. Specialized in chip-level motherboard repair.',
-keywords: [
-    "Apple Service Center Indore",
-
-    "Dell Laptop Service Center Indore",
-
-    "HP Laptop Repair Indore",
-
-    "Lenovo Service Center Indore",
-
-    "Asus Laptop Repair Indore",
-
-    "Acer Service Center Indore",
-
-    "MSI Gaming Laptop Repair Indore"
-  ],
-  
-  // Advanced Robots instructions
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      'max-video-preview': -1,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
-    },
-  },
-
-  // Verification for Search Console (Essential)
-  verification: {
-    google: 'your-google-verification-code', // Add your code from Search Console
-    // me: ['your-email@example.com'],
-  },
-
+  title: "LapX – Laptop Repair Service Center DELL | HP | ASUS CENTER – Indore",
+  description: "LapX provides professional laptop repair and service in Indore for Dell, HP, Asus, and Acer laptops. Doorstep service, fast repairs, and expert technicians at Orbit Mall, Vijay Nagar. Servicing starts at ₹199*.",
+  keywords: ["Laptop Repair Indore", "Dell Laptop Repair Indore", "HP Laptop Repair Indore", "Asus Laptop Repair Indore", "Acer Laptop Repair Indore", "Laptop Service Center Vijay Nagar"],
   alternates: {
-    canonical: '/',
+    canonical: "https://www.lapxindore.com", // Replace with your actual domain
   },
-
-  // Twitter/X Cards
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Lap-X | Laptop Repair Specialist Indore',
-    description: 'Visit us at Orbit Mall, Vijay Nagar for expert laptop repairs.',
-    images: ['/og-image.jpg'], 
-  },
-
   openGraph: {
-    title: 'Lap-X | Laptop Repair Specialist in Indore',
-    description: 'Professional repair services for all major brands at Orbit Mall, Vijay Nagar.',
-    url: 'https://lapx.co.in',
-    siteName: 'Lap-X Laptop Repair',
-    images: [
-      {
-        url: '/og-image.jpg',
-        width: 1200,
-        height: 630,
-        alt: 'Lap-X Laptop Repair Shop Front Orbit Mall',
-      },
-    ],
-    locale: 'en_IN',
-    type: 'website',
-  },
-
-  // Icons for all devices
-  icons: {
-    icon: '/favicon.ico',
-    apple: '/apple-touch-icon.png',
+    title: "LapX – Laptop Repair Service Center Indore",
+    description: "Expert Dell, HP, and Asus laptop repair at Orbit Mall, Vijay Nagar. Same-day service available.",
+    url: "https://www.lapxindore.com",
+    siteName: "LapX Laptop Repair",
+    locale: "en_IN",
+    type: "website",
   },
 };
 
@@ -100,26 +38,19 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const businessSchema = getLocalBusinessSchema();
-
   return (
     <html lang="en" className="scroll-smooth">
-      <head>
-        <Script
-          id="lapx-business-schema"
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(businessSchema) }}
-        />
-      </head>
-      <body>
-        <div className="flex flex-col min-h-screen">
-          <Navbar /> 
-          <main className="grow">
-            {children}
-          </main>
-          <ContactCTASection />
-          <Footer />
-        </div>
+      <body className={`${inter.variable} ${jetbrains.variable} font-sans bg-white text-slate-800 antialiased`}>
+        {/* The Navbar appears on every page for consistent branding */}
+        <Navbar />
+        
+        {/* Main content of your pages */}
+        <main className="min-h-screen">
+          {children}
+        </main>
+
+        {/* The Footer appears on every page to boost Local SEO trust */}
+        <Footer />
       </body>
     </html>
   );
