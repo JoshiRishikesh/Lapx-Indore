@@ -1,108 +1,139 @@
 "use client";
 
+import React from 'react';
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { FaTools, FaLaptopCode, FaMicrochip, FaArrowRight, FaShieldAlt } from "react-icons/fa";
-import { MdOutlineLocationOn, MdSupportAgent } from "react-icons/md";
+import { 
+  FaTools, FaLaptopCode, FaArrowRight, FaShieldAlt, 
+  FaPhoneAlt, FaWhatsapp, FaMapMarkerAlt 
+} from "react-icons/fa";
+import { MdSupportAgent } from "react-icons/md";
+
+// Animation Variants matching your brand style
+const fadeInUp = {
+  initial: { opacity: 0, y: 20 },
+  animate: { opacity: 1, y: 0 },
+  transition: { duration: 0.5 }
+};
+
+const staggerContainer = {
+  animate: { transition: { staggerChildren: 0.1 } }
+};
 
 export default function NotFound() {
-  // Syncing these with your Footer.tsx link structure
   const quickLinks = [
-    { name: "ASUS Support", link: "/asus-service-center", icon: <FaLaptopCode size={20} /> },
-    { name: "HP Support", link: "/hp-service-center", icon: <MdSupportAgent size={20} /> },
-    { name: "DELL Support", link: "/dell-service-center", icon: <FaTools size={20} /> },
-    { name: "MSI Support", link: "/msi-service-center", icon: <FaShieldAlt size={20} /> },
+    { name: "ASUS Support", link: "/asus-laptop-service-center-indore", icon: <FaLaptopCode size={24} /> },
+    { name: "HP Support", link: "/hp-laptop-service-center-indore", icon: <MdSupportAgent size={24} /> },
+    { name: "DELL Support", link: "/dell-laptop-service-center-indore", icon: <FaTools size={24} /> },
+    { name: "ACER Support", link: "/acer-laptop-service-center-indore", icon: <FaShieldAlt size={24} /> },
   ];
 
   return (
-    <div className="relative min-h-[90vh] flex items-center justify-center bg-linear-to-b from-white to-gray-50 px-4 overflow-hidden">
-      {/* Tech-themed background mesh */}
-      <div className="absolute inset-0 opacity-[0.03] pointer-events-none bg-[radial-gradient(#0ea5e9_1px,transparent_1px)] bg-size-[30px-30px]"></div>
-
-      <div className="relative max-w-5xl w-full text-center z-10 py-12">
-        {/* Error State Header */}
-        <motion.div
-          initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
-        >
-          <span className="px-4 py-1.5 rounded-full bg-sky-100 text-sky-600 text-xs font-bold uppercase tracking-widest font-orbitron">
-            Error Code: 404
-          </span>
-          <h1 className="text-8xl md:text-[11rem] font-orbitron font-black text-transparent bg-clip-text bg-linear-to-r from-gray-900 via-sky-600 to-gray-900 leading-none mt-4 drop-shadow-sm">
-            OFFLINE
-          </h1>
-        </motion.div>
-
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.3 }}
-          className="mt-6"
-        >
-          <h2 className="text-xl md:text-3xl font-bold text-gray-900 uppercase tracking-tight">
-            The requested hardware/page is not responding.
-          </h2>
-          <p className="mt-4 text-gray-500 max-w-2xl mx-auto text-base">
-            It seems this link has crashed. If you are looking for the 
-            <span className="text-sky-600 font-semibold"> Best Laptop Repairing Near Orbit Mall</span> or 
-            certified <span className="text-sky-600 font-semibold">Laptop Motherboard Repair Indore</span>, 
-            please use the diagnostics below to find your way.
-          </p>
-        </motion.div>
-
-        {/* Diagnostic Links (SEO Internal Linking) */}
-        <motion.div 
-          initial={{ opacity: 0, scale: 0.95 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ delay: 0.5 }}
-          className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-4"
-        >
-          {quickLinks.map((item, index) => (
-            <Link key={index} href={item.link} className="group">
-              <div className="p-6 bg-white/60 backdrop-blur-md border border-gray-200 rounded-2xl shadow-sm hover:shadow-sky-200/50 hover:border-sky-400 transition-all text-center h-full flex flex-col items-center justify-center gap-3">
-                <div className="text-sky-500 group-hover:scale-110 transition-transform duration-300">
-                  {item.icon}
-                </div>
-                <h3 className="font-bold text-gray-800 text-[11px] md:text-xs uppercase tracking-wider font-orbitron">
-                  {item.name}
-                </h3>
-              </div>
-            </Link>
-          ))}
-        </motion.div>
-
-        {/* Primary Call to Actions */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.7 }}
-          className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-6"
-        >
-          <Link
-            href="/"
-            className="group flex items-center gap-3 bg-gray-950 hover:bg-sky-600 text-white font-orbitron font-bold py-4 px-10 rounded-xl transition-all shadow-xl active:scale-95"
+    <main className="min-h-screen bg-white font-sans text-slate-900 selection:bg-[#0076ce] selection:text-white overflow-hidden">
+      
+      {/* --- HERO / ERROR SECTION --- */}
+      <section className="relative pt-24 pb-16 md:pt-36 md:pb-32 px-6 bg-linear-to-br from-slate-50 via-white to-blue-50">
+        <div className="max-w-7xl mx-auto text-center relative z-10">
+          <motion.div 
+            initial="initial" animate="animate" variants={staggerContainer}
           >
-            Reboot to Home <FaArrowRight className="group-hover:translate-x-1 transition-transform" />
-          </Link>
-          
-          <div className="flex flex-col items-start text-left border-l-2 border-sky-500 pl-4">
-            <div className="flex items-center gap-2 text-gray-900 font-bold uppercase text-sm">
-              <MdOutlineLocationOn className="text-red-600" size={18} />
-              Lap-X Vijay Nagar
-            </div>
-            <p className="text-xs text-gray-500">LG-11, Orbit Mall, Indore</p>
-          </div>
-        </motion.div>
+            <motion.div variants={fadeInUp} className="inline-flex items-center gap-2 bg-red-50 text-red-600 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-widest mb-6 border border-red-100 shadow-sm">
+              <span className="relative flex h-2 w-2">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
+                <span className="relative inline-flex rounded-full h-2 w-2 bg-red-500"></span>
+              </span>
+              System Error: 404
+            </motion.div>
+            
+            <motion.h1 variants={fadeInUp} className="text-7xl md:text-9xl font-black text-slate-900 leading-none mb-6 tracking-tighter">
+              PAGE <span className="text-[#0076ce]">OFFLINE</span>
+            </motion.h1>
+            
+            <motion.p variants={fadeInUp} className="text-slate-600 text-lg md:text-xl mb-12 leading-relaxed max-w-2xl mx-auto">
+              The requested hardware or page is not responding. If you are looking for <span className="text-[#0076ce] font-bold">Laptop Repairing in Indore</span>, use the diagnostics below to reboot your journey.
+            </motion.p>
+            
+            <motion.div variants={fadeInUp} className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+              <Link href="/" className="flex items-center justify-center gap-3 bg-[#0076ce] text-white px-10 py-4 rounded-xl font-bold hover:bg-blue-700 transition-all shadow-lg hover:shadow-blue-200 group">
+                Reboot to Home <FaArrowRight className="group-hover:translate-x-1 transition-transform" />
+              </Link>
+              <Link href="tel:9111000757" className="flex items-center justify-center gap-3 bg-white text-slate-900 border border-slate-200 px-10 py-4 rounded-xl font-bold hover:bg-slate-50 transition-all shadow-sm">
+                <FaPhoneAlt className="text-sm text-[#f97316]" /> Contact Support
+              </Link>
+            </motion.div>
+          </motion.div>
+        </div>
 
-        {/* Subtle Organic SEO Footer */}
-        <div className="mt-20 opacity-70 hover:opacity-100 transition-opacity duration-500">
-          <p className="text-[10px] text-gray-600 uppercase tracking-[0.3em] font-medium leading-loose">
-            Expert Gaming Laptop Repair Indore • Liquid Damage Specialist • SSD Upgrade for Laptop Indore • 
-            Genuine parts • Asus Service Center in Indore Vijay Nagar • MSI Service Center Indore
+        {/* Decorative Background Element */}
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-blue-100 rounded-full blur-[120px] opacity-30 z-0" />
+      </section>
+
+      {/* --- DIAGNOSTIC QUICK LINKS --- */}
+      <section className="py-20 px-6 bg-white">
+        <div className="max-w-5xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-2xl font-black uppercase tracking-tight text-slate-400">Run System Diagnostics</h2>
+          </div>
+          
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+            {quickLinks.map((item, index) => (
+              <Link key={index} href={item.link} className="group">
+                <motion.div 
+                  whileHover={{ y: -5 }}
+                  className="p-8 bg-slate-50 border border-slate-100 rounded-3xl text-center hover:border-[#0076ce] hover:bg-white hover:shadow-xl transition-all h-full flex flex-col items-center justify-center"
+                >
+                  <div className="text-[#0076ce] mb-4 group-hover:scale-110 transition-transform duration-300">
+                    {item.icon}
+                  </div>
+                  <h3 className="font-bold text-sm text-slate-800 uppercase tracking-wider">
+                    {item.name}
+                  </h3>
+                </motion.div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* --- DIRECT ASSISTANCE --- */}
+      <section className="py-16 px-6">
+        <div className="max-w-4xl mx-auto bg-slate-900 rounded-[2.5rem] p-8 md:p-12 shadow-2xl relative overflow-hidden">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-8 relative z-10">
+            <div className="text-center md:text-left">
+              <h2 className="text-2xl md:text-3xl font-bold text-white mb-2">Need Immediate Help?</h2>
+              <p className="text-slate-400">Visit our tech hub at Orbit Mall, Vijay Nagar.</p>
+            </div>
+            
+            <div className="flex flex-col sm:flex-row gap-4">
+              <Link href="https://wa.me/9111000757" className="flex items-center justify-center gap-3 bg-[#22c55e] text-white px-8 py-4 rounded-2xl font-bold hover:bg-green-600 transition-all shadow-lg">
+                <FaWhatsapp size={20} /> WhatsApp
+              </Link>
+              <div className="flex items-center gap-4 bg-white/10 backdrop-blur-sm border border-white/10 p-4 rounded-2xl">
+                <FaMapMarkerAlt className="text-[#f97316]" size={24} />
+                <div className="text-left">
+                  <span className="block text-white font-bold text-sm leading-tight">LG-31, Orbit Mall</span>
+                  <span className="block text-slate-400 text-xs">AB Road, Indore</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          {/* Subtle tech grid background for the card */}
+          <div className="absolute inset-0 opacity-10 pointer-events-none bg-[radial-gradient(#ffffff_1px,transparent_1px)] bg-[size:20px_20px]" />
+        </div>
+      </section>
+
+      {/* --- SEO FOOTER --- */}
+      <footer className="py-12 px-6 border-t border-slate-100">
+        <div className="max-w-7xl mx-auto text-center">
+          <p className="text-[10px] md:text-xs text-slate-400 leading-relaxed uppercase tracking-[0.2em] font-medium max-w-4xl mx-auto">
+            Indore's Premier Laptop Repair Service • Motherboard Repair • Screen Replacement • 
+            Asus Service Center Indore • Dell Support Vijay Nagar • HP Laptop Repair Near Orbit Mall • 
+            Genuine Parts & Certified Technicians
           </p>
         </div>
-      </div>
-    </div>
+      </footer>
+      
+    </main>
   );
 }

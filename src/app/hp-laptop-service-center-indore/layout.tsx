@@ -2,17 +2,66 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "HP Laptop Service Center Indore | Post-Warranty HP Repair",
-  description: "Expert post-warranty support for HP laptops in Indore. We fix HP Pavilion, Omen, and Envy at LG-31, Orbit Mall, Vijay Nagar. Near C21 & Malhar Mall. Call 91110-00757.",
+  metadataBase: new URL("https://www.lapx.co.in"),
+
+  title: "HP Laptop Service Center Indore | Pavilion, Omen & Envy Repair | LAPX",
+
+  description: "Expert HP laptop repair in Indore. Specialized post-warranty support for HP Pavilion, Omen, and Envy series at LG-31, Orbit Mall, Vijay Nagar. Same-day screen & battery replacement. Call 9111000757.",
+
+  keywords: [
+    "HP Laptop Service Center Indore",
+    "HP Pavilion Repair Indore",
+    "HP Omen Gaming Service Indore",
+    "HP Envy Repair Vijay Nagar",
+    "HP Laptop Screen Replacement Indore",
+    "HP Motherboard Repair Indore",
+    "HP Battery Replacement Indore",
+    "HP Laptop Service Near Orbit Mall",
+    "HP Keyboard Repair Indore",
+    "Post-Warranty HP Support Indore"
+  ],
+
   alternates: {
-    canonical: 'https://lapx.in/hp-laptop-service-center-indore',
+    canonical: 'https://www.lapx.co.in/hp-laptop-service-center-indore',
+    languages: {
+      "en-IN": "https://www.lapx.co.in/hp-laptop-service-center-indore",
+    },
   },
+
   openGraph: {
     title: "HP Laptop Service Center Indore | LAPX",
-    description: "Professional post-warranty repair for HP laptops in Indore at Orbit Mall. Screen, Battery, and Motherboard specialists.",
-    images: ['/hp-repair-banner.jpg'],
-    url: 'https://lapx.in/hp-laptop-service-center-indore',
+    description: "Professional post-warranty repair for HP laptops in Indore at Orbit Mall. Screen, Battery, and Motherboard specialists with same-day service.",
+    images: [
+      {
+        url: "/hp-repair-banner.jpg",
+        width: 1200,
+        height: 630,
+        alt: "HP Laptop Service Center Indore - LAPX",
+      },
+    ],
+    url: 'https://www.lapx.co.in/hp-laptop-service-center-indore',
+    siteName: "LAPX",
+    locale: "en_IN",
     type: 'website',
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "HP Laptop Service Center Indore | LAPX",
+    description: "Expert HP repair in Indore. Same-day service for Pavilion & Omen series starting at ₹199 at Orbit Mall.",
+    images: ["/hp-repair-banner.jpg"],
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
   },
 };
 
@@ -21,18 +70,18 @@ export default function HPLayout({
 }: {
   children: React.ReactNode;
 }) {
-  // JSON-LD Local Business Schema for Google
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
+    "@type": "ComputerRepair",
+    "@id": "https://www.lapx.co.in/hp-laptop-service-center-indore",
     "name": "LAPX - HP Laptop Service Center Indore",
-    "image": "https://lapx.in/hp-repair-banner.jpg",
-    "@id": "https://lapx.in/hp-laptop-service-center-indore",
-    "url": "https://lapx.in/hp-laptop-service-center-indore",
+    "image": "https://www.lapx.co.in/hp-repair-banner.jpg",
+    "url": "https://www.lapx.co.in/hp-laptop-service-center-indore",
     "telephone": "+919111000757",
+    "priceRange": "INR",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "LG-31, Lower Ground Floor, Orbit Mall (Arbitto Mall), Near C21 & Malhar Mall, AB Road, Vijay Nagar",
+      "streetAddress": "LG-31, Lower Ground Floor, Orbit Mall, AB Road, Vijay Nagar",
       "addressLocality": "Indore",
       "addressRegion": "MP",
       "postalCode": "452010",
@@ -40,26 +89,58 @@ export default function HPLayout({
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": 22.753272,
-      "longitude": 75.894142
+      "latitude": 22.7533,
+      "longitude": 75.8937
     },
     "openingHoursSpecification": [
       {
         "@type": "OpeningHoursSpecification",
         "dayOfWeek": [
-          "Monday",
-          "Tuesday",
-          "Wednesday",
-          "Thursday",
-          "Friday",
-          "Saturday",
-          "Sunday"
+          "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
         ],
-        "opens": "10:00",
-        "closes": "21:30"
+        "opens": "10:30",
+        "closes": "20:30"
       }
     ],
-    "priceRange": "₹₹"
+    "areaServed": [
+      { "@type": "City", "name": "Indore" },
+      { "@type": "AdministrativeArea", "name": "Vijay Nagar" },
+      { "@type": "AdministrativeArea", "name": "Orbit Mall" }
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "HP Repair Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "HP Pavilion Screen Replacement"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "HP Omen Thermal Cleaning & Service"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "HP Laptop Motherboard Repair"
+          }
+        }
+      ]
+    },
+    "sameAs": [
+      "https://www.instagram.com/lapx_laptop_repair_indore/",
+      "https://www.facebook.com/people/Lapx-indore/100083816658201/",
+      "https://www.youtube.com/@lapxindore",
+      "https://www.justdial.com/Indore/Lap-X-Near-C21-Malhar-Mega-Mall-Vijay-Nagar/0731PX731-X731-221031122403-F5F9_BZDET",
+    ],
+    "description": "Premium post-warranty support for HP laptops in Indore. Specializing in HP Pavilion, Omen, and Envy series motherboard, screen, and battery repairs at Orbit Mall."
   };
 
   return (

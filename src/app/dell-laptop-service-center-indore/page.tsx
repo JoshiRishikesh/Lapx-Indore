@@ -25,7 +25,7 @@ export default function DellServiceIndore() {
     <main className="min-h-screen bg-white font-sans text-slate-900 selection:bg-[#0076ce] selection:text-white">
       
       {/* --- 1. HERO SECTION --- */}
-      <section className="relative pt-24 pb-16 md:pt-36 md:pb-32 px-6 bg-gradient-to-br from-slate-50 via-white to-blue-50 overflow-hidden">
+      <section className="relative pt-24 pb-16 md:pt-36 md:pb-32 px-6 bg-linear-to-br from-slate-50 via-white to-blue-50 overflow-hidden">
         <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
           <motion.div 
             initial="initial" animate="animate" variants={staggerContainer}
@@ -172,7 +172,7 @@ export default function DellServiceIndore() {
             </div>
           </div>
           <div className="bg-white/10 backdrop-blur-md p-10 rounded-3xl border border-white/20 shadow-2xl">
-             <h3 className="text-2xl font-bold mb-4 text-orange-400 uppercase tracking-widest text-sm">Our Promise</h3>
+             <h3 className="text-sm font-bold mb-4 text-orange-400 uppercase tracking-widest">Our Promise</h3>
              <p className="text-blue-50 leading-relaxed italic text-lg">
                 "We provide <span className="text-white font-semibold">expert post-warranty Dell support</span>. Whether it's a high-end XPS or a reliable Vostro, we ensure factory-standard precision with local-speed delivery."
              </p>
@@ -182,7 +182,7 @@ export default function DellServiceIndore() {
 
       {/* --- 5. CTA SECTION --- */}
       <section className="py-20 px-6">
-        <div className="max-w-4xl mx-auto bg-gradient-to-r from-[#0076ce] to-[#005a9e] rounded-3xl p-8 md:p-12 shadow-2xl text-center relative overflow-hidden">
+        <div className="max-w-4xl mx-auto bg-linear-to-r from-[#0076ce] to-[#005a9e] rounded-3xl p-8 md:p-12 shadow-2xl text-center relative overflow-hidden">
           <div className="absolute top-0 right-0 bg-white text-[#0076ce] px-6 py-2 font-black uppercase text-xs rounded-bl-2xl">Value Offer</div>
           <h2 className="text-3xl md:text-4xl font-black mb-4 text-white">Full Dell Health Checkup</h2>
           <p className="text-blue-100 mb-8 max-w-xl mx-auto">Hardware diagnostics, OS optimization, and internal cleaning to prevent future motherboard failures.</p>

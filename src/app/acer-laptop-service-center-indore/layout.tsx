@@ -1,7 +1,8 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://lapx.co.in"),
+  // Use 'www' consistently to match your root layout
+  metadataBase: new URL("https://www.lapx.co.in"),
 
   title: "Acer Laptop Service Center Indore | Fast Acer Repair Near Vijay Nagar | LAPX",
 
@@ -22,9 +23,9 @@ export const metadata: Metadata = {
   ],
 
   alternates: {
-    canonical: "https://lapx.co.in/acer-laptop-repair-indore",
+    canonical: "https://www.lapx.co.in/acer-laptop-service-center-indore",
     languages: {
-      "en-IN": "https://lapx.co.in/acer-laptop-repair-indore",
+      "en-IN": "https://www.lapx.co.in/acer-laptop-service-center-indore",
     },
   },
 
@@ -32,13 +33,13 @@ export const metadata: Metadata = {
     title: "Acer Laptop Service Center Indore | LAPX",
     description:
       "Fast & reliable Acer laptop repair in Indore. Screen, battery, motherboard & overheating fixes with same-day service at Orbit Mall.",
-    url: "https://lapx.co.in/acer-laptop-repair-indore",
+    url: "https://www.lapx.co.in/acer-laptop-service-center-indore",
     siteName: "LAPX",
     locale: "en_IN",
     type: "website",
     images: [
       {
-        url: "https://lapx.co.in/og-acer-repair.jpg",
+        url: "/og-acer-repair.jpg", // Next.js handles the base URL automatically if metadataBase is set
         width: 1200,
         height: 630,
         alt: "Acer Laptop Service Center Indore - LAPX",
@@ -51,7 +52,7 @@ export const metadata: Metadata = {
     title: "Acer Laptop Service Center Indore | LAPX",
     description:
       "Same-day Acer laptop repair in Indore. Screen, battery & motherboard repair starting at ₹199.",
-    images: ["https://lapx.co.in/og-acer-repair.jpg"],
+    images: ["/og-acer-repair.jpg"],
   },
 
   robots: {
@@ -75,15 +76,12 @@ export default function AcerLayout({
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "ComputerRepair",
-
+    "@id": "https://www.lapx.co.in/acer-laptop-service-center-indore",
     name: "LAPX Acer Laptop Service Center Indore",
-    image: "https://lapx.co.in/acer-repair-banner.jpg",
-
-    "@id": "https://lapx.co.in/acer-laptop-repair-indore",
-    url: "https://lapx.co.in/acer-laptop-repair-indore",
-
+    image: "https://www.lapx.co.in/acer-repair-banner.jpg",
+    url: "https://www.lapx.co.in/acer-laptop-service-center-indore",
     telephone: "+919111000757",
-
+    priceRange: "INR",
     address: {
       "@type": "PostalAddress",
       streetAddress: "LG-31, Lower Ground Floor, Orbit Mall, AB Road, Vijay Nagar",
@@ -92,59 +90,59 @@ export default function AcerLayout({
       postalCode: "452010",
       addressCountry: "IN",
     },
-
     geo: {
       "@type": "GeoCoordinates",
       latitude: 22.7533,
       longitude: 75.8937,
     },
-
     openingHoursSpecification: [
       {
         "@type": "OpeningHoursSpecification",
         dayOfWeek: [
-          "Monday",
-          "Tuesday",
-          "Wednesday",
-          "Thursday",
-          "Friday",
-          "Saturday",
-          "Sunday",
+          "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
         ],
         opens: "10:30",
         closes: "20:30",
       },
     ],
-
-    priceRange: "₹₹",
-
     areaServed: [
-      "Vijay Nagar",
-      "Palasia",
-      "AB Road",
-      "RNT Marg",
-      "Indore",
-      "Madhya Pradesh",
+      { "@type": "City", "name": "Indore" },
+      { "@type": "AdministrativeArea", "name": "Vijay Nagar" },
+      { "@type": "AdministrativeArea", "name": "Palasia" }
     ],
-
+    hasOfferCatalog: {
+      "@type": "OfferCatalog",
+      "name": "Acer Repair Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Acer Screen Replacement"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Acer Battery Replacement"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Acer Motherboard Repair"
+          }
+        }
+      ]
+    },
     sameAs: [
       "https://www.instagram.com/lapx_laptop_repair_indore/",
       "https://www.facebook.com/people/Lapx-indore/100083816658201/",
       "https://www.youtube.com/@lapxindore",
       "https://www.justdial.com/Indore/Lap-X-Near-C21-Malhar-Mega-Mall-Vijay-Nagar/0731PX731-X731-221031122403-F5F9_BZDET",
     ],
-
-    makesOffer: {
-      "@type": "Offer",
-      itemOffered: {
-        "@type": "Service",
-        name: "Acer Laptop Repair",
-        areaServed: "Indore",
-      },
-    },
-
-    description:
-      "Need Acer laptop repair in Indore? LAPX provides expert servicing for Aspire, Swift, Nitro & Predator series. Screen replacement, charging port repair, overheating fixes & motherboard repair available with same-day service.",
   };
 
   return (
