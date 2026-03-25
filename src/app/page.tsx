@@ -55,7 +55,7 @@ export default function LapXHomePage() {
                 <p className="text-xs font-bold text-slate-400 uppercase">Laptops Repaired</p>
               </div>
               <div>
-                <p className="text-2xl font-black text-[#1e56a0]">4.8/5</p>
+                <p className="text-2xl font-black text-[#1e56a0]">4.9/5</p>
                 <p className="text-xs font-bold text-slate-400 uppercase">Google Rating</p>
               </div>
             </div>
@@ -190,7 +190,7 @@ export default function LapXHomePage() {
               <p className="text-xl font-bold mb-6 italic leading-relaxed">
                 "LapX is the best <strong>laptop repair shop near me</strong> in Indore. They fixed my HP laptop motherboard in 24 hours at a very reasonable price."
               </p>
-              <p className="font-black text-sm uppercase tracking-widest text-[#1e56a0]">— Local Guide, Indore</p>
+              <p className="font-black text-sm uppercase tracking-widest text-[#1e56a0]">— Rahul Sharma, Vijay Nagar</p>
               <Link href="https://search.google.com/local/writereview?placeid=ChIJg3l2lGb9YjkR0U_e3MSkOzs" className="mt-8 inline-flex items-center gap-2 bg-slate-900 text-white px-6 py-3 rounded-full text-xs font-bold hover:bg-black transition-all uppercase tracking-widest">
                 Read Reviews <FaExternalLinkAlt size={10} />
               </Link>
