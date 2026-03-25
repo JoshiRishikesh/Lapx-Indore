@@ -21,7 +21,7 @@ export default function Footer() {
         </div>
 
         {/* SEO-Rich Service Links Grid */}
-        <div className="flex-[2] grid grid-cols-2 sm:grid-cols-4 gap-y-4 gap-x-8 text-[10px] font-black uppercase tracking-widest">
+        <div className="flex-2 grid grid-cols-2 sm:grid-cols-4 gap-y-4 gap-x-8 text-[10px] font-black uppercase tracking-widest">
           <Link href="/dell-laptop-service-center-indore" className="text-orange-400 hover:text-white transition-colors">
             Dell Repair
           </Link>
@@ -50,7 +50,7 @@ export default function Footer() {
             href="https://lupaentertainment.com" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="bg-gradient-to-r from-[#f3a700] to-[#ffdc81] bg-clip-text text-transparent hover:opacity-80 transition-opacity"
+            className="bg-linear-to-r from-[#f3a700] to-[#ffdc81] bg-clip-text text-transparent hover:opacity-80 transition-opacity"
           >
             Lupa Entertainment
           </Link>
