@@ -10,6 +10,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/asus-laptop-service-center-indore',
     '/dell-laptop-service-center-indore',
     '/hp-laptop-service-center-indore',
+    '/lenovo-laptop-service-center-indore',
+    '/msi-laptop-service-center-indore',
   ];
 
   return routes.map((route) => ({
