@@ -25,7 +25,7 @@ export default function AsusServiceIndore() {
     <main className="min-h-screen bg-white font-sans text-slate-900 selection:bg-[#1e56a0] selection:text-white">
       
       {/* --- 1. HERO SECTION --- */}
-      <section className="relative pt-24 pb-16 md:pt-36 md:pb-32 px-6 bg-gradient-to-br from-slate-50 via-white to-blue-50 overflow-hidden">
+      <section className="relative pt-24 pb-16 md:pt-36 md:pb-32 px-6 bg-linear-to-br from-slate-50 via-white to-blue-50 overflow-hidden">
         <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
           <motion.div 
             initial="initial" animate="animate" variants={staggerContainer}
@@ -178,7 +178,7 @@ export default function AsusServiceIndore() {
             </div>
           </div>
           <div className="bg-white/10 backdrop-blur-md p-10 rounded-3xl border border-white/20 shadow-2xl">
-             <h3 className="text-2xl font-bold mb-4 text-orange-400 uppercase tracking-widest text-sm">Our Guarantee</h3>
+             <h3 className="font-bold mb-4 text-orange-400 uppercase tracking-widest text-sm">Our Guarantee</h3>
              <p className="text-blue-50 leading-relaxed italic text-lg">
                 &quot;We bridge the gap for <span className="text-white font-semibold">post-warranty ASUS users</span>. From high-performance ROG rigs to sleek ZenBooks, we deliver factory-grade precision with the speed of a local partner.&quot;
              </p>
@@ -188,7 +188,7 @@ export default function AsusServiceIndore() {
 
       {/* --- 5. PRICING SECTION --- */}
       <section className="py-20 px-6">
-        <div className="max-w-4xl mx-auto bg-gradient-to-r from-[#1e56a0] to-[#2b74d6] rounded-3xl p-8 md:p-12 shadow-2xl text-center relative overflow-hidden">
+        <div className="max-w-4xl mx-auto bg-linear-to-r from-[#1e56a0] to-[#2b74d6] rounded-3xl p-8 md:p-12 shadow-2xl text-center relative overflow-hidden">
           <div className="absolute top-0 right-0 bg-[#f97316] text-white px-6 py-2 font-black uppercase text-xs rounded-bl-2xl">Value Deal</div>
           <h2 className="text-3xl md:text-4xl font-black mb-4 text-white uppercase italic">Full Performance Tune-Up</h2>
           <p className="text-blue-100 mb-8 max-w-xl mx-auto">Essential internal cleaning, fan lubrication, and thermal health check to prevent GPU failure.</p>

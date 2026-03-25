@@ -174,7 +174,7 @@ export default function Footer() {
             href="https://lupaentertainment.com" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="bg-gradient-to-r from-[#f3a700] to-[#ffdc81] bg-clip-text text-transparent hover:scale-105 transition-transform"
+            className="bg-linear-to-r from-[#f3a700] to-[#ffdc81] bg-clip-text text-transparent hover:scale-105 transition-transform"
           >
             Lupa Entertainment
           </Link>
